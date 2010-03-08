@@ -1,0 +1,2 @@
+sh: osascript: command not found
+Could not open project '/project.pbxproj'
