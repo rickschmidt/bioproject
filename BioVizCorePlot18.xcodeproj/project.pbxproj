@@ -103,9 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				BDB20BE61144A78100A0DDC6 /* CorePlotView.h */,
+				BDB20BE71144A78100A0DDC6 /* CorePlotView.m */,
 				BD20CA361145660600A162D6 /* AppController.h */,
 				BD20CA371145660600A162D6 /* AppController.m */,
-				BDB20BE71144A78100A0DDC6 /* CorePlotView.m */,
 				BD20CA1F1145651800A162D6 /* Blast.h */,
 				BD20CA201145651800A162D6 /* Blast.m */,
 				256AC3D80F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.h */,

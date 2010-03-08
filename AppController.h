@@ -11,8 +11,9 @@
 #import "XMLParser.h"
 @interface AppController : NSObject {
 	
-
+	IBOutlet NSTextField *csvInputTextBox; 
 }
 -(IBAction)blastWithBlastcl3:(id)sender;
 -(IBAction)xmlStuff:(id)sender;
+-(NSArray *)csvSplit;
 @end

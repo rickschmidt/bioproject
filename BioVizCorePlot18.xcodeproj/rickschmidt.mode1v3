@@ -304,7 +304,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>165 113 1207 823 0 0 1920 1058 </string>
+						<string>328 58 1207 823 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>XMLParser.m</string>
+								<string>AppController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,24 +330,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>XMLParser.m</string>
+										<string>AppController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD20CB2D114575FB00A162D6</string>
+										<string>BD20CC621145ADA200A162D6</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
-											<string>BD20CA8911456F2E00A162D6</string>
 											<string>BD20CA8A11456F2E00A162D6</string>
-											<string>BD20CA8C11456F2E00A162D6</string>
-											<string>BD20CAB31145714700A162D6</string>
-											<string>BD20CADA1145730100A162D6</string>
-											<string>BD20CAE61145740400A162D6</string>
-											<string>BD20CAF21145745800A162D6</string>
-											<string>BD20CAF31145745800A162D6</string>
-											<string>BD20CAF41145745800A162D6</string>
-											<string>BD20CAFE1145748B00A162D6</string>
+											<string>BD20CB3E11459A0100A162D6</string>
+											<string>BD20CBB11145A48300A162D6</string>
+											<string>BD20CC4D1145ACAD00A162D6</string>
+											<string>BD20CC4E1145ACAD00A162D6</string>
+											<string>BD20CC4F1145ACAD00A162D6</string>
+											<string>BD20CC501145ACAD00A162D6</string>
+											<string>BD20CC511145ACAD00A162D6</string>
+											<string>BD20CC521145ACAD00A162D6</string>
+											<string>BD20CC531145ACAD00A162D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -361,7 +361,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {999, 551}}</string>
 								<key>RubberWindowFrame</key>
-								<string>165 113 1207 823 0 0 1920 1058 </string>
+								<string>328 58 1207 823 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,7 +381,7 @@
 								<key>Frame</key>
 								<string>{{0, 556}, {999, 226}}</string>
 								<key>RubberWindowFrame</key>
-								<string>165 113 1207 823 0 0 1920 1058 </string>
+								<string>328 58 1207 823 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -545,16 +545,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD20CB2E114575FB00A162D6</string>
+		<string>BD20CC611145AD8000A162D6</string>
 		<string>BD20C9291144AC0100A162D6</string>
 		<string>BD20C92A1144AC0100A162D6</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
-		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>165 113 1207 823 0 0 1920 1058 </string>
+	<string>328 58 1207 823 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

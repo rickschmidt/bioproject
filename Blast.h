@@ -17,7 +17,9 @@
 	NSXMLDocument *xmlDoc;
 }
 -(void)blast:(NSInteger )i;
+-(void)blastMany:(NSArray *)seqArray;
 
+-(NSArray *)csvSplit;
 -(bool)taskRunning;
 - (id)delegate; 
 - (void)setDelegate:(id)finishedBlasting1;

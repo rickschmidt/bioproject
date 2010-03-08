@@ -16,4 +16,5 @@
 	
 }
 -(void)initXML;
+-(NSArray *)getArrayForNode:(NSString *)nodeDesired;
 @end

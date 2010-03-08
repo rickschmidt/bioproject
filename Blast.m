@@ -74,6 +74,11 @@
 	NSLog (@"got\n%@", string);    
 	}
 
+-(void)blastMany:(NSArray *)seqArray
+{
+	
+}
+
 -(bool)taskRunning
 {
 	bool blastFinished=0;

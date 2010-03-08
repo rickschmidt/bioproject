@@ -21,6 +21,18 @@
 	NSData *data=[NSData dataWithContentsOfFile:inPath];
 //	NSString *xmlString=[NSString stringWithContentsOfFile:inPath encoding:NSASCIIStringEncoding error:err];
 	xmlDoc=[[NSXMLDocument alloc] initWithData:data options:0 error:&err];
-	NSLog(@"xmLDOC %@",xmlDoc);
+	//NSLog(@"xmLDOC %@",xmlDoc);
 }
+
+-(NSArray *)getArrayForNode:(NSString *)nodeDesired
+{
+	NSArray *nodes;
+	NSError *err;
+	nodes=[[xmlDoc nodesForXPath:nodeDesired error:&err]retain];
+	NSLog(@"arary %@",nodes);
+	return nodes;
+		
+}
+
+
 @end
