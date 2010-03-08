@@ -280,13 +280,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>10</integer>
-									<integer>0</integer>
+									<integer>38</integer>
+									<integer>37</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 798}}</string>
+							<string>{{0, 0}, {186, 764}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -298,14 +297,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {203, 816}}</string>
+						<string>{{0, 0}, {203, 782}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>61 201 1207 857 0 0 1920 1058 </string>
+						<string>600 220 1207 823 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -335,12 +334,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD20C9DB1144BBE300A162D6</string>
+										<string>BD20CA001145619200A162D6</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
-											<string>BD20C9B61144B6E100A162D6</string>
-											<string>BD20C9B71144B6E100A162D6</string>
+											<string>BD20C9EE1145604D00A162D6</string>
+											<string>BD20C9EF1145604D00A162D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -352,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {999, 585}}</string>
+								<string>{{0, 0}, {999, 551}}</string>
 								<key>RubberWindowFrame</key>
-								<string>61 201 1207 857 0 0 1920 1058 </string>
+								<string>600 220 1207 823 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>585pt</string>
+							<string>551pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -372,9 +371,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 590}, {999, 226}}</string>
+								<string>{{0, 556}, {999, 226}}</string>
 								<key>RubberWindowFrame</key>
-								<string>61 201 1207 857 0 0 1920 1058 </string>
+								<string>600 220 1207 823 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -538,16 +537,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD20C9DC1144BBE300A162D6</string>
 		<string>BD20C9291144AC0100A162D6</string>
 		<string>BD20C92A1144AC0100A162D6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
-		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>61 201 1207 857 0 0 1920 1058 </string>
+	<string>600 220 1207 823 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -895,7 +893,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {650, 209}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1168 752 650 250 0 0 1920 1058 </string>
+								<string>1169 751 650 250 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -924,7 +922,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>1168 752 650 250 0 0 1920 1058 </string>
+			<string>1169 751 650 250 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

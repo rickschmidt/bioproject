@@ -16,6 +16,7 @@
 	CGFloat xShift;
     CGFloat yShift;
     CGFloat labelRotation;
+	IBOutlet NSDrawer *drawer;
 }
 @property CGFloat xShift;
 @property CGFloat yShift;

@@ -22,6 +22,8 @@
 -(void)awakeFromNib
 {
 	[super awakeFromNib];
+	//NSSize *size=[NSMakeSize(50.0, 100.0)];
+//	[drawer setContentSize:size;
 	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
 	[graph applyTheme:theme];

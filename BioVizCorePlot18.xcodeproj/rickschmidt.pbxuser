@@ -107,6 +107,13 @@
 			BD20C9D11144B88600A162D6 /* PBXTextBookmark */ = BD20C9D11144B88600A162D6 /* PBXTextBookmark */;
 			BD20C9D71144B90800A162D6 /* PBXTextBookmark */ = BD20C9D71144B90800A162D6 /* PBXTextBookmark */;
 			BD20C9DB1144BBE300A162D6 /* PBXTextBookmark */ = BD20C9DB1144BBE300A162D6 /* PBXTextBookmark */;
+			BD20C9EE1145604D00A162D6 /* PBXTextBookmark */ = BD20C9EE1145604D00A162D6 /* PBXTextBookmark */;
+			BD20C9EF1145604D00A162D6 /* PBXTextBookmark */ = BD20C9EF1145604D00A162D6 /* PBXTextBookmark */;
+			BD20C9F01145604D00A162D6 /* PBXTextBookmark */ = BD20C9F01145604D00A162D6 /* PBXTextBookmark */;
+			BD20C9F5114560A800A162D6 /* PBXTextBookmark */ = BD20C9F5114560A800A162D6 /* PBXTextBookmark */;
+			BD20C9F81145610700A162D6 /* PBXTextBookmark */ = BD20C9F81145610700A162D6 /* PBXTextBookmark */;
+			BD20C9FB1145616700A162D6 /* PBXTextBookmark */ = BD20C9FB1145616700A162D6 /* PBXTextBookmark */;
+			BD20CA001145619200A162D6 /* PBXTextBookmark */ = BD20CA001145619200A162D6 /* PBXTextBookmark */;
 			BDB20C841144A98300A0DDC6 = BDB20C841144A98300A0DDC6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = BDB20BC81144A70F00A0DDC6 /* Source Control */;
@@ -171,7 +178,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 405;
+		rLoc = 433;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 0;
@@ -191,7 +198,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 20";
 		rLen = 0;
-		rLoc = 4659;
+		rLoc = 4734;
 		rType = 0;
 		vrLen = 323;
 		vrLoc = 145;
@@ -201,7 +208,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 406;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3;
@@ -211,7 +218,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 406;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 3;
@@ -231,7 +238,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
 		name = "AppController.h: 18";
 		rLen = 0;
-		rLoc = 405;
+		rLoc = 433;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 0;
@@ -241,7 +248,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
 		name = "AppController.h: 22";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 460;
 		vrLoc = 0;
@@ -251,7 +258,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
 		name = "AppController.h: 22";
 		rLen = 0;
-		rLoc = 492;
+		rLoc = 520;
 		rType = 0;
 		vrLen = 460;
 		vrLoc = 0;
@@ -281,7 +288,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 87";
 		rLen = 0;
-		rLoc = 4031;
+		rLoc = 4106;
 		rType = 0;
 		vrLen = 1585;
 		vrLoc = 1753;
@@ -291,7 +298,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 93";
 		rLen = 0;
-		rLoc = 3647;
+		rLoc = 3722;
 		rType = 0;
 		vrLen = 1886;
 		vrLoc = 1753;
@@ -301,7 +308,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 93";
 		rLen = 0;
-		rLoc = 3647;
+		rLoc = 3722;
 		rType = 0;
 		vrLen = 1886;
 		vrLoc = 1753;
@@ -332,7 +339,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 124;
+		rLoc = 126;
 		rType = 1;
 	};
 	BD20C9AC1144B68800A162D6 /* PBXTextBookmark */ = {
@@ -340,7 +347,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 99";
 		rLen = 0;
-		rLoc = 4031;
+		rLoc = 4106;
 		rType = 0;
 		vrLen = 2152;
 		vrLoc = 2474;
@@ -350,7 +357,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 113";
 		rLen = 0;
-		rLoc = 5253;
+		rLoc = 5328;
 		rType = 0;
 		vrLen = 2001;
 		vrLoc = 2663;
@@ -370,7 +377,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 103";
 		rLen = 0;
-		rLoc = 4031;
+		rLoc = 4106;
 		rType = 0;
 		vrLen = 1835;
 		vrLoc = 2829;
@@ -380,7 +387,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 101";
 		rLen = 54;
-		rLoc = 4606;
+		rLoc = 4681;
 		rType = 0;
 		vrLen = 1855;
 		vrLoc = 2829;
@@ -390,7 +397,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 109";
 		rLen = 0;
-		rLoc = 4031;
+		rLoc = 4106;
 		rType = 0;
 		vrLen = 1837;
 		vrLoc = 2829;
@@ -400,7 +407,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 103";
 		rLen = 0;
-		rLoc = 4031;
+		rLoc = 4106;
 		rType = 0;
 		vrLen = 1835;
 		vrLoc = 2829;
@@ -410,7 +417,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 120";
 		rLen = 0;
-		rLoc = 5246;
+		rLoc = 5321;
 		rType = 0;
 		vrLen = 1888;
 		vrLoc = 3376;
@@ -420,7 +427,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 94";
 		rLen = 379;
-		rLoc = 3650;
+		rLoc = 3725;
 		rType = 0;
 		vrLen = 1898;
 		vrLoc = 3376;
@@ -430,7 +437,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 113";
 		rLen = 545;
-		rLoc = 4701;
+		rLoc = 4776;
 		rType = 0;
 		vrLen = 1914;
 		vrLoc = 3376;
@@ -440,7 +447,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 114";
 		rLen = 0;
-		rLoc = 4776;
+		rLoc = 4851;
 		rType = 0;
 		vrLen = 1910;
 		vrLoc = 3376;
@@ -450,10 +457,80 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
 		name = "AppController.m: 101";
 		rLen = 0;
-		rLoc = 4057;
+		rLoc = 4132;
 		rType = 0;
 		vrLen = 1910;
 		vrLoc = 3376;
+	};
+	BD20C9EE1145604D00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE61144A78100A0DDC6 /* AppController.h */;
+		name = "AppController.h: 19";
+		rLen = 0;
+		rLoc = 433;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	BD20C9EF1145604D00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
+		name = "AppController.m: 101";
+		rLen = 0;
+		rLoc = 4132;
+		rType = 0;
+		vrLen = 1910;
+		vrLoc = 3376;
+	};
+	BD20C9F01145604D00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
+		name = "AppController.m: 25";
+		rLen = 0;
+		rLoc = 557;
+		rType = 0;
+		vrLen = 1467;
+		vrLoc = 207;
+	};
+	BD20C9F5114560A800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
+		name = "AppController.m: 25";
+		rLen = 0;
+		rLoc = 557;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 207;
+	};
+	BD20C9F81145610700A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
+		name = "AppController.m: 26";
+		rLen = 0;
+		rLoc = 557;
+		rType = 0;
+		vrLen = 1076;
+		vrLoc = 0;
+	};
+	BD20C9FB1145616700A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
+		name = "AppController.m: 25";
+		rLen = 74;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 3;
+	};
+	BD20CA001145619200A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* AppController.m */;
+		name = "AppController.m: 25";
+		rLen = 74;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 1839;
+		vrLoc = 559;
 	};
 	BDB20BB71144A70A00A0DDC6 /* BioVizCorePlot18 */ = {
 		isa = PBXExecutable;
@@ -501,16 +578,16 @@
 	};
 	BDB20BE61144A78100A0DDC6 /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 505}}";
-			sepNavSelRange = "{258, 0}";
-			sepNavVisRange = "{0, 499}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 494}}";
+			sepNavSelRange = "{433, 0}";
+			sepNavVisRange = "{0, 527}";
 		};
 	};
 	BDB20BE71144A78100A0DDC6 /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 1508}}";
-			sepNavSelRange = "{4057, 0}";
-			sepNavVisRange = "{3376, 1910}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1781}}";
+			sepNavSelRange = "{485, 74}";
+			sepNavVisRange = "{559, 1839}";
 		};
 	};
 	BDB20C841144A98300A0DDC6 /* PBXTextBookmark */ = {
