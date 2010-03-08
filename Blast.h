@@ -14,6 +14,7 @@
 	//IBOutlet NSTextField *textFieldInputSequence;
 	IBOutlet NSProgressIndicator *progress;
 	id finishedBlasting;
+	NSXMLDocument *xmlDoc;
 }
 -(void)blast:(NSInteger )i;
 

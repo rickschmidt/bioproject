@@ -8,6 +8,7 @@
 
 #import "Blast.h"
 
+#import "XMLParser.h"
 
 @implementation Blast
 
@@ -17,6 +18,9 @@
 	i++;
 	//NSString *inputPath=[AppController textFieldInputSequence stringValue];                                                                                                  \
 	
+	XMLParser *xmlParse;
+	xmlParse=[[XMLParser alloc]init];
+	[xmlParse initXML:xmlDoc];
 	NSTask *task;                                                                                                                                              \
 	task=[[NSTask alloc]init];                                                                                                                                 \
 	[task setLaunchPath:[[NSBundle mainBundle] pathForResource:@"blastcl3" ofType:nil]];                                                                         \

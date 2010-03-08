@@ -1,5 +1,5 @@
 /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m: In function '-[Blast blast:]':
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m:32: warning: unused variable 'inti'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m:35: warning: unused variable 'inti'
 /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m: At top level:
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m:90: warning: incomplete implementation of class 'Blast'
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m:90: warning: method definition for '-delegate' not found
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m:93: warning: incomplete implementation of class 'Blast'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m:93: warning: method definition for '-delegate' not found
