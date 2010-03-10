@@ -6,10 +6,10 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "XMLParser.h"
+#import "RSParser.h"
 
 
-@implementation XMLParser
+@implementation RSParser
 
 -(void)initXML
 {
@@ -17,7 +17,7 @@
 
 		
 		NSError *err;
-	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/out.xml";
+	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/out0.xml";
 	NSData *data=[NSData dataWithContentsOfFile:inPath];
 //	NSString *xmlString=[NSString stringWithContentsOfFile:inPath encoding:NSASCIIStringEncoding error:err];
 	xmlDoc=[[NSXMLDocument alloc] initWithData:data options:0 error:&err];
@@ -26,7 +26,7 @@
 
 -(NSArray *)getArrayForNode:(NSString *)nodeDesired
 {
-	NSArray *nodes;
+	
 	NSError *err;
 	nodes=[[xmlDoc nodesForXPath:nodeDesired error:&err]retain];
 	NSLog(@"arary %@",nodes);

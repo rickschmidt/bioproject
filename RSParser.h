@@ -9,10 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface XMLParser : NSObject {
+@interface RSParser : NSObject {
 	
 	NSXMLDocument *xmlDoc;
-
+	NSArray *nodes;
 	
 }
 -(void)initXML;

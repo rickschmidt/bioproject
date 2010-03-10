@@ -9,17 +9,19 @@
 #import <Cocoa/Cocoa.h>
 
 #import "AppController.h"
+#import "RSParser.h"
 @interface Blast : NSObject {
 
 	//IBOutlet NSTextField *textFieldInputSequence;
 	IBOutlet NSProgressIndicator *progress;
 	id finishedBlasting;
 	NSXMLDocument *xmlDoc;
+	
 }
--(void)blast:(NSInteger )i;
+-(void)blast:(int)k:(NSString *)blastInput;
 -(void)blastMany:(NSArray *)seqArray;
 
--(NSArray *)csvSplit;
+
 -(bool)taskRunning;
 - (id)delegate; 
 - (void)setDelegate:(id)finishedBlasting1;

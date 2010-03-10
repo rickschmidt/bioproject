@@ -1,0 +1,9 @@
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController init]':
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:24: warning: incompatible Objective-C types assigning 'struct NSArray *', expected 'struct NSMutableArray *'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController blastWithBlastcl3:]':
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:34: warning: unused variable 'i'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController xmlStuff:]':
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:46: warning: incompatible Objective-C types assigning 'struct NSArray *', expected 'struct NSMutableArray *'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: At top level:
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:84: warning: incomplete implementation of class 'AppController'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:84: warning: method definition for '-awakeFromNib' not found

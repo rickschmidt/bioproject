@@ -8,19 +8,19 @@
 
 #import "Blast.h"
 
-#import "XMLParser.h"
+
 
 @implementation Blast
 
 
--(void)blast:(NSInteger )i
+-(void)blast:(int)k:(NSString *)blastInput
 {
-	i++;
+
 	//NSString *inputPath=[AppController textFieldInputSequence stringValue];                                                                                                  \
 	
-	XMLParser *xmlParse;
-	xmlParse=[[XMLParser alloc]init];
-	[xmlParse initXML:xmlDoc];
+	RSParser *xmlParse;
+	xmlParse=[[RSParser alloc]init];
+	[xmlParse initXML];
 	NSTask *task;                                                                                                                                              \
 	task=[[NSTask alloc]init];                                                                                                                                 \
 	[task setLaunchPath:[[NSBundle mainBundle] pathForResource:@"blastcl3" ofType:nil]];                                                                         \
@@ -30,10 +30,15 @@
 	//NSString *fileName=now;
 	
 	//NSLog(@"filename is %@", fileName);
-	NSString *outPath=@"/Users/rickschmidt/BioViz/BlastResults/out.xml";
+	NSString *numberString=[NSString stringWithFormat:@"%d",k];
+	NSString *outPath1=@"/Users/rickschmidt/BioViz/BlastResults/out";
+	NSString *outPath2=[outPath1 stringByAppendingString:numberString];;
+	NSString *outPath=[outPath2 stringByAppendingString:@".xml"];
+	
 	//NSString *inPath=@"/Users/rickschmidt/Desktop/seqShort.txt"; 
-	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/seqShort.txt";
-	NSString *inti=[NSString stringWithFormat:@"%d",i];
+//	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/seqShort.txt";
+	NSString *inPath=blastInput;
+	//NSString *inti=[NSString stringWithFormat:@"%d",i];
 	NSLog(@"the outpath is %@", outPath);	NSMutableArray *blastArgs=[NSMutableArray array];                                                                                                          \
 	[blastArgs addObject:@"-p"];                                                                                                                               \
 	[blastArgs addObject:@"blastn"];                                                                                                                           \
@@ -76,7 +81,15 @@
 
 -(void)blastMany:(NSArray *)seqArray
 {
+
+
+	int j=[seqArray count];
+	for(int i=0; i<j;i++){
+		
 	
+		[self blast:i:[seqArray objectAtIndex:i]];
+	}
+
 }
 
 -(bool)taskRunning

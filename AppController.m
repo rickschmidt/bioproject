@@ -11,6 +11,23 @@
 
 @implementation AppController
 
+
+@synthesize nodes;
+-(id)init
+{
+	self=[super init];
+	
+	
+	RSParser *xmlStuff;
+	xmlStuff=[[RSParser alloc]init];
+	[xmlStuff initXML];
+	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
+//	NSLog(@"nodes %@",nodes);
+	NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
+	
+	return self;
+	
+}
 -(IBAction)blastWithBlastcl3:(id)sender{
 	Blast *blastControl;
 	blastControl=[[Blast alloc]init];
@@ -19,13 +36,14 @@
 	inputSeqs=[self csvSplit];
 	//[blastControl blast:i];
 	[blastControl blastMany:inputSeqs];
+	NSLog(@"Done");
 }
 -(IBAction )xmlStuff:(id)sender
 {
-	XMLParser *xmlStuff;
-	xmlStuff=[[XMLParser alloc]init];
+	RSParser *xmlStuff;
+	xmlStuff=[[RSParser alloc]init];
 	[xmlStuff initXML];
-	[xmlStuff getArrayForNode:@".//Hit_id"];
+	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
 }
 -(NSArray *)csvSplit
 {
@@ -57,4 +75,10 @@
 	}
 	return array;
 }	
+-(IBAction)addButton:(id)sender
+{	
+		
+		NSLog(@"CLICK");
+	
+}
 @end
