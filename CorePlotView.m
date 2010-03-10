@@ -103,9 +103,9 @@
     [barPlotSpace release];
 	//
 //	// First bar plot
-    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:NO];
+    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:YES];
     barPlot.baseValue = CPDecimalFromString(@"20");
-    barPlot.dataSource = self;
+    barPlot.dataSource = controller;//controller is declared earlier, AppController implements data source protocol.  
     barPlot.barOffset = -0.25f;
     barPlot.identifier = @"Bar Plot 1";
 	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(7.0)];
@@ -135,41 +135,45 @@
 #pragma mark -
 #pragma mark Plot Data Source Methods
 
--(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot
-{
-    if ( [plot isKindOfClass:[CPBarPlot class]] ) 
-        return [nodes count];
-}
-
--(NSNumber *)numberForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index
-{
-    NSDecimalNumber *num;
-    if ( [plot isKindOfClass:[CPBarPlot class]] ) {
-        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
-        if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
-            num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
-    }
-    else {
-        //num = [[nodes objectAtIndex:index] valueForKey:(fieldEnum == CPScatterPlotFieldX ? @".//Hit_id" : @"y")];
-        //if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];
-    }
-    return num;
-}
-
--(CPFill *)barFillForBarPlot:(CPBarPlot *)barPlot recordIndex:(NSUInteger)index
-{
-	return nil;
-}
-
--(CPTextLayer *) barLabelForBarPlot:(CPBarPlot *)barPlot recordIndex:(NSUInteger)index 
-{
-	if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 2"] )
-		return (id)[NSNull null]; // Don't show any label
-	else if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 1"] && index < 4 ) 
-        return (id)[NSNull null];
-    else
-		return nil; // Use default label style
-}
+//-(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot
+//{
+//    if ( [plot isKindOfClass:[CPBarPlot class]] ) 
+//        return [nodes count]/10;
+//	else {
+//		return [nodes count];
+//	}
+//
+//}
+//
+//-(NSNumber *)numberForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index
+//{
+//    NSDecimalNumber *num;
+//    if ( [plot isKindOfClass:[CPBarPlot class]] ) {
+//        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
+//        if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
+//            num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
+//    }
+//    else {
+//        //num = [[nodes objectAtIndex:index] valueForKey:(fieldEnum == CPScatterPlotFieldX ? @".//Hit_id" : @"y")];
+//        //if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];
+//    }
+//    return num;
+//}
+//
+//-(CPFill *)barFillForBarPlot:(CPBarPlot *)barPlot recordIndex:(NSUInteger)index
+//{
+//	return nil;
+//}
+//
+//-(CPTextLayer *) barLabelForBarPlot:(CPBarPlot *)barPlot recordIndex:(NSUInteger)index 
+//{
+//	if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 2"] )
+//		return (id)[NSNull null]; // Don't show any label
+//	else if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 1"] && index < 4 ) 
+//        return (id)[NSNull null];
+//    else
+//		return nil; // Use default label style
+//}
 
 
 //-(IBAction)plot:(id)sender{

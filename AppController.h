@@ -7,9 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CorePlot/CorePlot.h>
 #import "Blast.h"
 #import "RSParser.h"
-@interface AppController : NSObject {
+@interface AppController : NSObject <CPPlotDataSource> {
 	
 	IBOutlet NSTextField *csvInputTextBox;
 	IBOutlet NSButton *addTextField;

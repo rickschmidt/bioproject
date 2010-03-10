@@ -298,7 +298,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>369 213 1207 819 0 0 1920 1058 </string>
+						<string>351 224 1207 819 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BDA289B0114835840082753E</string>
+										<string>BDA289EE1148434A0082753E</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
@@ -337,12 +337,12 @@
 											<string>BD20CDC81147283400A162D6</string>
 											<string>BD20CDDA114728A900A162D6</string>
 											<string>BD20CEA11147475100A162D6</string>
-											<string>BD20CEA21147475100A162D6</string>
 											<string>BD20CF3B1147637C00A162D6</string>
-											<string>BDA28972114831330082753E</string>
-											<string>BDA28973114831330082753E</string>
-											<string>BDA28974114831330082753E</string>
-											<string>BDA289811148314B0082753E</string>
+											<string>BDA289E3114842620082753E</string>
+											<string>BDA289EA1148434A0082753E</string>
+											<string>BDA289EB1148434A0082753E</string>
+											<string>BDA289EC1148434A0082753E</string>
+											<string>BDA289ED1148434A0082753E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -356,7 +356,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {999, 535}}</string>
 								<key>RubberWindowFrame</key>
-								<string>369 213 1207 819 0 0 1920 1058 </string>
+								<string>351 224 1207 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -376,7 +376,7 @@
 								<key>Frame</key>
 								<string>{{0, 540}, {999, 238}}</string>
 								<key>RubberWindowFrame</key>
-								<string>369 213 1207 819 0 0 1920 1058 </string>
+								<string>351 224 1207 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -540,16 +540,16 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BDA289B1114835840082753E</string>
+		<string>BDA289EF1148434A0082753E</string>
 		<string>BDA2897B114831330082753E</string>
 		<string>BDA2897C114831330082753E</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
-		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>369 213 1207 819 0 0 1920 1058 </string>
+	<string>351 224 1207 819 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -570,7 +570,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CorePlotView.m</string>
+								<string>AppController.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
