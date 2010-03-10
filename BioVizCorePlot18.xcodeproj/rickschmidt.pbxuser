@@ -22,8 +22,10 @@
 			8D1107260486CEB800E47090 /* BioVizCorePlot18 */,
 		);
 		breakpoints = (
-			BD20CDD6114728A400A162D6 /* AppController.m:27 */,
-			BD20CDEA1147291B00A162D6 /* AppController.m:24 */,
+			BD20CDD6114728A400A162D6 /* AppController.m:29 */,
+			BD20CDEA1147291B00A162D6 /* AppController.m:27 */,
+			BD20CF2A114762F100A162D6 /* AppController.m:58 */,
+			BD20CF81114767BE00A162D6 /* AppController.m:53 */,
 		);
 		codeSenseManager = BDB20BC91144A70F00A0DDC6 /* Code sense */;
 		executables = (
@@ -421,6 +423,46 @@
 			BD20CEA31147475100A162D6 /* PBXTextBookmark */ = BD20CEA31147475100A162D6 /* PBXTextBookmark */;
 			BD20CEA41147475100A162D6 /* PBXTextBookmark */ = BD20CEA41147475100A162D6 /* PBXTextBookmark */;
 			BD20CEA51147475100A162D6 /* PBXTextBookmark */ = BD20CEA51147475100A162D6 /* PBXTextBookmark */;
+			BD20CECC11474B5600A162D6 /* PBXTextBookmark */ = BD20CECC11474B5600A162D6 /* PBXTextBookmark */;
+			BD20CECD11474B5600A162D6 /* PBXTextBookmark */ = BD20CECD11474B5600A162D6 /* PBXTextBookmark */;
+			BD20CED111474B7D00A162D6 /* PBXTextBookmark */ = BD20CED111474B7D00A162D6 /* PBXTextBookmark */;
+			BD20CEDA11474BB100A162D6 /* PBXTextBookmark */ = BD20CEDA11474BB100A162D6 /* PBXTextBookmark */;
+			BD20CEF01147539300A162D6 /* PBXTextBookmark */ = BD20CEF01147539300A162D6 /* PBXTextBookmark */;
+			BD20CEF11147539300A162D6 /* PBXTextBookmark */ = BD20CEF11147539300A162D6 /* PBXTextBookmark */;
+			BD20CEF21147539300A162D6 /* PBXTextBookmark */ = BD20CEF21147539300A162D6 /* PBXTextBookmark */;
+			BD20CF0411475C4B00A162D6 /* PBXTextBookmark */ = BD20CF0411475C4B00A162D6 /* PBXTextBookmark */;
+			BD20CF0511475C4B00A162D6 /* PBXTextBookmark */ = BD20CF0511475C4B00A162D6 /* PBXTextBookmark */;
+			BD20CF0611475C4B00A162D6 /* PBXTextBookmark */ = BD20CF0611475C4B00A162D6 /* PBXTextBookmark */;
+			BD20CF0A11475CE000A162D6 /* PBXTextBookmark */ = BD20CF0A11475CE000A162D6 /* PBXTextBookmark */;
+			BD20CF0D11475D3C00A162D6 /* PBXTextBookmark */ = BD20CF0D11475D3C00A162D6 /* PBXTextBookmark */;
+			BD20CF0E11475D3C00A162D6 /* PBXTextBookmark */ = BD20CF0E11475D3C00A162D6 /* PBXTextBookmark */;
+			BD20CF1311475F9C00A162D6 /* PBXTextBookmark */ = BD20CF1311475F9C00A162D6 /* PBXTextBookmark */;
+			BD20CF1411475F9C00A162D6 /* PBXTextBookmark */ = BD20CF1411475F9C00A162D6 /* PBXTextBookmark */;
+			BD20CF1511475F9C00A162D6 /* PBXTextBookmark */ = BD20CF1511475F9C00A162D6 /* PBXTextBookmark */;
+			BD20CF1B11475FE700A162D6 /* PBXTextBookmark */ = BD20CF1B11475FE700A162D6 /* PBXTextBookmark */;
+			BD20CF1C11475FE700A162D6 /* PBXTextBookmark */ = BD20CF1C11475FE700A162D6 /* PBXTextBookmark */;
+			BD20CF2E114762F800A162D6 /* PBXTextBookmark */ = BD20CF2E114762F800A162D6 /* PBXTextBookmark */;
+			BD20CF2F114762F800A162D6 /* PBXTextBookmark */ = BD20CF2F114762F800A162D6 /* PBXTextBookmark */;
+			BD20CF30114762F800A162D6 /* PBXTextBookmark */ = BD20CF30114762F800A162D6 /* PBXTextBookmark */;
+			BD20CF351147634E00A162D6 /* PBXTextBookmark */ = BD20CF351147634E00A162D6 /* PBXTextBookmark */;
+			BD20CF361147634E00A162D6 /* PBXTextBookmark */ = BD20CF361147634E00A162D6 /* PBXTextBookmark */;
+			BD20CF3B1147637C00A162D6 /* PBXTextBookmark */ = BD20CF3B1147637C00A162D6 /* PBXTextBookmark */;
+			BD20CF3C1147637C00A162D6 /* PBXTextBookmark */ = BD20CF3C1147637C00A162D6 /* PBXTextBookmark */;
+			BD20CF3D1147637C00A162D6 /* PBXTextBookmark */ = BD20CF3D1147637C00A162D6 /* PBXTextBookmark */;
+			BD20CF3E1147637C00A162D6 /* PBXTextBookmark */ = BD20CF3E1147637C00A162D6 /* PBXTextBookmark */;
+			BD20CF471147642800A162D6 /* PBXTextBookmark */ = BD20CF471147642800A162D6 /* PBXTextBookmark */;
+			BD20CF501147644C00A162D6 /* PBXTextBookmark */ = BD20CF501147644C00A162D6 /* PBXTextBookmark */;
+			BD20CF58114764DD00A162D6 /* PBXTextBookmark */ = BD20CF58114764DD00A162D6 /* PBXTextBookmark */;
+			BD20CF62114765A500A162D6 /* PBXTextBookmark */ = BD20CF62114765A500A162D6 /* PBXTextBookmark */;
+			BD20CF681147662D00A162D6 /* PBXTextBookmark */ = BD20CF681147662D00A162D6 /* PBXTextBookmark */;
+			BD20CF6E1147666C00A162D6 /* PBXTextBookmark */ = BD20CF6E1147666C00A162D6 /* PBXTextBookmark */;
+			BD20CF721147668D00A162D6 /* PBXTextBookmark */ = BD20CF721147668D00A162D6 /* PBXTextBookmark */;
+			BD20CF76114766DB00A162D6 /* PBXTextBookmark */ = BD20CF76114766DB00A162D6 /* PBXTextBookmark */;
+			BD20CF7B1147677A00A162D6 /* PBXTextBookmark */ = BD20CF7B1147677A00A162D6 /* PBXTextBookmark */;
+			BD20CF7F1147679800A162D6 /* PBXTextBookmark */ = BD20CF7F1147679800A162D6 /* PBXTextBookmark */;
+			BD20CF85114767C800A162D6 /* PBXTextBookmark */ = BD20CF85114767C800A162D6 /* PBXTextBookmark */;
+			BD20CF86114767C800A162D6 /* PBXTextBookmark */ = BD20CF86114767C800A162D6 /* PBXTextBookmark */;
+			BD20CF8C1147686100A162D6 /* PBXTextBookmark */ = BD20CF8C1147686100A162D6 /* PBXTextBookmark */;
 			BDB20C841144A98300A0DDC6 = BDB20C841144A98300A0DDC6 /* PBXTextBookmark */;
 		};
 		sourceControlManager = BDB20BC81144A70F00A0DDC6 /* Source Control */;
@@ -848,9 +890,9 @@
 	};
 	BD20CA201145651800A162D6 /* Blast.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1412, 1378}}";
-			sepNavSelRange = "{161, 0}";
-			sepNavVisRange = "{0, 1501}";
+			sepNavIntBoundsRect = "{{0, 0}, {1412, 1235}}";
+			sepNavSelRange = "{1620, 4}";
+			sepNavVisRange = "{2174, 864}";
 		};
 	};
 	BD20CA29114565C400A162D6 /* PBXTextBookmark */ = {
@@ -925,16 +967,16 @@
 	};
 	BD20CA361145660600A162D6 /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 467}}";
-			sepNavSelRange = "{411, 0}";
-			sepNavVisRange = "{0, 579}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 490}}";
+			sepNavSelRange = "{480, 0}";
+			sepNavVisRange = "{0, 735}";
 		};
 	};
 	BD20CA371145660600A162D6 /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {11436, 1092}}";
-			sepNavSelRange = "{213, 0}";
-			sepNavVisRange = "{0, 726}";
+			sepNavIntBoundsRect = "{{0, 0}, {11436, 1079}}";
+			sepNavSelRange = "{1228, 0}";
+			sepNavVisRange = "{680, 3492}";
 		};
 	};
 	BD20CA5811456BC600A162D6 /* RSParser.h */ = {
@@ -946,9 +988,9 @@
 	};
 	BD20CA5911456BC600A162D6 /* RSParser.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 507}}";
-			sepNavSelRange = "{156, 0}";
-			sepNavVisRange = "{0, 779}";
+			sepNavIntBoundsRect = "{{0, 0}, {959, 507}}";
+			sepNavSelRange = "{662, 0}";
+			sepNavVisRange = "{0, 592}";
 		};
 	};
 	BD20CA8911456F2E00A162D6 /* PBXTextBookmark */ = {
@@ -996,7 +1038,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 18";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 354;
 		vrLoc = 0;
@@ -1246,7 +1288,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 20";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 827;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 0;
@@ -1306,7 +1348,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 20";
 		rLen = 0;
-		rLoc = 760;
+		rLoc = 827;
 		rType = 0;
 		vrLen = 467;
 		vrLoc = 0;
@@ -1456,7 +1498,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 24";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 919;
 		rType = 0;
 		vrLen = 464;
 		vrLoc = 0;
@@ -1506,7 +1548,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 24";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 919;
 		rType = 0;
 		vrLen = 464;
 		vrLoc = 0;
@@ -1516,7 +1558,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 25";
 		rLen = 0;
-		rLoc = 902;
+		rLoc = 1314;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -1536,7 +1578,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 25";
 		rLen = 0;
-		rLoc = 902;
+		rLoc = 1314;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -1625,7 +1667,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 20";
 		rLen = 0;
-		rLoc = 756;
+		rLoc = 823;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -1635,7 +1677,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 24";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 919;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 0;
@@ -1645,7 +1687,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 24";
 		rLen = 0;
-		rLoc = 852;
+		rLoc = 919;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 0;
@@ -1715,7 +1757,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 18";
 		rLen = 0;
-		rLoc = 573;
+		rLoc = 729;
 		rType = 0;
 		vrLen = 356;
 		vrLoc = 0;
@@ -1745,7 +1787,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 47";
 		rLen = 0;
-		rLoc = 4104;
+		rLoc = 4516;
 		rType = 0;
 		vrLen = 3427;
 		vrLoc = 177;
@@ -1755,7 +1797,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 47";
 		rLen = 0;
-		rLoc = 4104;
+		rLoc = 4516;
 		rType = 0;
 		vrLen = 3428;
 		vrLoc = 176;
@@ -1765,7 +1807,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 35";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 4119;
 		rType = 0;
 		vrLen = 3428;
 		vrLoc = 176;
@@ -1775,7 +1817,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -1785,7 +1827,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -1795,7 +1837,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 35";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 4119;
 		rType = 0;
 		vrLen = 3427;
 		vrLoc = 177;
@@ -1835,7 +1877,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -1845,7 +1887,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 19";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 3420;
 		vrLoc = 47;
@@ -1855,7 +1897,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -1865,7 +1907,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 17";
 		rLen = 0;
-		rLoc = 661;
+		rLoc = 728;
 		rType = 0;
 		vrLen = 3422;
 		vrLoc = 47;
@@ -1895,7 +1937,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -1905,7 +1947,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 17";
 		rLen = 0;
-		rLoc = 661;
+		rLoc = 728;
 		rType = 0;
 		vrLen = 3331;
 		vrLoc = 0;
@@ -1935,7 +1977,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -1955,7 +1997,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 17";
 		rLen = 0;
-		rLoc = 661;
+		rLoc = 728;
 		rType = 0;
 		vrLen = 3426;
 		vrLoc = 207;
@@ -1995,7 +2037,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -2005,7 +2047,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3662;
+		rLoc = 4074;
 		rType = 0;
 		vrLen = 3424;
 		vrLoc = 249;
@@ -2015,7 +2057,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -2025,7 +2067,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3662;
+		rLoc = 4074;
 		rType = 0;
 		vrLen = 3466;
 		vrLoc = 207;
@@ -2035,7 +2077,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3591;
+		rLoc = 4003;
 		rType = 0;
 		vrLen = 3474;
 		vrLoc = 208;
@@ -2045,7 +2087,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 14";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 0;
@@ -2055,7 +2097,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 37";
 		rLen = 0;
-		rLoc = 3662;
+		rLoc = 4074;
 		rType = 0;
 		vrLen = 3479;
 		vrLoc = 208;
@@ -2065,7 +2107,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4032;
 		rType = 0;
 		vrLen = 3438;
 		vrLoc = 249;
@@ -2075,7 +2117,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4032;
 		rType = 0;
 		vrLen = 3438;
 		vrLoc = 249;
@@ -2085,7 +2127,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4032;
 		rType = 0;
 		vrLen = 3416;
 		vrLoc = 271;
@@ -2095,7 +2137,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 4032;
 		rType = 0;
 		vrLen = 3416;
 		vrLoc = 271;
@@ -2105,7 +2147,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3578;
+		rLoc = 3990;
 		rType = 0;
 		vrLen = 3441;
 		vrLoc = 271;
@@ -2115,7 +2157,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 20";
 		rLen = 0;
-		rLoc = 579;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 396;
 		vrLoc = 0;
@@ -2125,7 +2167,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3578;
+		rLoc = 3990;
 		rType = 0;
 		vrLen = 3440;
 		vrLoc = 249;
@@ -2135,7 +2177,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3576;
+		rLoc = 3988;
 		rType = 0;
 		vrLen = 3445;
 		vrLoc = 271;
@@ -2155,7 +2197,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 36";
 		rLen = 0;
-		rLoc = 3576;
+		rLoc = 3988;
 		rType = 0;
 		vrLen = 3420;
 		vrLoc = 271;
@@ -2165,7 +2207,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 38";
 		rLen = 0;
-		rLoc = 3609;
+		rLoc = 4021;
 		rType = 0;
 		vrLen = 3385;
 		vrLoc = 306;
@@ -2235,7 +2277,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 21";
 		rLen = 0;
-		rLoc = 723;
+		rLoc = 790;
 		rType = 0;
 		vrLen = 3400;
 		vrLoc = 176;
@@ -2245,7 +2287,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 21";
 		rLen = 0;
-		rLoc = 723;
+		rLoc = 790;
 		rType = 0;
 		vrLen = 3409;
 		vrLoc = 177;
@@ -2255,7 +2297,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 51";
 		rLen = 0;
-		rLoc = 3997;
+		rLoc = 4409;
 		rType = 0;
 		vrLen = 3328;
 		vrLoc = 471;
@@ -2265,7 +2307,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 55";
 		rLen = 0;
-		rLoc = 4072;
+		rLoc = 4484;
 		rType = 0;
 		vrLen = 3328;
 		vrLoc = 471;
@@ -2275,7 +2317,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 55";
 		rLen = 0;
-		rLoc = 4072;
+		rLoc = 4484;
 		rType = 0;
 		vrLen = 3328;
 		vrLoc = 471;
@@ -2305,7 +2347,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 55";
 		rLen = 0;
-		rLoc = 4072;
+		rLoc = 4484;
 		rType = 0;
 		vrLen = 3330;
 		vrLoc = 469;
@@ -2385,7 +2427,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 55";
 		rLen = 0;
-		rLoc = 4072;
+		rLoc = 4484;
 		rType = 0;
 		vrLen = 3434;
 		vrLoc = 148;
@@ -2582,7 +2624,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 30";
 		rLen = 20;
-		rLoc = 905;
+		rLoc = 1317;
 		rType = 0;
 		vrLen = 3434;
 		vrLoc = 148;
@@ -2622,7 +2664,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2632,7 +2674,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 63";
 		rLen = 0;
-		rLoc = 4162;
+		rLoc = 4574;
 		rType = 0;
 		vrLen = 3340;
 		vrLoc = 549;
@@ -2642,7 +2684,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 4143;
+		rLoc = 4555;
 		rType = 0;
 		vrLen = 3301;
 		vrLoc = 591;
@@ -2652,7 +2694,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 4143;
+		rLoc = 4555;
 		rType = 0;
 		vrLen = 3275;
 		vrLoc = 614;
@@ -2662,7 +2704,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 64";
 		rLen = 0;
-		rLoc = 4164;
+		rLoc = 4576;
 		rType = 0;
 		vrLen = 3244;
 		vrLoc = 614;
@@ -2672,7 +2714,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2682,7 +2724,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 64";
 		rLen = 0;
-		rLoc = 4164;
+		rLoc = 4576;
 		rType = 0;
 		vrLen = 3265;
 		vrLoc = 593;
@@ -2692,7 +2734,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 4143;
+		rLoc = 4555;
 		rType = 0;
 		vrLen = 3246;
 		vrLoc = 614;
@@ -2702,7 +2744,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 4143;
+		rLoc = 4555;
 		rType = 0;
 		vrLen = 3267;
 		vrLoc = 593;
@@ -2772,7 +2814,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2782,7 +2824,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 22";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 3256;
 		vrLoc = 0;
@@ -2792,7 +2834,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 22";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 3277;
 		vrLoc = 3;
@@ -2802,7 +2844,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 22";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 3277;
 		vrLoc = 3;
@@ -2812,7 +2854,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2862,7 +2904,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 22";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 3277;
 		vrLoc = 3;
@@ -2942,7 +2984,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 551;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 0;
@@ -2952,7 +2994,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 22";
 		rLen = 0;
-		rLoc = 742;
+		rLoc = 809;
 		rType = 0;
 		vrLen = 3282;
 		vrLoc = 0;
@@ -3022,7 +3064,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 27";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 882;
 		rType = 0;
 		vrLen = 3278;
 		vrLoc = 0;
@@ -3102,7 +3144,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 16";
 		rLen = 0;
-		rLoc = 381;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 0;
@@ -3112,7 +3154,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 27";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 882;
 		rType = 0;
 		vrLen = 2411;
 		vrLoc = 0;
@@ -3122,7 +3164,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 29";
 		rLen = 0;
-		rLoc = 862;
+		rLoc = 929;
 		rType = 0;
 		vrLen = 2417;
 		vrLoc = 0;
@@ -3182,7 +3224,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 15";
 		rLen = 0;
-		rLoc = 238;
+		rLoc = 289;
 		rType = 0;
 		vrLen = 752;
 		vrLoc = 0;
@@ -3192,7 +3234,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 0;
-		rLoc = 237;
+		rLoc = 288;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 3;
@@ -3236,7 +3278,7 @@
 		vrLen = 1374;
 		vrLoc = 1662;
 	};
-	BD20CDD6114728A400A162D6 /* AppController.m:27 */ = {
+	BD20CDD6114728A400A162D6 /* AppController.m:29 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -3246,13 +3288,13 @@
 		delayBeforeContinue = 0;
 		fileReference = BD20CA371145660600A162D6 /* AppController.m */;
 		functionName = "-awakeFromNib";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 27;
+		lineNumber = 29;
 		location = BioVizCorePlot18;
-		modificationTime = 289879483.281048;
+		modificationTime = 289892445.071994;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		state = 2;
 	};
 	BD20CDDA114728A900A162D6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -3275,7 +3317,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 16";
 		rLen = 0;
-		rLoc = 284;
+		rLoc = 335;
 		rType = 0;
 		vrLen = 763;
 		vrLoc = 3;
@@ -3285,7 +3327,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 16";
 		rLen = 0;
-		rLoc = 284;
+		rLoc = 335;
 		rType = 0;
 		vrLen = 743;
 		vrLoc = 23;
@@ -3295,12 +3337,12 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 16";
 		rLen = 0;
-		rLoc = 284;
+		rLoc = 335;
 		rType = 0;
 		vrLen = 767;
 		vrLoc = 47;
 	};
-	BD20CDEA1147291B00A162D6 /* AppController.m:24 */ = {
+	BD20CDEA1147291B00A162D6 /* AppController.m:27 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -3310,20 +3352,20 @@
 		delayBeforeContinue = 0;
 		fileReference = BD20CA371145660600A162D6 /* AppController.m */;
 		functionName = "-awakeFromNib";
-		hitCount = 1;
+		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 24;
+		lineNumber = 27;
 		location = BioVizCorePlot18;
-		modificationTime = 289879475.30097;
+		modificationTime = 289892445.073524;
 		originalNumberOfMultipleMatches = 1;
-		state = 1;
+		state = 2;
 	};
 	BD20CDEE1147292100A162D6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 16";
 		rLen = 0;
-		rLoc = 284;
+		rLoc = 335;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 145;
@@ -3333,7 +3375,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 16";
 		rLen = 0;
-		rLoc = 284;
+		rLoc = 335;
 		rType = 0;
 		vrLen = 743;
 		vrLoc = 0;
@@ -3353,7 +3395,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 9;
-		rLoc = 228;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 743;
 		vrLoc = 0;
@@ -3373,7 +3415,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 18";
 		rLen = 0;
-		rLoc = 445;
+		rLoc = 601;
 		rType = 0;
 		vrLen = 499;
 		vrLoc = 0;
@@ -3383,7 +3425,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 18";
 		rLen = 0;
-		rLoc = 445;
+		rLoc = 601;
 		rType = 0;
 		vrLen = 499;
 		vrLoc = 0;
@@ -3393,7 +3435,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 9;
-		rLoc = 228;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 688;
 		vrLoc = 0;
@@ -3403,7 +3445,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 9;
-		rLoc = 228;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 740;
 		vrLoc = 3;
@@ -3413,7 +3455,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 9;
-		rLoc = 228;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 44;
@@ -3423,7 +3465,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 9;
-		rLoc = 228;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 811;
 		vrLoc = 44;
@@ -3433,7 +3475,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 14";
 		rLen = 9;
-		rLoc = 228;
+		rLoc = 279;
 		rType = 0;
 		vrLen = 792;
 		vrLoc = 86;
@@ -3443,7 +3485,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 17";
 		rLen = 0;
-		rLoc = 307;
+		rLoc = 358;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 0;
@@ -3453,7 +3495,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 18";
 		rLen = 0;
-		rLoc = 445;
+		rLoc = 601;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -3463,7 +3505,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 343;
+		rLoc = 396;
 		rType = 0;
 		vrLen = 543;
 		vrLoc = 0;
@@ -3473,7 +3515,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 346;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 0;
@@ -3483,7 +3525,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 346;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 0;
@@ -3493,7 +3535,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 346;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 0;
@@ -3503,7 +3545,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 346;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 0;
@@ -3513,7 +3555,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 17";
 		rLen = 0;
-		rLoc = 346;
+		rLoc = 399;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 0;
@@ -3563,10 +3605,446 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 19";
 		rLen = 0;
-		rLoc = 411;
+		rLoc = 464;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 0;
+	};
+	BD20CECC11474B5600A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 19";
+		rLen = 0;
+		rLoc = 464;
+		rType = 0;
+		vrLen = 579;
+		vrLoc = 0;
+	};
+	BD20CECD11474B5600A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 26";
+		rLen = 0;
+		rLoc = 485;
+		rType = 0;
+		vrLen = 710;
+		vrLoc = 149;
+	};
+	BD20CED111474B7D00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 24";
+		rLen = 0;
+		rLoc = 392;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 176;
+	};
+	BD20CEDA11474BB100A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 24";
+		rLen = 0;
+		rLoc = 392;
+		rType = 0;
+		vrLen = 2406;
+		vrLoc = 209;
+	};
+	BD20CEF01147539300A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 16";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 0;
+	};
+	BD20CEF11147539300A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 21";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 0;
+	};
+	BD20CEF21147539300A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 17";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	BD20CF0411475C4B00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 16";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 0;
+	};
+	BD20CF0511475C4B00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 17";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	BD20CF0611475C4B00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 17";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	BD20CF0A11475CE000A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 18";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 685;
+		vrLoc = 0;
+	};
+	BD20CF0D11475D3C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 0;
+	};
+	BD20CF0E11475D3C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 17";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 0;
+	};
+	BD20CF1311475F9C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 23";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 0;
+	};
+	BD20CF1411475F9C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 17";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 3;
+	};
+	BD20CF1511475F9C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 27";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 3;
+	};
+	BD20CF1B11475FE700A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 16";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 3;
+	};
+	BD20CF1C11475FE700A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 22";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	BD20CF2A114762F100A162D6 /* AppController.m:58 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BD20CA371145660600A162D6 /* AppController.m */;
+		functionName = "-xmlStuff:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 58;
+		location = BioVizCorePlot18;
+		modificationTime = 289892445.907275;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	BD20CF2E114762F800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 22";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	BD20CF2F114762F800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 16";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 2429;
+		vrLoc = 279;
+	};
+	BD20CF30114762F800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 16";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 2512;
+		vrLoc = 291;
+	};
+	BD20CF351147634E00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA201145651800A162D6 /* Blast.m */;
+		name = "Blast.m: 11";
+		rLen = 0;
+		rLoc = 161;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 36;
+	};
+	BD20CF361147634E00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA201145651800A162D6 /* Blast.m */;
+		name = "Blast.m: 41";
+		rLen = 4;
+		rLoc = 1620;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 2174;
+	};
+	BD20CF3B1147637C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA1F1145651800A162D6 /* Blast.h */;
+		name = "Blast.h: 12";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 0;
+	};
+	BD20CF3C1147637C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 22";
+		rLen = 0;
+		rLoc = 480;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	BD20CF3D1147637C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 16";
+		rLen = 0;
+		rLoc = 230;
+		rType = 0;
+		vrLen = 3355;
+		vrLoc = 291;
+	};
+	BD20CF3E1147637C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 28";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 3;
+	};
+	BD20CF471147642800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 29";
+		rLen = 0;
+		rLoc = 482;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 86;
+	};
+	BD20CF501147644C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 52";
+		rLen = 0;
+		rLoc = 1314;
+		rType = 0;
+		vrLen = 3365;
+		vrLoc = 370;
+	};
+	BD20CF58114764DD00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 50";
+		rLen = 0;
+		rLoc = 1053;
+		rType = 0;
+		vrLen = 3407;
+		vrLoc = 391;
+	};
+	BD20CF62114765A500A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 53";
+		rLen = 0;
+		rLoc = 1311;
+		rType = 0;
+		vrLen = 3435;
+		vrLoc = 481;
+	};
+	BD20CF681147662D00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 52";
+		rLen = 0;
+		rLoc = 1207;
+		rType = 0;
+		vrLen = 3399;
+		vrLoc = 548;
+	};
+	BD20CF6E1147666C00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 54";
+		rLen = 0;
+		rLoc = 1270;
+		rType = 0;
+		vrLen = 3388;
+		vrLoc = 564;
+	};
+	BD20CF721147668D00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 54";
+		rLen = 0;
+		rLoc = 1260;
+		rType = 0;
+		vrLen = 3432;
+		vrLoc = 566;
+	};
+	BD20CF76114766DB00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 51";
+		rLen = 0;
+		rLoc = 1104;
+		rType = 0;
+		vrLen = 3488;
+		vrLoc = 566;
+	};
+	BD20CF7B1147677A00A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 53";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 3454;
+		vrLoc = 629;
+	};
+	BD20CF7F1147679800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 53";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 3543;
+		vrLoc = 680;
+	};
+	BD20CF81114767BE00A162D6 /* AppController.m:53 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = BD20CA371145660600A162D6 /* AppController.m */;
+		functionName = "-xmlStuff:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 53;
+		location = BioVizCorePlot18;
+		modificationTime = 289892445.977214;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	BD20CF85114767C800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 53";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 3528;
+		vrLoc = 607;
+	};
+	BD20CF86114767C800A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 53";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 47;
+	};
+	BD20CF8C1147686100A162D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 53";
+		rLen = 0;
+		rLoc = 1228;
+		rType = 0;
+		vrLen = 3492;
+		vrLoc = 680;
 	};
 	BDB20BB71144A70A00A0DDC6 /* BioVizCorePlot18 */ = {
 		isa = PBXExecutable;
@@ -3575,7 +4053,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;

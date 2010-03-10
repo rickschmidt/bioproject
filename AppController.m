@@ -13,6 +13,8 @@
 
 
 @synthesize nodes;
+//@synthesize inputArray;
+@synthesize inputString;
 -(id)init
 {
 	self=[super init];
@@ -22,8 +24,8 @@
 	xmlStuff=[[RSParser alloc]init];
 	[xmlStuff initXML];
 	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
-//	NSLog(@"nodes %@",nodes);
-	NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
+	inputArray=[[NSMutableArray alloc]init];
+		//NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
 	
 	return self;
 	
@@ -44,6 +46,16 @@
 	xmlStuff=[[RSParser alloc]init];
 	[xmlStuff initXML];
 	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
+	NSLog(@"input array %@",[inputArray objectAtIndex:0]);
+	NSLog(@"input array22 %@",[inputArray objectAtIndex:1]);
+	NSString *string1=[[inputArray objectAtIndex:0] description];
+	NSString *string2=[[inputArray objectAtIndex:1]description];
+	NSLog(@"string1 %d", string1);
+	NSLog(@"string2 %@", string2);
+	NSLog(@"inputArray %@",inputArray);
+	
+
+	
 }
 -(NSArray *)csvSplit
 {

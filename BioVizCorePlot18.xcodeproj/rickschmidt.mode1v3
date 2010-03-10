@@ -267,12 +267,6 @@
 								<string>BDB20BCA1144A71900A0DDC6</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>29B97323FDCFA39411CA2CEA</string>
-								<string>1058C7A0FEA54F0111CA2CBB</string>
-								<string>1058C7A2FEA54F0111CA2CBB</string>
-								<string>19C28FACFE9D520D11CA2CBB</string>
-								<string>1C37FBAC04509CD000000102</string>
-								<string>BD20C97D1144B4F100A162D6</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 								<string>1CC0EA4004350EF90044410B</string>
@@ -304,7 +298,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>406 229 1207 819 0 0 1920 1058 </string>
+						<string>407 229 1207 819 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AppController.h</string>
+								<string>AppController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,25 +324,25 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AppController.h</string>
+										<string>AppController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD20CEA51147475100A162D6</string>
+										<string>BD20CF8C1147686100A162D6</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
 											<string>BD20CB3E11459A0100A162D6</string>
 											<string>BD20CBB11145A48300A162D6</string>
 											<string>BD20CDB61147278A00A162D6</string>
-											<string>BD20CDC51147283400A162D6</string>
 											<string>BD20CDC71147283400A162D6</string>
 											<string>BD20CDC81147283400A162D6</string>
 											<string>BD20CDDA114728A900A162D6</string>
 											<string>BD20CEA11147475100A162D6</string>
 											<string>BD20CEA21147475100A162D6</string>
-											<string>BD20CEA31147475100A162D6</string>
-											<string>BD20CEA41147475100A162D6</string>
+											<string>BD20CF3B1147637C00A162D6</string>
+											<string>BD20CF3C1147637C00A162D6</string>
+											<string>BD20CF85114767C800A162D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,7 +356,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {999, 547}}</string>
 								<key>RubberWindowFrame</key>
-								<string>406 229 1207 819 0 0 1920 1058 </string>
+								<string>407 229 1207 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -382,7 +376,7 @@
 								<key>Frame</key>
 								<string>{{0, 552}, {999, 226}}</string>
 								<key>RubberWindowFrame</key>
-								<string>406 229 1207 819 0 0 1920 1058 </string>
+								<string>407 229 1207 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -546,18 +540,18 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD20CEA61147475100A162D6</string>
+		<string>BD20CF8D1147686100A162D6</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>BD20C9291144AC0100A162D6</string>
 		<string>BD20C92A1144AC0100A162D6</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
 		<string>BD20CDD41147289A00A162D6</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>406 229 1207 819 0 0 1920 1058 </string>
+	<string>407 229 1207 819 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -1079,6 +1073,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXBottomSmartGroupGIDs</key>
@@ -1140,8 +1136,6 @@
 							<string>185pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

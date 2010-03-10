@@ -14,9 +14,13 @@
 	IBOutlet NSTextField *csvInputTextBox;
 	IBOutlet NSButton *addTextField;
 	NSArray *nodes;
+	NSMutableArray *inputArray;
+	NSString *inputString;
 	//NSArrayController *arrayController;
 }
 @property(copy,nonatomic)NSArray *nodes;
+//@property(copy,nonatomic)NSMutableArray *inputArray;
+@property(readwrite,copy)NSString *inputString;
 -(void)awakeFromNib;
 -(IBAction)blastWithBlastcl3:(id)sender;
 -(IBAction)xmlStuff:(id)sender;
