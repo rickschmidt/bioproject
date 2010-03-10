@@ -22,6 +22,9 @@
 -(void)awakeFromNib
 {
 	[super awakeFromNib];
+	AppController *controller;
+	controller=[[AppController alloc]init];
+	nodes=[controller returnNodes];
 	//NSSize *size=[NSMakeSize(50.0, 100.0)];
 //	[drawer setContentSize:size;
 	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
@@ -93,35 +96,81 @@
 //    dataSourceLinePlot.dataSource = self;
 //    [graph addPlot:dataSourceLinePlot];
 	
-	//CPXYPlotSpace *barPlotSpace = [[CPXYPlotSpace alloc] init];
-//    barPlotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-20.0f) length:CPDecimalFromFloat(200.0f)];
-//    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-7.0f) length:CPDecimalFromFloat(15.0f)];
-//	[graph addPlotSpace:barPlotSpace];
-//    [barPlotSpace release];
+	CPXYPlotSpace *barPlotSpace = [[CPXYPlotSpace alloc] init];
+    barPlotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(1000.0f)];
+    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(15.0f)];
+	[graph addPlotSpace:barPlotSpace];
+    [barPlotSpace release];
 	//
 //	// First bar plot
-//    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:YES];
-//    barPlot.baseValue = CPDecimalFromString(@"20");
-//    barPlot.dataSource = self;
-//    barPlot.barOffset = -0.25f;
-//    barPlot.identifier = @"Bar Plot 1";
-//	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(7.0)];
-//    CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
-//    whiteTextStyle.color = [CPColor whiteColor];
-//    barPlot.barLabelTextStyle = whiteTextStyle;
-//    [graph addPlot:barPlot toPlotSpace:barPlotSpace];
+    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:NO];
+    barPlot.baseValue = CPDecimalFromString(@"20");
+    barPlot.dataSource = self;
+    barPlot.barOffset = -0.25f;
+    barPlot.identifier = @"Bar Plot 1";
+	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(7.0)];
+    CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
+    whiteTextStyle.color = [CPColor whiteColor];
+    barPlot.barLabelTextStyle = whiteTextStyle;
+    [graph addPlot:barPlot toPlotSpace:barPlotSpace];
 
 	// Create one plot that uses bindings
-	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] init] autorelease];
-    boundLinePlot.identifier = @"Bindings Plot";
+//	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] init] autorelease];
+//    boundLinePlot.identifier = @"Bindings Plot";
 //	boundLinePlot.dataLineStyle.miterLimit = 1.0;
 //	boundLinePlot.dataLineStyle.lineWidth = 3.0;
 //	boundLinePlot.dataLineStyle.lineColor = [CPColor blueColor];
-//    [graph addPlot:boundLinePlot];
+//[graph addPlot:boundLinePlot];
 //	[boundLinePlot bind:CPScatterPlotBindingXValues toObject:self withKeyPath:@"arrangedObjects.x" options:nil];
 //	[boundLinePlot bind:CPScatterPlotBindingYValues toObject:self withKeyPath:@"arrangedObjects.y" options:nil];
 
+	// Create a second plot that uses the data source method
+//	CPScatterPlot *dataSourceLinePlot = [[[CPScatterPlot alloc] init] autorelease];
+//    dataSourceLinePlot.identifier = @"Data Source Plot";
+//	dataSourceLinePlot.dataLineStyle.lineWidth = 3.0;
+//    dataSourceLinePlot.dataLineStyle.lineColor = [CPColor greenColor];
+//    dataSourceLinePlot.dataSource = self;
+//    [graph addPlot:dataSourceLinePlot];
 }
+#pragma mark -
+#pragma mark Plot Data Source Methods
+
+-(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot
+{
+    if ( [plot isKindOfClass:[CPBarPlot class]] ) 
+        return [nodes count];
+}
+
+-(NSNumber *)numberForPlot:(CPPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index
+{
+    NSDecimalNumber *num;
+    if ( [plot isKindOfClass:[CPBarPlot class]] ) {
+        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
+        if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
+            num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
+    }
+    else {
+        //num = [[nodes objectAtIndex:index] valueForKey:(fieldEnum == CPScatterPlotFieldX ? @".//Hit_id" : @"y")];
+        //if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];
+    }
+    return num;
+}
+
+-(CPFill *)barFillForBarPlot:(CPBarPlot *)barPlot recordIndex:(NSUInteger)index
+{
+	return nil;
+}
+
+-(CPTextLayer *) barLabelForBarPlot:(CPBarPlot *)barPlot recordIndex:(NSUInteger)index 
+{
+	if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 2"] )
+		return (id)[NSNull null]; // Don't show any label
+	else if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 1"] && index < 4 ) 
+        return (id)[NSNull null];
+    else
+		return nil; // Use default label style
+}
+
 
 //-(IBAction)plot:(id)sender{
 @end

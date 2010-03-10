@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
 #import <CorePlot/CorePlot.h>
+#import "AppController.h"
+
 @interface CorePlotView : NSObject <CPPlotDataSource, CPPlotSpaceDelegate>{
 	
 	IBOutlet CPLayerHostingView *hostView;
@@ -17,9 +18,12 @@
     CGFloat yShift;
     CGFloat labelRotation;
 	IBOutlet NSDrawer *drawer;
+	NSArray *nodes;
+	
 }
 @property CGFloat xShift;
 @property CGFloat yShift;
 @property CGFloat labelRotation;
 
+-(NSArray *)getNodesArray;
 @end

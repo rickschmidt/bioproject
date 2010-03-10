@@ -1,0 +1,5 @@
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m: In function '-[CorePlotView numberOfRecordsForPlot:]':
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:142: warning: control reaches end of non-void function
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m: At top level:
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:176: warning: incomplete implementation of class 'CorePlotView'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:176: warning: method definition for '-getNodesArray' not found

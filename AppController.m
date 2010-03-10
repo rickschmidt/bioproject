@@ -93,4 +93,7 @@
 		NSLog(@"CLICK");
 	
 }
+-(NSArray *)returnNodes{
+	return nodes;
+}
 @end

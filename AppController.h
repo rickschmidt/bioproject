@@ -26,4 +26,5 @@
 -(IBAction)xmlStuff:(id)sender;
 -(IBAction)addButton:(id)sender;
 -(NSArray *)csvSplit;
+-(NSArray *)returnNodes;
 @end

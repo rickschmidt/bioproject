@@ -1,0 +1,5 @@
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController blastWithBlastcl3:]':
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:36: warning: unused variable 'i'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: At top level:
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:99: warning: incomplete implementation of class 'AppController'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:99: warning: method definition for '-awakeFromNib' not found
