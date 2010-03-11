@@ -19,6 +19,7 @@
 	NSMutableArray *inputArray;
 	NSString *inputString;
 	NSMutableDictionary *specificNodes;
+	IBOutlet NSWindow *mainApplicationWindow;
 	//NSArrayController *arrayController;
 }
 @property(copy,nonatomic)NSArray *nodes;

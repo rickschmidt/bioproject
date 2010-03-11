@@ -9,6 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <CorePlot/CorePlot.h>
 #import "AppController.h"
+#import <QuartzCore/CAAnimation.h>
 
 @interface CorePlotView : NSObject <CPPlotDataSource, CPPlotSpaceDelegate>{
 	
@@ -19,11 +20,19 @@
     CGFloat labelRotation;
 	IBOutlet NSDrawer *drawer;
 	NSArray *nodes;
-//	IBOutlet NSWindow *mainApplicationWindow;
+	IBOutlet NSView *newView;
+	IBOutlet NSWindow *mainApplicationWindow;
+	IBOutlet NSColorPanel *colorPanel;
+	
+	NSRect							oldWindowFrame;
+	CATransition					*transition;
+	NSDictionary					*currentAnimation;
 }
 @property CGFloat xShift;
 @property CGFloat yShift;
 @property CGFloat labelRotation;
 
 -(NSArray *)getNodesArray;
+- (IBAction) displayNewView:(id)sender;
+- (void) setAnimationsTypes;
 @end

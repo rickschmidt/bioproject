@@ -19,7 +19,7 @@
 {
 	self=[super init];
 	
-	
+	NSLog(@"HEREHERE %@ //AppController/init",[[mainApplicationWindow contentView]subviews]);
 	RSParser *xmlStuff;
 	xmlStuff=[[RSParser alloc]init];
 	[xmlStuff initXML];
@@ -84,7 +84,7 @@
 	while (i<j) {
 		
 	
-		NSLog(@"array object %@", [array objectAtIndex:i]);		
+		//NSLog(@"array object %@", [array objectAtIndex:i]);		
 		i++;
 	}
 	return array;
@@ -92,12 +92,14 @@
 -(IBAction)addButton:(id)sender
 {	
 		
-		NSLog(@"CLICK");
+		NSLog(@"CLICK //AppController/addButton");
 	
 }
 -(NSArray *)returnNodes{
 	return nodes;
 }
+
+
 #pragma mark -
 #pragma mark Arrays from XML 
 //-(NSArray *)
@@ -115,6 +117,7 @@
 	
 		return num;
     }
+	
 		else
         return [nodes count];
 }
@@ -129,8 +132,8 @@
 //		int i=0;//=[theValues count];
 		//for(int x=0;x<i;x++){
 			
-			NSLog(@"keys objectat index x %@",[theValues objectAtIndex:index]);
-		num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:[theValues objectAtIndex:index]];
+		NSLog(@"keys objectat index x %@ //AppController numberForPlot",[theValues objectAtIndex:index]);
+		num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:[[theValues objectAtIndex:index]intValue]];
 //		num=(NSDecimalNumber *)[CPDecimalFromUnsignedInteger:];
 //		NSDecimalNumber *num=[[NSNumber numberWithUnsignedInt:index]decimalValue];
         if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 

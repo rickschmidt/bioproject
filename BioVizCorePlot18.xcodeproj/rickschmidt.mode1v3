@@ -266,7 +266,9 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>BDB20BCA1144A71900A0DDC6</string>
 								<string>080E96DDFE201D6D7F000001</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -299,7 +301,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>435 140 1207 819 0 0 1920 1058 </string>
+						<string>11 220 1207 819 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -317,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CorePlotView.h</string>
+								<string>CorePlotView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,32 +327,33 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CorePlotView.h</string>
+										<string>CorePlotView.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD353CA01149744200A05A2B</string>
+										<string>BD353F401149A27400A05A2B</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
 											<string>BD20CDC71147283400A162D6</string>
 											<string>BD20CDDA114728A900A162D6</string>
-											<string>BD20CF3B1147637C00A162D6</string>
-											<string>BDA28B6111489AB60082753E</string>
-											<string>BDA28B6211489AB60082753E</string>
-											<string>BDA28B6311489AB60082753E</string>
 											<string>BDA28B6611489AB60082753E</string>
 											<string>BDA28B6711489AB60082753E</string>
 											<string>BDA28B6911489AB60082753E</string>
 											<string>BDA28B7311489B2A0082753E</string>
 											<string>BDA28B8811489BDB0082753E</string>
-											<string>BD353B901149449E00A05A2B</string>
-											<string>BD353C3611495FFA00A05A2B</string>
-											<string>BD353C3711495FFA00A05A2B</string>
-											<string>BD353C561149622C00A05A2B</string>
-											<string>BD353C981149742A00A05A2B</string>
-											<string>BD353C991149742A00A05A2B</string>
-											<string>BD353C9A1149742A00A05A2B</string>
+											<string>BD353D0611497B3600A05A2B</string>
+											<string>BD353D0A11497B3600A05A2B</string>
+											<string>BD353D0B11497B3600A05A2B</string>
+											<string>BD353D0C11497B3600A05A2B</string>
+											<string>BD353D0D11497B3600A05A2B</string>
+											<string>BD353D1B11497C3F00A05A2B</string>
+											<string>BD353D2511497DA700A05A2B</string>
+											<string>BD353DEC1149949100A05A2B</string>
+											<string>BD353DFB1149958F00A05A2B</string>
+											<string>BD353EDE11499E3900A05A2B</string>
+											<string>BD353F241149A16100A05A2B</string>
+											<string>BD353F251149A16100A05A2B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -364,7 +367,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {999, 522}}</string>
 								<key>RubberWindowFrame</key>
-								<string>435 140 1207 819 0 0 1920 1058 </string>
+								<string>11 220 1207 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -384,7 +387,7 @@
 								<key>Frame</key>
 								<string>{{0, 527}, {999, 251}}</string>
 								<key>RubberWindowFrame</key>
-								<string>435 140 1207 819 0 0 1920 1058 </string>
+								<string>11 220 1207 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -548,16 +551,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD353CA11149744200A05A2B</string>
 		<string>BD353B3711493EE800A05A2B</string>
 		<string>BD353B3811493EE800A05A2B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
-		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>435 140 1207 819 0 0 1920 1058 </string>
+	<string>11 220 1207 819 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -573,12 +575,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AppController.m</string>
+								<string>CorePlotView.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -595,8 +599,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -897,7 +899,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {701, 206}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1274 771 701 247 0 0 1920 1058 </string>
+								<string>867 685 701 247 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -926,7 +928,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>1274 771 701 247 0 0 1920 1058 </string>
+			<string>867 685 701 247 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

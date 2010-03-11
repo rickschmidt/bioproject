@@ -22,7 +22,7 @@
 -(void)awakeFromNib
 {
 	[super awakeFromNib];
-	
+	NSLog(@"HEREHERE %@ //CorePlotViewer/awakeFromNib",[[mainApplicationWindow contentView]subviews]);
 	//Initialize controller object for this programmed view
 	AppController *controller;
 	controller=[[AppController alloc]init];
@@ -30,16 +30,16 @@
 	
 	
 	// Create graph and apply a dark theme
-	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:NSRectToCGRect(hostView.bounds)]; 	//NSLog(@"height %d",hostView.bounds.size.height);
+	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 10.0f, 10.0f) xScaleType:1 yScaleType:1];//initWithFrame:NSRectToCGRect(hostView.bounds)]; 	//NSLog(@"height %d",hostView.bounds.size.height);
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
 	[graph applyTheme:theme];
 	hostView.hostedLayer=graph;
 	
 	// Graph padding
-    graph.paddingLeft = 10.0;
-    graph.paddingTop = 10.0;
-    graph.paddingRight = 10.0;
-    graph.paddingBottom = 10.0;
+    graph.paddingLeft = 1.0;
+    graph.paddingTop = 1.0;
+    graph.paddingRight = 1.0;
+    graph.paddingBottom = 1.0;
 	
 	// Setup scatter plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
@@ -63,21 +63,21 @@
     // Label x axis with a fixed interval policy
 	CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
     CPXYAxis *x = axisSet.xAxis;
-    x.majorIntervalLength = CPDecimalFromString(@"0.5");
+    x.majorIntervalLength = CPDecimalFromString(@"1");
     x.orthogonalCoordinateDecimal = CPDecimalFromString(@"2");
-    x.minorTicksPerInterval = 2;
+    x.minorTicksPerInterval = 0;
     x.majorGridLineStyle = majorGridLineStyle;
     x.minorGridLineStyle = minorGridLineStyle;
-	NSArray *exclusionRanges = [NSArray arrayWithObjects:
-								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
-								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
-								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(2.99) length:CPDecimalFromFloat(0.02)],
-								nil];
-	x.labelExclusionRanges = exclusionRanges;
+	//NSArray *exclusionRanges = [NSArray arrayWithObjects:
+//								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
+//								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
+//								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(2.99) length:CPDecimalFromFloat(0.02)],
+//								nil];
+	//x.labelExclusionRanges = exclusionRanges;
 	
 	x.title = @"X Axis";
-	x.titleOffset = 30.0;
-	x.titleLocation = CPDecimalFromString(@"3.0");
+	x.titleOffset = 1.0;
+	x.titleLocation = CPDecimalFromString(@"1.0");
 	
 	// Label y with an automatic label policy. 
     CPXYAxis *y = axisSet.yAxis;
@@ -88,30 +88,32 @@
     y.majorGridLineStyle = majorGridLineStyle;
     y.minorGridLineStyle = minorGridLineStyle;
     y.labelOffset = 10.0;
-	exclusionRanges = [NSArray arrayWithObjects:
-					   [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
-					   [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
-					   [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(3.99) length:CPDecimalFromFloat(0.02)],
-					   nil];
-	y.labelExclusionRanges = exclusionRanges;
+	//exclusionRanges = [NSArray arrayWithObjects:
+//					   [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
+//					   [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
+//					   [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(3.99) length:CPDecimalFromFloat(0.02)],
+//					   nil];
+//	y.labelExclusionRanges = exclusionRanges;
     
 	y.title = @"Y Axis";
-	y.titleOffset = 30.0;
-	y.titleLocation = CPDecimalFromString(@"2.7");
+	y.titleOffset = 1.0;
+	y.titleLocation = CPDecimalFromString(@"1");
 	
-		
+	// Set axes
+	graph.axisSet.axes = [NSArray arrayWithObjects:x, y,nil];
+	
 	CPXYPlotSpace *barPlotSpace = [[CPXYPlotSpace alloc] init];
     barPlotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(100.0f)];
-    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(50.0f)];
+    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(5.0f)];
 	[graph addPlotSpace:barPlotSpace];
     [barPlotSpace release];
 	//
 //	// First bar plot
     CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:NO];
-    barPlot.baseValue = CPDecimalFromString(@"20");
+    barPlot.baseValue = CPDecimalFromString(@"0");
     barPlot.dataSource = controller;//controller is declared earlier, AppController implements data source protocol.
 	barPlot.barWidth=10.0f;
-    barPlot.barOffset = 0.0f;
+    barPlot.barOffset = 10.0f;
     barPlot.identifier = @"Bar Plot 1";
 	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(10.0f)];
     CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
@@ -138,4 +140,32 @@
 //    dataSourceLinePlot.dataSource = self;
 //    [graph addPlot:dataSourceLinePlot];
 }
+
+#pragma mark -
+#pragma mark View Swapping
+
+- (IBAction) displayNewView:(id)sender
+{
+	if (![[[mainApplicationWindow contentView] subviews] containsObject:newView])
+	{
+		oldWindowFrame = [mainApplicationWindow frame];
+		
+
+		
+		NSRect currentSize = [[mainApplicationWindow contentView] frame];
+		[newView setFrame:currentSize];
+		NSView *currentView = [[[mainApplicationWindow contentView] subviews] objectAtIndex:0];
+		[mainApplicationWindow setFrame:oldWindowFrame display:YES animate:YES];
+		transition=[CATransition animation];
+		[transition setType:kCATransitionMoveIn];
+		currentAnimation=[NSDictionary dictionaryWithObject:transition forKey:@"newView"];
+		//[currentView setAnimation:currentAnimation];
+		[[[mainApplicationWindow contentView] animator] replaceSubview:currentView with:newView];
+		
+	}
+	
+		
+}
+
+	
 @end

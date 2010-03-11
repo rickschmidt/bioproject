@@ -39,7 +39,8 @@
 //	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/seqShort.txt";
 	NSString *inPath=blastInput;
 	//NSString *inti=[NSString stringWithFormat:@"%d",i];
-	NSLog(@"the outpath is %@", outPath);	NSMutableArray *blastArgs=[NSMutableArray array];                                                                                                          \
+	NSLog(@"the outpath is %@", outPath);	
+	NSMutableArray *blastArgs=[NSMutableArray array];                                                                                                          \
 	[blastArgs addObject:@"-p"];                                                                                                                               \
 	[blastArgs addObject:@"blastn"];                                                                                                                           \
 	[blastArgs addObject:@"-i"];                                                                                                                               \

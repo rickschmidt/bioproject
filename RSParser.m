@@ -38,7 +38,7 @@
 	
 	NSError *err;
 	nodes=[[xmlDoc nodesForXPath:nodeDesired error:&err]retain];
-	NSLog(@"arary %@",nodes);
+	//NSLog(@"arary %@",nodes);
 	return nodes;
 		
 }
@@ -54,7 +54,7 @@
 		
 		str1=[str1	stringByAppendingFormat:@"%d]/Hit_def[",x];
 		str1=[str1 stringByAppendingFormat:@"%d]",1];
-		NSLog(@"str1 %@",str1);
+		//NSLog(@"str1 %@",str1);
 		if (![specificNodes objectForKey:[xmlDoc nodesForXPath:str1  error:&err]]) {
 			[specificNodes setObject:k forKey:[xmlDoc nodesForXPath:str1 error:&err]];
 
@@ -63,7 +63,7 @@
 			[specificNodes setObject:[NSNumber numberWithInt:[[specificNodes objectForKey:[xmlDoc nodesForXPath:str1 error:&err]] intValue]+1] forKey:[xmlDoc nodesForXPath:str1  error:&err]];
 		}
 
-		NSLog(@"key %@ value %@",[specificNodes allKeys],[specificNodes allValues]);
+		//NSLog(@"key %@ value %@",[specificNodes allKeys],[specificNodes allValues]);
 		str1=@".//Hit[";
 	}
 	return specificNodes;
