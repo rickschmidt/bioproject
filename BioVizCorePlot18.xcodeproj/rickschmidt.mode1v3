@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD353BE8114957AB00A05A2B</string>
+										<string>BD353C2811495D2E00A05A2B</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
@@ -349,8 +349,8 @@
 											<string>BD353B911149449E00A05A2B</string>
 											<string>BD353B921149449E00A05A2B</string>
 											<string>BD353BBC114948CE00A05A2B</string>
-											<string>BD353BE21149579600A05A2B</string>
-											<string>BD353BE31149579600A05A2B</string>
+											<string>BD353BF611495AB000A05A2B</string>
+											<string>BD353BF711495AB000A05A2B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -548,11 +548,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD353BE9114957AB00A05A2B</string>
+		<string>BD353C2911495D2E00A05A2B</string>
 		<string>BD353B3711493EE800A05A2B</string>
 		<string>BD353B3811493EE800A05A2B</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>

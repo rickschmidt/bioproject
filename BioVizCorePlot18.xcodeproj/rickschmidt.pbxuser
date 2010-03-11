@@ -184,6 +184,15 @@
 			BD353BE31149579600A05A2B /* PBXTextBookmark */ = BD353BE31149579600A05A2B /* PBXTextBookmark */;
 			BD353BE41149579600A05A2B /* PBXTextBookmark */ = BD353BE41149579600A05A2B /* PBXTextBookmark */;
 			BD353BE8114957AB00A05A2B /* PBXTextBookmark */ = BD353BE8114957AB00A05A2B /* PBXTextBookmark */;
+			BD353BF611495AB000A05A2B /* PBXTextBookmark */ = BD353BF611495AB000A05A2B /* PBXTextBookmark */;
+			BD353BF711495AB000A05A2B /* PBXTextBookmark */ = BD353BF711495AB000A05A2B /* PBXTextBookmark */;
+			BD353BF811495AB000A05A2B /* PBXTextBookmark */ = BD353BF811495AB000A05A2B /* PBXTextBookmark */;
+			BD353C0111495AE500A05A2B /* PBXTextBookmark */ = BD353C0111495AE500A05A2B /* PBXTextBookmark */;
+			BD353C0711495AFD00A05A2B /* PBXTextBookmark */ = BD353C0711495AFD00A05A2B /* PBXTextBookmark */;
+			BD353C0D11495B2D00A05A2B /* PBXTextBookmark */ = BD353C0D11495B2D00A05A2B /* PBXTextBookmark */;
+			BD353C1211495B5600A05A2B /* PBXTextBookmark */ = BD353C1211495B5600A05A2B /* PBXTextBookmark */;
+			BD353C1611495B9300A05A2B /* PBXTextBookmark */ = BD353C1611495B9300A05A2B /* PBXTextBookmark */;
+			BD353C2811495D2E00A05A2B /* PBXTextBookmark */ = BD353C2811495D2E00A05A2B /* PBXTextBookmark */;
 			BDA289EB1148434A0082753E = BDA289EB1148434A0082753E /* PBXTextBookmark */;
 			BDA28B6111489AB60082753E = BDA28B6111489AB60082753E /* PBXTextBookmark */;
 			BDA28B6211489AB60082753E = BDA28B6211489AB60082753E /* PBXTextBookmark */;
@@ -242,9 +251,9 @@
 	};
 	BD20CA371145660600A162D6 /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {11436, 1781}}";
-			sepNavSelRange = "{5317, 0}";
-			sepNavVisRange = "{4827, 1124}";
+			sepNavIntBoundsRect = "{{0, 0}, {5927, 2587}}";
+			sepNavSelRange = "{4993, 0}";
+			sepNavVisRange = "{4773, 668}";
 		};
 	};
 	BD20CA5811456BC600A162D6 /* RSParser.h */ = {
@@ -448,7 +457,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 140";
 		rLen = 0;
-		rLoc = 5735;
+		rLoc = 5780;
 		rType = 0;
 		vrLen = 741;
 		vrLoc = 4978;
@@ -723,7 +732,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 115";
 		rLen = 0;
-		rLoc = 4513;
+		rLoc = 4558;
 		rType = 0;
 		vrLen = 1734;
 		vrLoc = 3984;
@@ -733,7 +742,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 113";
 		rLen = 0;
-		rLoc = 4333;
+		rLoc = 4378;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 4012;
@@ -743,7 +752,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 113";
 		rLen = 0;
-		rLoc = 4329;
+		rLoc = 4374;
 		rType = 0;
 		vrLen = 1725;
 		vrLoc = 4016;
@@ -753,7 +762,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 105";
 		rLen = 0;
-		rLoc = 3940;
+		rLoc = 3985;
 		rType = 0;
 		vrLen = 1543;
 		vrLoc = 2648;
@@ -763,7 +772,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 105";
 		rLen = 0;
-		rLoc = 3940;
+		rLoc = 3985;
 		rType = 0;
 		vrLen = 1664;
 		vrLoc = 2670;
@@ -773,7 +782,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 33";
 		rLen = 0;
-		rLoc = 775;
+		rLoc = 742;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 246;
@@ -793,7 +802,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 33";
 		rLen = 0;
-		rLoc = 775;
+		rLoc = 742;
 		rType = 0;
 		vrLen = 925;
 		vrLoc = 148;
@@ -813,10 +822,100 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 33";
 		rLen = 0;
-		rLoc = 775;
+		rLoc = 742;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 482;
+	};
+	BD353BF611495AB000A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE61144A78100A0DDC6 /* CorePlotView.h */;
+		name = "CorePlotView.h: 19";
+		rLen = 0;
+		rLoc = 430;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 0;
+	};
+	BD353BF711495AB000A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 33";
+		rLen = 0;
+		rLoc = 742;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 0;
+	};
+	BD353BF811495AB000A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 33";
+		rLen = 0;
+		rLoc = 742;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 148;
+	};
+	BD353C0111495AE500A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 33";
+		rLen = 0;
+		rLoc = 742;
+		rType = 0;
+		vrLen = 890;
+		vrLoc = 174;
+	};
+	BD353C0711495AFD00A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 33";
+		rLen = 0;
+		rLoc = 742;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 175;
+	};
+	BD353C0D11495B2D00A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 34";
+		rLen = 0;
+		rLoc = 827;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 205;
+	};
+	BD353C1211495B5600A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 34";
+		rLen = 0;
+		rLoc = 796;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 226;
+	};
+	BD353C1611495B9300A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 34";
+		rLen = 0;
+		rLoc = 779;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 273;
+	};
+	BD353C2811495D2E00A05A2B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 33";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1225;
+		vrLoc = 274;
 	};
 	BDA289EB1148434A0082753E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -949,7 +1048,7 @@
 		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
 		name = "CorePlotView.m: 140";
 		rLen = 0;
-		rLoc = 5735;
+		rLoc = 5780;
 		rType = 0;
 		vrLen = 871;
 		vrLoc = 0;
@@ -1244,9 +1343,9 @@
 	};
 	BDB20BE71144A78100A0DDC6 /* CorePlotView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 2080}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 2067}}";
 			sepNavSelRange = "{775, 0}";
-			sepNavVisRange = "{482, 1269}";
+			sepNavVisRange = "{274, 1225}";
 		};
 	};
 	BDB20C841144A98300A0DDC6 /* PBXTextBookmark */ = {

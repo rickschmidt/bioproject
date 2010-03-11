@@ -30,7 +30,7 @@
 	
 	
 	// Create graph and apply a dark theme
-	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
+	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:NSRectToCGRect(hostView.bounds)]; 	//NSLog(@"height %d",hostView.bounds.size.height);
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
 	[graph applyTheme:theme];
 	hostView.hostedLayer=graph;
