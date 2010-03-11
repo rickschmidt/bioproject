@@ -102,7 +102,7 @@
 -(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot
 {
     if ( [plot isKindOfClass:[CPBarPlot class]] ) 
-        return 8;
+        return [nodes count];
     else
         return [nodes count];
 }
@@ -111,8 +111,8 @@
 {
     NSDecimalNumber *num;
     if ( [plot isKindOfClass:[CPBarPlot class]] ) {
-        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
-        if ( [plot.identifier isEqual:@"Bar Plot 2"] ) 
+        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)];
+        if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
             num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
     }
     else {

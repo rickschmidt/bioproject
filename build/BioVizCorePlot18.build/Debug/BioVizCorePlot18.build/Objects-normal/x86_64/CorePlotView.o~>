@@ -1,5 +1,0 @@
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: incomplete implementation of class 'CorePlotView'
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: method definition for '-getNodesArray' not found
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: incomplete implementation of class 'CorePlotView'
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: method definition for '-numberOfRecordsForPlot:' not found
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: class 'CorePlotView' does not fully implement the 'CPPlotDataSource' protocol

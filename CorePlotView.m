@@ -22,15 +22,25 @@
 -(void)awakeFromNib
 {
 	[super awakeFromNib];
+	
+	//Initialize controller object for this programmed view
 	AppController *controller;
 	controller=[[AppController alloc]init];
 	nodes=[controller returnNodes];
-	//NSSize *size=[NSMakeSize(50.0, 100.0)];
-//	[drawer setContentSize:size;
+	
+	
+	// Create graph and apply a dark theme
 	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 100.0f, 100.0f)];
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
 	[graph applyTheme:theme];
 	hostView.hostedLayer=graph;
+	
+	// Graph padding
+    graph.paddingLeft = 10.0;
+    graph.paddingTop = 10.0;
+    graph.paddingRight = 10.0;
+    graph.paddingBottom = 10.0;
+	
 	// Setup scatter plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
     plotSpace.allowsUserInteraction = YES;
@@ -89,30 +99,25 @@
 	y.titleOffset = 30.0;
 	y.titleLocation = CPDecimalFromString(@"2.7");
 	
-	//CPScatterPlot *dataSourceLinePlot = [[[CPScatterPlot alloc] init] autorelease];
-//    dataSourceLinePlot.identifier = @"Data Source Plot";
-//	dataSourceLinePlot.dataLineStyle.lineWidth = 3.0;
-//    dataSourceLinePlot.dataLineStyle.lineColor = [CPColor greenColor];
-//    dataSourceLinePlot.dataSource = self;
-//    [graph addPlot:dataSourceLinePlot];
-	
+		
 	CPXYPlotSpace *barPlotSpace = [[CPXYPlotSpace alloc] init];
-    barPlotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(1000.0f)];
-    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(15.0f)];
+    barPlotSpace.xRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(100.0f)];
+    barPlotSpace.yRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0f) length:CPDecimalFromFloat(100.0f)];
 	[graph addPlotSpace:barPlotSpace];
     [barPlotSpace release];
 	//
 //	// First bar plot
-    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:YES];
+    CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:NO];
     barPlot.baseValue = CPDecimalFromString(@"20");
     barPlot.dataSource = controller;//controller is declared earlier, AppController implements data source protocol.  
-    barPlot.barOffset = -0.25f;
+    barPlot.barOffset = 0.0f;
     barPlot.identifier = @"Bar Plot 1";
-	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(7.0)];
+	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(100.0f)];
     CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
     whiteTextStyle.color = [CPColor whiteColor];
     barPlot.barLabelTextStyle = whiteTextStyle;
     [graph addPlot:barPlot toPlotSpace:barPlotSpace];
+	
 
 	// Create one plot that uses bindings
 //	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] init] autorelease];
