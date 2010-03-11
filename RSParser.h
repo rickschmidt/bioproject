@@ -17,5 +17,5 @@
 }
 -(void)initXML;
 -(NSArray *)getArrayForNode:(NSString *)nodeDesired;
--(NSArray *)getSpecificNode;
+-(NSMutableDictionary *)getSpecificNode;
 @end

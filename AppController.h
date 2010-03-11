@@ -17,6 +17,7 @@
 	NSArray *nodes;
 	NSMutableArray *inputArray;
 	NSString *inputString;
+	NSMutableDictionary *specificNodes;
 	//NSArrayController *arrayController;
 }
 @property(copy,nonatomic)NSArray *nodes;

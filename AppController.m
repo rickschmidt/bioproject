@@ -25,6 +25,7 @@
 	[xmlStuff initXML];
 	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
 	inputArray=[[NSMutableArray alloc]init];
+	specificNodes=[xmlStuff getSpecificNode];
 		//NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
 	
 	return self;
@@ -109,7 +110,8 @@
 {
 	int num;
 	if ( [plot isKindOfClass:[CPBarPlot class]] ) {
-		num=[nodes count]/50;
+//		num=[nodes count]/50;
+		num=[specificNodes count];
 	
 		return num;
     }
@@ -121,10 +123,19 @@
 {
     NSDecimalNumber *num;
     if ( [plot isKindOfClass:[CPBarPlot class]] ) {
-        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
+        
+		NSArray *theValues;
+		theValues=[specificNodes allValues];
+//		int i=0;//=[theValues count];
+		//for(int x=0;x<i;x++){
+			
+			NSLog(@"keys objectat index x %@",[theValues objectAtIndex:index]);
+		num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:[theValues objectAtIndex:index]];
         if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
-            num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
-    }
+								  num; //= [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
+	
+								  
+}
     else {
         num = [[nodes objectAtIndex:index] valueForKey:(fieldEnum == CPScatterPlotFieldX ? @"x" : @"y")];
         if ( fieldEnum == CPScatterPlotFieldY ) num = [num decimalNumberByAdding:[NSDecimalNumber one]];

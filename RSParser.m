@@ -43,14 +43,13 @@
 		
 }
 
--(NSArray *)getSpecificNode
+-(NSMutableDictionary *)getSpecificNode
 {
 	NSError *err;
 	NSMutableDictionary *specificNodes=[[NSMutableDictionary alloc]init];
 	int j=1;
 	NSString *str1=@".//Hit[";
 	NSNumber *k=[NSNumber numberWithInt:j];
-	NSNumber *i=[NSNumber numberWithInt:j];
 	for(int x=1;x<5;x++){
 		
 		str1=[str1	stringByAppendingFormat:@"%d]/Hit_def[",x];
@@ -61,18 +60,13 @@
 
 		}
 		else if ([specificNodes objectForKey:[xmlDoc nodesForXPath:str1  error:&err]])   {
-//			[NSNumber numberWithInt:[i intValue]+1];
 			[specificNodes setObject:[NSNumber numberWithInt:[[specificNodes objectForKey:[xmlDoc nodesForXPath:str1 error:&err]] intValue]+1] forKey:[xmlDoc nodesForXPath:str1  error:&err]];
-			//NSLog(@"here %@",[specificNodes valueForKey:[xmlDoc nodesForXPath:str1]intValue]+1);
-
 		}
 
-		NSLog(@"keyHERE %@",[specificNodes objectForKey:[xmlDoc nodesForXPath:str1 error:&err]]);
-	
 		NSLog(@"key %@ value %@",[specificNodes allKeys],[specificNodes allValues]);
 		str1=@".//Hit[";
 	}
-	return nil;
+	return specificNodes;
 }
 
 
