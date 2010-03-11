@@ -119,7 +119,7 @@
     barPlot.barLabelTextStyle = whiteTextStyle;
     [graph addPlot:barPlot toPlotSpace:barPlotSpace];
 	
-
+	
 	// Create one plot that uses bindings
 //	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] init] autorelease];
 //    boundLinePlot.identifier = @"Bindings Plot";

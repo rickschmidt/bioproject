@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CorePlotView.m</string>
+								<string>CorePlotView.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CorePlotView.m</string>
+										<string>CorePlotView.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD353C2811495D2E00A05A2B</string>
+										<string>BD353CA01149744200A05A2B</string>
 										<key>history</key>
 										<array>
 											<string>BDB20C841144A98300A0DDC6</string>
@@ -344,13 +344,13 @@
 											<string>BDA28B6911489AB60082753E</string>
 											<string>BDA28B7311489B2A0082753E</string>
 											<string>BDA28B8811489BDB0082753E</string>
-											<string>BD353B47114940F700A05A2B</string>
 											<string>BD353B901149449E00A05A2B</string>
-											<string>BD353B911149449E00A05A2B</string>
-											<string>BD353B921149449E00A05A2B</string>
-											<string>BD353BBC114948CE00A05A2B</string>
-											<string>BD353BF611495AB000A05A2B</string>
-											<string>BD353BF711495AB000A05A2B</string>
+											<string>BD353C3611495FFA00A05A2B</string>
+											<string>BD353C3711495FFA00A05A2B</string>
+											<string>BD353C561149622C00A05A2B</string>
+											<string>BD353C981149742A00A05A2B</string>
+											<string>BD353C991149742A00A05A2B</string>
+											<string>BD353C9A1149742A00A05A2B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -548,11 +548,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD353C2911495D2E00A05A2B</string>
+		<string>BD353CA11149744200A05A2B</string>
 		<string>BD353B3711493EE800A05A2B</string>
 		<string>BD353B3811493EE800A05A2B</string>
-		<string>BDB20BC61144A70F00A0DDC6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>BDB20BC61144A70F00A0DDC6</string>
 		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
@@ -578,7 +578,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CorePlotView.m</string>
+								<string>AppController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -773,7 +773,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -897,7 +897,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {701, 206}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1095 741 701 247 0 0 1920 1058 </string>
+								<string>1274 771 701 247 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -926,7 +926,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>1095 741 701 247 0 0 1920 1058 </string>
+			<string>1274 771 701 247 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

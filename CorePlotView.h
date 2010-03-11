@@ -19,7 +19,7 @@
     CGFloat labelRotation;
 	IBOutlet NSDrawer *drawer;
 	NSArray *nodes;
-	
+//	IBOutlet NSWindow *mainApplicationWindow;
 }
 @property CGFloat xShift;
 @property CGFloat yShift;

@@ -131,6 +131,8 @@
 			
 			NSLog(@"keys objectat index x %@",[theValues objectAtIndex:index]);
 		num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:[theValues objectAtIndex:index]];
+//		num=(NSDecimalNumber *)[CPDecimalFromUnsignedInteger:];
+//		NSDecimalNumber *num=[[NSNumber numberWithUnsignedInt:index]decimalValue];
         if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
 								  num; //= [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
 	
