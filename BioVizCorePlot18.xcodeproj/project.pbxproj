@@ -17,7 +17,10 @@
 		BD20CA381145660600A162D6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20CA371145660600A162D6 /* AppController.m */; };
 		BD20CA5A11456BC600A162D6 /* RSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20CA5911456BC600A162D6 /* RSParser.m */; };
 		BDA28A6D114853570082753E /* Bioinforicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28A6C114853570082753E /* Bioinforicon.icns */; };
-		BDA28A8E114856850082753E /* TEMP-Image_1_22.tif.tiff in Resources */ = {isa = PBXBuildFile; fileRef = BDA28A8D114856850082753E /* TEMP-Image_1_22.tif.tiff */; };
+		BDA28AD611487A870082753E /* blast.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28AD511487A870082753E /* blast.icns */; };
+		BDA28B2A11488E9E0082753E /* RSXMLToOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA28B2911488E9E0082753E /* RSXMLToOutline.m */; };
+		BDA28B4811489A0D0082753E /* blasticoncompressed.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28B4711489A0D0082753E /* blasticoncompressed.icns */; };
+		BDA28B7B11489B5D0082753E /* blasticon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28B7A11489B5D0082753E /* blasticon.icns */; };
 		BDB20BDB1144A75100A0DDC6 /* CorePlot.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDB20BD41144A71900A0DDC6 /* CorePlot.framework */; };
 		BDB20BDC1144A75300A0DDC6 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB20BD41144A71900A0DDC6 /* CorePlot.framework */; };
 		BDB20BDE1144A76300A0DDC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */; };
@@ -82,7 +85,11 @@
 		BD20CA5811456BC600A162D6 /* RSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSParser.h; sourceTree = "<group>"; };
 		BD20CA5911456BC600A162D6 /* RSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSParser.m; sourceTree = "<group>"; };
 		BDA28A6C114853570082753E /* Bioinforicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Bioinforicon.icns; sourceTree = "<group>"; };
-		BDA28A8D114856850082753E /* TEMP-Image_1_22.tif.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "TEMP-Image_1_22.tif.tiff"; sourceTree = "<group>"; };
+		BDA28AD511487A870082753E /* blast.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = blast.icns; sourceTree = "<group>"; };
+		BDA28B2811488E9E0082753E /* RSXMLToOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSXMLToOutline.h; sourceTree = "<group>"; };
+		BDA28B2911488E9E0082753E /* RSXMLToOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSXMLToOutline.m; sourceTree = "<group>"; };
+		BDA28B4711489A0D0082753E /* blasticoncompressed.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = blasticoncompressed.icns; sourceTree = "<group>"; };
+		BDA28B7A11489B5D0082753E /* blasticon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = blasticon.icns; sourceTree = "<group>"; };
 		BDB20BCA1144A71900A0DDC6 /* CorePlot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CorePlot.xcodeproj; path = ../../framework/CorePlot.xcodeproj; sourceTree = SOURCE_ROOT; };
 		BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		BDB20BE61144A78100A0DDC6 /* CorePlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePlotView.h; sourceTree = "<group>"; };
@@ -106,6 +113,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BDA28B2811488E9E0082753E /* RSXMLToOutline.h */,
+				BDA28B2911488E9E0082753E /* RSXMLToOutline.m */,
 				BDB20BE61144A78100A0DDC6 /* CorePlotView.h */,
 				BDB20BE71144A78100A0DDC6 /* CorePlotView.m */,
 				BD20CA361145660600A162D6 /* AppController.h */,
@@ -172,7 +181,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BDA28A8D114856850082753E /* TEMP-Image_1_22.tif.tiff */,
+				BDA28B7A11489B5D0082753E /* blasticon.icns */,
+				BDA28B4711489A0D0082753E /* blasticoncompressed.icns */,
+				BDA28AD511487A870082753E /* blast.icns */,
 				BDA28A6C114853570082753E /* Bioinforicon.icns */,
 				BD20CA221145655700A162D6 /* blastcl3 */,
 				8D1107310486CEB800E47090 /* BioVizCorePlot18-Info.plist */,
@@ -272,7 +283,9 @@
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				BD20CA231145655700A162D6 /* blastcl3 in Resources */,
 				BDA28A6D114853570082753E /* Bioinforicon.icns in Resources */,
-				BDA28A8E114856850082753E /* TEMP-Image_1_22.tif.tiff in Resources */,
+				BDA28AD611487A870082753E /* blast.icns in Resources */,
+				BDA28B4811489A0D0082753E /* blasticoncompressed.icns in Resources */,
+				BDA28B7B11489B5D0082753E /* blasticon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +302,7 @@
 				BD20CA211145651800A162D6 /* Blast.m in Sources */,
 				BD20CA381145660600A162D6 /* AppController.m in Sources */,
 				BD20CA5A11456BC600A162D6 /* RSParser.m in Sources */,
+				BDA28B2A11488E9E0082753E /* RSXMLToOutline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,15 +44,16 @@
 {
 	RSParser *xmlStuff;
 	xmlStuff=[[RSParser alloc]init];
-	[xmlStuff initXML];
-	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
-	NSLog(@"input array %@",[inputArray objectAtIndex:0]);
-	NSLog(@"input array22 %@",[inputArray objectAtIndex:1]);
-	NSString *string1=[[inputArray objectAtIndex:0] description];
-	NSString *string2=[[inputArray objectAtIndex:1]description];
-	NSLog(@"string1 %d", string1);
-	NSLog(@"string2 %@", string2);
-	NSLog(@"inputArray %@",inputArray);
+	//[xmlStuff initXML];
+//	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
+//	NSLog(@"input array %@",[inputArray objectAtIndex:0]);
+//	NSLog(@"input array22 %@",[inputArray objectAtIndex:1]);
+//	NSString *string1=[[inputArray objectAtIndex:0] description];
+//	NSString *string2=[[inputArray objectAtIndex:1]description];
+//	NSLog(@"string1 %d", string1);
+//	NSLog(@"string2 %@", string2);
+//	NSLog(@"inputArray %@",inputArray);
+	[xmlStuff getSpecificNode];
 	
 
 	
@@ -97,13 +98,22 @@
 	return nodes;
 }
 #pragma mark -
+#pragma mark Arrays from XML 
+//-(NSArray *)
+
+
+#pragma mark -
 #pragma mark Plot Data Source Methods
 
 -(NSUInteger)numberOfRecordsForPlot:(CPPlot *)plot
 {
-    if ( [plot isKindOfClass:[CPBarPlot class]] ) 
-        return [nodes count];
-    else
+	int num;
+	if ( [plot isKindOfClass:[CPBarPlot class]] ) {
+		num=[nodes count]/50;
+	
+		return num;
+    }
+		else
         return [nodes count];
 }
 
@@ -111,7 +121,7 @@
 {
     NSDecimalNumber *num;
     if ( [plot isKindOfClass:[CPBarPlot class]] ) {
-        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)];
+        num = (NSDecimalNumber *)[NSDecimalNumber numberWithInt:(index+1)*(index+1)];
         if ( [plot.identifier isEqual:@"Bar Plot 1"] ) 
             num = [num decimalNumberBySubtracting:[NSDecimalNumber decimalNumberWithString:@"10"]];
     }
