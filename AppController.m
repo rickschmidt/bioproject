@@ -15,6 +15,8 @@
 @synthesize nodes;
 //@synthesize inputArray;
 @synthesize inputString;
+@synthesize inputText;
+
 -(id)init
 {
 	self=[super init];
@@ -161,5 +163,35 @@
         return (id)[NSNull null];
     else
 		return nil; // Use default label style
+}
+
+-(IBAction)addNewInputFile:(id)sender
+{
+	[inputArrayMenu addObject:[inputTextField stringValue]];
+}
+
+- (IBAction) displayInputView:(id)sender
+{
+	if (![[[mainApplicationWindow contentView] subviews] containsObject:inputMenuView])
+	{
+		[mainApplicationWindow setContentView:inputMenuView];
+		//oldWindowFrame = [mainApplicationWindow frame];
+//		
+//		
+//		
+//		NSRect currentSize = [[mainApplicationWindow contentView] frame];
+//		[inputMenuView setFrame:currentSize];
+		//NSView *currentView = [mainApplicationWindow contentView];// subviews] object:CPLayerHostingView];
+		//[mainApplicationWindow setFrame:oldWindowFrame display:YES animate:YES];
+		//transition=[CATransition animation];
+		//CATransition *transition;
+		//[transition setType:kCATransitionMoveIn];
+		//currentAnimation=[NSDictionary dictionaryWithObject:transition forKey:@"newView"];
+		//[currentView setAnimation:currentAnimation];
+		//[[mainApplicationWindow contentView] replaceSubview:[mainApplicationWindow contentView] with: inputMenuView];
+		
+	}
+	
+	
 }
 @end

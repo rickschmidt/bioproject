@@ -24,6 +24,7 @@
 	IBOutlet NSWindow *mainApplicationWindow;
 	IBOutlet NSColorPanel *colorPanel;
 	
+	
 	NSRect							oldWindowFrame;
 	CATransition					*transition;
 	NSDictionary					*currentAnimation;

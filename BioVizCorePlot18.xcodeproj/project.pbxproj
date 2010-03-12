@@ -25,6 +25,7 @@
 		BDB20BDC1144A75300A0DDC6 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB20BD41144A71900A0DDC6 /* CorePlot.framework */; };
 		BDB20BDE1144A76300A0DDC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */; };
 		BDB20BE81144A78100A0DDC6 /* CorePlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */; };
+		BDC9B56E114AECAA007DC451 /* RSInputMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9B56D114AECAA007DC451 /* RSInputMenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		BDB20BE61144A78100A0DDC6 /* CorePlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePlotView.h; sourceTree = "<group>"; };
 		BDB20BE71144A78100A0DDC6 /* CorePlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePlotView.m; sourceTree = "<group>"; };
+		BDC9B56C114AECAA007DC451 /* RSInputMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSInputMenuView.h; sourceTree = "<group>"; };
+		BDC9B56D114AECAA007DC451 /* RSInputMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSInputMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				256AC3D90F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.m */,
 				BD20CA5811456BC600A162D6 /* RSParser.h */,
 				BD20CA5911456BC600A162D6 /* RSParser.m */,
+				BDC9B56C114AECAA007DC451 /* RSInputMenuView.h */,
+				BDC9B56D114AECAA007DC451 /* RSInputMenuView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -303,6 +308,7 @@
 				BD20CA381145660600A162D6 /* AppController.m in Sources */,
 				BD20CA5A11456BC600A162D6 /* RSParser.m in Sources */,
 				BDA28B2A11488E9E0082753E /* RSXMLToOutline.m in Sources */,
+				BDC9B56E114AECAA007DC451 /* RSInputMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
