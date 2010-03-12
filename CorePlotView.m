@@ -48,16 +48,18 @@
     
     // Grid line styles
     CPLineStyle *majorGridLineStyle = [CPLineStyle lineStyle];
-    majorGridLineStyle.lineWidth = 0.75;
-    majorGridLineStyle.lineColor = [[CPColor colorWithGenericGray:0.2] colorWithAlphaComponent:0.75];
+    majorGridLineStyle.lineWidth = 1.0f;
+    majorGridLineStyle.lineColor = [[CPColor colorWithGenericGray:0.8] colorWithAlphaComponent:1];
     
     CPLineStyle *minorGridLineStyle = [CPLineStyle lineStyle];
-    minorGridLineStyle.lineWidth = 0.25;
-    minorGridLineStyle.lineColor = [[CPColor whiteColor] colorWithAlphaComponent:0.1];    
+    minorGridLineStyle.lineWidth = 10.0f;
+    minorGridLineStyle.lineColor = [[CPColor whiteColor] colorWithAlphaComponent:1];    
     
     CPLineStyle *redLineStyle = [CPLineStyle lineStyle];
     redLineStyle.lineWidth = 10.0;
     redLineStyle.lineColor = [[CPColor redColor] colorWithAlphaComponent:0.5];
+	
+	
 	
     // Axes
     // Label x axis with a fixed interval policy
@@ -98,6 +100,8 @@
 	y.title = @"Y Axis";
 	y.titleOffset = 1.0;
 	y.titleLocation = CPDecimalFromString(@"1");
+	
+	
 	
 	// Set axes
 	graph.axisSet.axes = [NSArray arrayWithObjects:x, y,nil];
