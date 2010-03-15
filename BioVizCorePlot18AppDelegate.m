@@ -11,9 +11,17 @@
 @implementation BioVizCorePlot18AppDelegate
 
 @synthesize window;
+@synthesize graphWindow;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application 
+	// Insert code here to initialize your application
+	NSLog(@"APPDelegate//LAUNCHED");
+}
+
+- (void)windowShouldClose:(NSWindow *)sender                              // 1
+{
+	[graphWindow setReleasedWhenClosed:NO];
+	
 }
 
 @end

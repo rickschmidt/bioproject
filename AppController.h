@@ -27,8 +27,9 @@
 	NSMutableArray *inputArrayMenu;
 	NSString *inputText;
 	NSRect oldWindowFrame;
-
-	
+	IBOutlet NSView *viewFromCorePlot;
+	IBOutlet NSView *deleteView;
+	IBOutlet NSWindow *graphWindow;
 }
 @property(copy,nonatomic)NSArray *nodes;
 //@property(copy,nonatomic)NSMutableArray *inputArray;
@@ -41,6 +42,7 @@
 -(IBAction)addButton:(id)sender;
 -(IBAction)addNewInputFile:(id)sender;
 - (IBAction) displayInputView:(id)sender;
+-(IBAction)displayCorePlot:(id)sender;
 -(NSArray *)csvSplit;
 -(NSArray *)returnNodes;
 

@@ -194,4 +194,9 @@
 	
 	
 }
+-(IBAction)displayCorePlot:(id)sender
+{
+	[graphWindow display];
+
+}
 @end
