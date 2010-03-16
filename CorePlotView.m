@@ -19,7 +19,7 @@
 {
     [NSValueTransformer setValueTransformer:[[CPDecimalNumberValueTransformer new] autorelease] forName:@"CPDecimalNumberValueTransformer"];
 }
--(void)awakeFromNib
+-(void)awakeFromNib 
 {
 	[super awakeFromNib];
 	NSLog(@"HEREHERE %@ //CorePlotViewer/awakeFromNib",[[mainApplicationWindow contentView]subviews]);
@@ -148,28 +148,28 @@
 #pragma mark -
 #pragma mark View Swapping
 
-- (IBAction) displayNewView:(id)sender
-{
-	if (![[[mainApplicationWindow contentView] subviews] containsObject:newView])
-	{
-		oldWindowFrame = [mainApplicationWindow frame];
-		
-
-		
-		NSRect currentSize = [[mainApplicationWindow contentView] frame];
-		[newView setFrame:currentSize];
-		NSView *currentView = [[[mainApplicationWindow contentView] subviews] objectAtIndex:0];
-		[mainApplicationWindow setFrame:oldWindowFrame display:YES animate:YES];
-		transition=[CATransition animation];
-		[transition setType:kCATransitionMoveIn];
-		currentAnimation=[NSDictionary dictionaryWithObject:transition forKey:@"newView"];
-		//[currentView setAnimation:currentAnimation];
-		[[[mainApplicationWindow contentView] animator] replaceSubview:currentView with:newView];
-		
-	}
-	
-		
-}
+//- (IBAction) displayNewView:(id)sender
+//{
+//	if (![[[mainApplicationWindow contentView] subviews] containsObject:newView])
+//	{
+//		oldWindowFrame = [mainApplicationWindow frame];
+//		
+//
+//		
+//		NSRect currentSize = [[mainApplicationWindow contentView] frame];
+//		[newView setFrame:currentSize];
+//		NSView *currentView = [[[mainApplicationWindow contentView] subviews] objectAtIndex:0];
+//		[mainApplicationWindow setFrame:oldWindowFrame display:YES animate:YES];
+//		transition=[CATransition animation];
+//		[transition setType:kCATransitionMoveIn];
+//		currentAnimation=[NSDictionary dictionaryWithObject:transition forKey:@"newView"];
+//		//[currentView setAnimation:currentAnimation];
+//		[[[mainApplicationWindow contentView] animator] replaceSubview:currentView with:newView];
+//		
+//	}
+//	
+//		
+//}
 
 	
 @end

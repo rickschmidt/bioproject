@@ -35,6 +35,7 @@
 //@property(copy,nonatomic)NSMutableArray *inputArray;
 @property(readwrite,copy)NSString *inputString;
 @property(readwrite,copy)NSString *inputText;
+//@property(readwrite,copy)BOOL *inputArrayHasMoreThanOne;
 
 -(void)awakeFromNib;
 -(IBAction)blastWithBlastcl3:(id)sender;
@@ -45,5 +46,6 @@
 -(IBAction)displayCorePlot:(id)sender;
 -(NSArray *)csvSplit;
 -(NSArray *)returnNodes;
+-(IBAction)logInputArrayContenets:(id)sender;
 
 @end
