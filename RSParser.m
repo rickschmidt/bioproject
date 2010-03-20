@@ -50,7 +50,7 @@
 	int j=1;
 	NSString *str1=@".//Hit[";
 	NSNumber *k=[NSNumber numberWithInt:j];
-	for(int x=1;x<5;x++){
+	for(int x=1;x<50;x++){
 		
 		str1=[str1	stringByAppendingFormat:@"%d]/Hit_def[",x];
 		str1=[str1 stringByAppendingFormat:@"%d]",1];

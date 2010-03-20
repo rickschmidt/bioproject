@@ -34,6 +34,7 @@
 @property CGFloat labelRotation;
 
 -(NSArray *)getNodesArray;
-- (IBAction) displayNewView:(id)sender;
-- (void) setAnimationsTypes;
+-(IBAction) displayNewView:(id)sender;
+-(void) setAnimationsTypes;
+-(void)addFristGraph;
 @end

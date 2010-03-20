@@ -11,8 +11,10 @@
 #import "Blast.h"
 #import "RSParser.h"
 #import "RSInputMenuView.h"
+//#import "CorePlotView.h"
+#import <QuartzCore/CAAnimation.h>
 
-@interface AppController : NSObject <CPPlotDataSource> {
+@interface AppController : NSObject <CPPlotDataSource, CPPlotSpaceDelegate> {
 	
 	IBOutlet NSTextField *csvInputTextBox;
 	IBOutlet NSButton *addTextField;
@@ -26,10 +28,30 @@
 	//NSArrayController *arrayController;
 	NSMutableArray *inputArrayMenu;
 	NSString *inputText;
-	NSRect oldWindowFrame;
+	//NSRect oldWindowFrame;
 	IBOutlet NSView *viewFromCorePlot;
 	IBOutlet NSView *deleteView;
 	IBOutlet NSWindow *graphWindow;
+	
+	//From CorePlotView
+	
+	IBOutlet CPLayerHostingView *hostView;
+	CPXYGraph *graph;
+	CGFloat xShift;
+    CGFloat yShift;
+    CGFloat labelRotation;
+	IBOutlet NSDrawer *drawer;
+	//NSArray *nodes;
+	IBOutlet NSView *newView;
+	//IBOutlet NSWindow *mainApplicationWindow;
+	IBOutlet NSColorPanel *colorPanel;
+	
+	
+	NSRect							oldWindowFrame;
+	CATransition					*transition;
+	NSDictionary					*currentAnimation;
+	
+	//end from CorePlotView
 }
 @property(copy,nonatomic)NSArray *nodes;
 //@property(copy,nonatomic)NSMutableArray *inputArray;
@@ -37,15 +59,32 @@
 @property(readwrite,copy)NSString *inputText;
 //@property(readwrite,copy)BOOL *inputArrayHasMoreThanOne;
 
+//From CorePlotView
+@property CGFloat xShift;
+@property CGFloat yShift;
+@property CGFloat labelRotation;
+//end from coreplotview
+
+
+
 -(void)awakeFromNib;
 -(IBAction)blastWithBlastcl3:(id)sender;
 -(IBAction)xmlStuff:(id)sender;
 -(IBAction)addButton:(id)sender;
 -(IBAction)addNewInputFile:(id)sender;
-- (IBAction) displayInputView:(id)sender;
+-(IBAction) displayInputView:(id)sender;
 -(IBAction)displayCorePlot:(id)sender;
 -(NSArray *)csvSplit;
 -(NSArray *)returnNodes;
 -(IBAction)logInputArrayContenets:(id)sender;
+-(void)goGraph;
+//From CorePlotView
+-(NSArray *)getNodesArray;
+-(IBAction) displayNewView:(id)sender;
+-(void) setAnimationsTypes;
+-(void)addFristGraph;
+//end from coreplotview
 
+-(IBAction)exportToPDF:(id)sender;
+-(IBAction)exportToPNG:(id)sender;
 @end

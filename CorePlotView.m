@@ -124,7 +124,8 @@
     whiteTextStyle.color = [CPColor whiteColor];
     barPlot.barLabelTextStyle = whiteTextStyle;
     [graph addPlot:barPlot toPlotSpace:barPlotSpace];
-	
+}
+
 	
 	// Create one plot that uses bindings
 //	CPScatterPlot *boundLinePlot = [[[CPScatterPlot alloc] init] autorelease];
@@ -143,7 +144,7 @@
 //    dataSourceLinePlot.dataLineStyle.lineColor = [CPColor greenColor];
 //    dataSourceLinePlot.dataSource = self;
 //    [graph addPlot:dataSourceLinePlot];
-}
+
 
 #pragma mark -
 #pragma mark View Swapping
