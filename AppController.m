@@ -56,10 +56,10 @@
 //	AppController *controller;
 //	controller=[[AppController alloc]init];
 	nodes=[self returnNodes];
-	
+	NSRect bounds=[[mainApplicationWindow contentView] bounds];
 	
 	// Create graph and apply a dark theme
-	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 10.0f, 10.0f) xScaleType:1 yScaleType:1];//initWithFrame:NSRectToCGRect(hostView.bounds)]; 	//NSLog(@"height %d",hostView.bounds.size.height);
+	graph = [(CPXYGraph *)[CPXYGraph alloc] initWithFrame:bounds xScaleType:1 yScaleType:1];//initWithFrame:NSRectToCGRect(hostView.bounds)]; 	//NSLog(@"height %d",hostView.bounds.size.height);
 	CPTheme *theme = [CPTheme themeNamed:kCPDarkGradientTheme];
 	[graph applyTheme:theme];
 	hostView.hostedLayer=graph;
@@ -72,17 +72,22 @@
 	
 	// Setup scatter plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
-    plotSpace.allowsUserInteraction = YES;
+	plotSpace.xRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0) length:CPDecimalFromFloat(100.0)];
+	plotSpace.yRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0) length:CPDecimalFromFloat(5.0)];
+	plotSpace.allowsUserInteraction = YES;
     plotSpace.delegate = self;
     
     // Grid line styles
+	CPLineStyle *axisLineStyle = [CPLineStyle lineStyle];
+    axisLineStyle.lineWidth = 3.0;
+	
     CPLineStyle *majorGridLineStyle = [CPLineStyle lineStyle];
-    majorGridLineStyle.lineWidth = 1.0f;
-    majorGridLineStyle.lineColor = [[CPColor colorWithGenericGray:0.8] colorWithAlphaComponent:1];
+    majorGridLineStyle.lineWidth = 3.0f;
+    majorGridLineStyle.lineColor = [[CPColor grayColor] colorWithAlphaComponent:0.9 ];
     
     CPLineStyle *minorGridLineStyle = [CPLineStyle lineStyle];
-    minorGridLineStyle.lineWidth = 10.0f;
-    minorGridLineStyle.lineColor = [[CPColor whiteColor] colorWithAlphaComponent:1];    
+    minorGridLineStyle.lineWidth = 0.5f;
+    minorGridLineStyle.lineColor = [[CPColor whiteColor] colorWithAlphaComponent:0.7];    
     
     CPLineStyle *redLineStyle = [CPLineStyle lineStyle];
     redLineStyle.lineWidth = 10.0;
@@ -94,28 +99,27 @@
     // Label x axis with a fixed interval policy
 	CPXYAxisSet *axisSet = (CPXYAxisSet *)graph.axisSet;
     CPXYAxis *x = axisSet.xAxis;
-    x.majorIntervalLength = CPDecimalFromString(@"1");
-    x.orthogonalCoordinateDecimal = CPDecimalFromString(@"2");
+	x.labelingPolicy = CPAxisLabelingPolicyAutomatic;
+    x.majorIntervalLength = CPDecimalFromString(@"0.5");
     x.minorTicksPerInterval = 0;
+	x.tickDirection = CPSignNone;
+	x.axisLineStyle = axisLineStyle;
+	x.majorTickLength = 10.0;
+	x.majorTickLineStyle = axisLineStyle;
     x.majorGridLineStyle = majorGridLineStyle;
+	x.minorTickLength = 6.0;
     x.minorGridLineStyle = minorGridLineStyle;
-	//NSArray *exclusionRanges = [NSArray arrayWithObjects:
-	//								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(1.99) length:CPDecimalFromFloat(0.02)], 
-	//								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.99) length:CPDecimalFromFloat(0.02)],
-	//								[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(2.99) length:CPDecimalFromFloat(0.02)],
-	//								nil];
-	//x.labelExclusionRanges = exclusionRanges;
-	
 	x.title = @"X Axis";
-	x.titleOffset = 1.0;
-	x.titleLocation = CPDecimalFromString(@"1.0");
+//	x.titleTextStyle = axisTitleTextStyle;
+	x.titleOffset = 25.0f;
+	
 	
 	// Label y with an automatic label policy. 
     CPXYAxis *y = axisSet.yAxis;
     y.labelingPolicy = CPAxisLabelingPolicyAutomatic;
     y.orthogonalCoordinateDecimal = CPDecimalFromString(@"2");
-    y.minorTicksPerInterval = 2;
-    y.preferredNumberOfMajorTicks = 8;
+    y.minorTicksPerInterval = 0;
+    y.preferredNumberOfMajorTicks = 5;
     y.majorGridLineStyle = majorGridLineStyle;
     y.minorGridLineStyle = minorGridLineStyle;
     y.labelOffset = 10.0;
@@ -152,7 +156,7 @@
     CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
     whiteTextStyle.color = [CPColor whiteColor];
     barPlot.barLabelTextStyle = whiteTextStyle;
-    [graph addPlot:barPlot toPlotSpace:barPlotSpace];
+    [graph addPlot:barPlot toPlotSpace:plotSpace]; //changed to plotSpace set above from barPlotSpace set around here this makes the bars drag with the grid lines
 	
 }
 
