@@ -18,6 +18,8 @@
 		BD20CA5A11456BC600A162D6 /* RSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20CA5911456BC600A162D6 /* RSParser.m */; };
 		BD4052FA114E7CD5003E4741 /* untitled.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4052F9114E7CD5003E4741 /* untitled.m */; };
 		BD405341114EE074003E4741 /* bar_graph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD405340114EE074003E4741 /* bar_graph.jpg */; };
+		BD5877B01156F35600BCAD16 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5877AF1156F35600BCAD16 /* CorePlot.framework */; };
+		BD5877B91156F3A900BCAD16 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5877B81156F3A900BCAD16 /* CorePlot.framework */; };
 		BDA28A6D114853570082753E /* Bioinforicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28A6C114853570082753E /* Bioinforicon.icns */; };
 		BDA28AD611487A870082753E /* blast.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28AD511487A870082753E /* blast.icns */; };
 		BDA28B2A11488E9E0082753E /* RSXMLToOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA28B2911488E9E0082753E /* RSXMLToOutline.m */; };
@@ -90,6 +92,8 @@
 		BD4052F8114E7CD5003E4741 /* untitled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = untitled.h; sourceTree = "<group>"; };
 		BD4052F9114E7CD5003E4741 /* untitled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = untitled.m; sourceTree = "<group>"; };
 		BD405340114EE074003E4741 /* bar_graph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_graph.jpg; sourceTree = "<group>"; };
+		BD5877AF1156F35600BCAD16 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "/Users/rickschmidt/git/coreplot/core-plot/framework/build/Debug/CorePlot.framework"; sourceTree = "<absolute>"; };
+		BD5877B81156F3A900BCAD16 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "/Users/rickschmidt/git/coreplot/core-plot/framework/build/Release/CorePlot.framework"; sourceTree = "<absolute>"; };
 		BDA28A6C114853570082753E /* Bioinforicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Bioinforicon.icns; sourceTree = "<group>"; };
 		BDA28AD511487A870082753E /* blast.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = blast.icns; sourceTree = "<group>"; };
 		BDA28B2811488E9E0082753E /* RSXMLToOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSXMLToOutline.h; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				BDB20BDC1144A75300A0DDC6 /* CorePlot.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				BDB20BDE1144A76300A0DDC6 /* QuartzCore.framework in Frameworks */,
+				BD5877B01156F35600BCAD16 /* CorePlot.framework in Frameworks */,
+				BD5877B91156F3A900BCAD16 /* CorePlot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +152,8 @@
 			children = (
 				BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				BD5877AF1156F35600BCAD16 /* CorePlot.framework */,
+				BD5877B81156F3A900BCAD16 /* CorePlot.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -360,6 +368,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../framework/build/Debug\"/**",
+					"\"$(SRCROOT)/../../framework/build/Debug\"",
+					"\"$(SRCROOT)/../../framework/build/Release\"/**",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -380,6 +390,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../framework/build/Debug\"",
+					"\"$(SRCROOT)/../../framework/build/Release\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = BioVizCorePlot18_Prefix.pch;

@@ -18,11 +18,13 @@
 	NSXMLDocument *xmlDoc;
 	
 }
+
+-(NSString *)pathForBlastOutput;
 -(void)blast:(int)k:(NSString *)blastInput;
 -(void)blastMany:(NSArray *)seqArray;
 
 
 -(bool)taskRunning;
-- (id)delegate; 
-- (void)setDelegate:(id)finishedBlasting1;
+//- (id)delegate; 
+//- (void)setDelegate:(id)finishedBlasting1;
 @end

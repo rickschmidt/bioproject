@@ -13,6 +13,21 @@
 @implementation Blast
 
 
+-(NSString *)pathForBlastOutput
+{
+	NSError **err;
+	NSFileManager *fileManager=[[NSFileManager alloc]init];
+	NSString *folder=@"~/Library/Application Support/BioProject";
+	folder=[folder stringByExpandingTildeInPath];
+	
+	if([fileManager fileExistsAtPath:folder]==NO)
+	{
+		[fileManager createDirectoryAtPath:folder withIntermediateDirectories:YES attributes:nil error:err];
+		
+	}
+	NSString *fileName=@"BLAST_results_";
+	return [folder stringByAppendingPathComponent:fileName];
+}
 -(void)blast:(int)k:(NSString *)blastInput
 {
 
@@ -31,8 +46,10 @@
 	
 	//NSLog(@"filename is %@", fileName);
 	NSString *numberString=[NSString stringWithFormat:@"%d",k];
-	NSString *outPath1=@"/Users/rickschmidt/BioViz/BlastResults/out";
-	NSString *outPath2=[outPath1 stringByAppendingString:numberString];;
+	//NSString *outPath1=@"/Users/rickschmidt/BioViz/BlastResults/out";
+	
+	
+	NSString *outPath2=[[self pathForBlastOutput] stringByAppendingString:numberString];;
 	NSString *outPath=[outPath2 stringByAppendingString:@".xml"];
 	
 	//NSString *inPath=@"/Users/rickschmidt/Desktop/seqShort.txt"; 
@@ -86,9 +103,11 @@
 
 	int j=[seqArray count];
 	for(int i=0; i<j;i++){
-		
-	
-		[self blast:i:[seqArray objectAtIndex:i]];
+		NSArray *array1=[seqArray valueForKey:@"inputText"];
+		NSString *str=[array1 objectAtIndex:i];
+		NSLog(@"BLAST//blastMany/object at index i %@",str);
+
+		[self blast:i:str];
 	}
 
 }
@@ -105,9 +124,6 @@
 	NSLog(@"outPath @%", outPath);
 	return outPath;
 }
--(void)setDelegate:(id)finishedBlasting1
-{
-	finishedBlasting=0;
-}
+
 
 @end

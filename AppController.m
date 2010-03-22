@@ -13,7 +13,7 @@
 
 
 @synthesize nodes;
-//@synthesize inputArray;
+@synthesize inputArray;
 @synthesize inputString;
 @synthesize inputText;
 //@synthesize inputArrayHasMoreThanOne;
@@ -84,7 +84,8 @@
     
     // Grid line styles
 	CPLineStyle *axisLineStyle = [CPLineStyle lineStyle];
-    axisLineStyle.lineWidth = 3.0;
+    axisLineStyle.lineWidth = 10.0;
+	axisLineStyle.lineColor=[CPColor blackColor];
 	
     CPLineStyle *majorGridLineStyle = [CPLineStyle lineStyle];
     majorGridLineStyle.lineWidth = 3.0f;
@@ -154,10 +155,10 @@
     CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:NO];
     barPlot.baseValue = CPDecimalFromString(@"0");
     barPlot.dataSource = self;
-	barPlot.barWidth=20.0f;
+	barPlot.barWidth=10.0f;
 //    barPlot.barOffset = 1.0f;
     barPlot.identifier = @"Bar Plot 1";
-	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(10.0f)];
+	barPlot.plotRange = plotSpace.xRange;// [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(100.0f)];
     CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
     whiteTextStyle.color = [CPColor whiteColor];
     barPlot.barLabelTextStyle = whiteTextStyle;
@@ -173,7 +174,7 @@
 	NSArray *inputSeqs;
 	inputSeqs=[self csvSplit];
 	//[blastControl blast:i];
-	[blastControl blastMany:inputSeqs];
+	[blastControl blastMany:inputArray];
 	NSLog(@"Done");
 }
 -(IBAction )xmlStuff:(id)sender

@@ -55,7 +55,7 @@
 	//end from CorePlotView
 }
 @property(copy,nonatomic)NSArray *nodes;
-//@property(copy,nonatomic)NSMutableArray *inputArray;
+@property(copy,nonatomic)NSMutableArray *inputArray;
 @property(readwrite,copy)NSString *inputString;
 @property(readwrite,copy)NSString *inputText;
 //@property(readwrite,copy)BOOL *inputArrayHasMoreThanOne;
