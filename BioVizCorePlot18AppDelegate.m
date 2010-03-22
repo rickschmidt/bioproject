@@ -24,6 +24,13 @@
 	
 }
 
+-(CPPlotRange *) plotSpace:(CPPlotSpace *)space
+	  willChangePlotRangeTo:(CPPlotRange *)newRange
+			  forCoordinate:(CPCoordinate)coordinate	{
+	
+	NSLog(@"plot space moving");
+}
+
 //-(void)array
 
 @end

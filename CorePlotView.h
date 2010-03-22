@@ -10,6 +10,7 @@
 #import <CorePlot/CorePlot.h>
 #import "AppController.h"
 #import <QuartzCore/CAAnimation.h>
+#import "BioVizCorePlot18AppDelegate.h"
 
 @interface CorePlotView : NSObject <CPPlotDataSource, CPPlotSpaceDelegate>{
 	

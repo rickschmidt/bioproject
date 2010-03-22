@@ -1357,6 +1357,7 @@
 							<string>5E51F299-7AEE-41BF-9F00-EC1278A0AD78</string>
 							<string>671E4DAC-7B7F-4BCB-872C-958B0CD87AF9</string>
 							<string>AEADC8C5-2423-4949-BC1A-9DF96F87E535</string>
+							<string>EE9AB2EA-AE66-47E3-827D-6E2C115EB0AC</string>
 							<string>NSToolbarCustomizeToolbarItem</string>
 							<string>NSToolbarFlexibleSpaceItem</string>
 							<string>NSToolbarPrintItem</string>
@@ -1423,6 +1424,25 @@
 									<string key="NSClassName">NSImage</string>
 									<string key="NSResourceName">NSAddTemplate</string>
 								</object>
+								<nil key="NSToolbarItemTarget"/>
+								<nil key="NSToolbarItemAction"/>
+								<string key="NSToolbarItemMinSize">{0, 0}</string>
+								<string key="NSToolbarItemMaxSize">{0, 0}</string>
+								<bool key="NSToolbarItemEnabled">YES</bool>
+								<bool key="NSToolbarItemAutovalidates">YES</bool>
+								<int key="NSToolbarItemTag">-1</int>
+								<bool key="NSToolbarIsUserRemovable">YES</bool>
+								<int key="NSToolbarItemVisibilityPriority">0</int>
+							</object>
+							<object class="NSToolbarItem" id="155901510">
+								<object class="NSMutableString" key="NSToolbarItemIdentifier">
+									<characters key="NS.bytes">EE9AB2EA-AE66-47E3-827D-6E2C115EB0AC</characters>
+								</object>
+								<string key="NSToolbarItemLabel">Snap To Center</string>
+								<string key="NSToolbarItemPaletteLabel">Snap To Center</string>
+								<string key="NSToolbarItemToolTip"/>
+								<nil key="NSToolbarItemView"/>
+								<nil key="NSToolbarItemImage"/>
 								<nil key="NSToolbarItemTarget"/>
 								<nil key="NSToolbarItemAction"/>
 								<string key="NSToolbarItemMinSize">{0, 0}</string>
@@ -1608,6 +1628,7 @@
 						<reference ref="296158049"/>
 						<reference ref="272027316"/>
 						<reference ref="852822229"/>
+						<reference ref="155901510"/>
 					</object>
 					<object class="NSMutableArray" key="NSToolbarIBDefaultItems">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1617,6 +1638,7 @@
 						<reference ref="214526468"/>
 						<reference ref="315445434"/>
 						<reference ref="852822229"/>
+						<reference ref="155901510"/>
 						<reference ref="173840891"/>
 						<reference ref="224928675"/>
 						<reference ref="627697447"/>
@@ -2692,7 +2714,7 @@
 			<object class="NSCustomView" id="1069839745">
 				<nil key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
-				<string key="NSFrameSize">{706, 535}</string>
+				<string key="NSFrameSize">{1035, 789}</string>
 				<int key="NSViewLayerContentsRedrawPolicy">2</int>
 				<string key="NSClassName">CPLayerHostingView</string>
 			</object>
@@ -3682,14 +3704,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">hostView</string>
-						<reference key="source" ref="115915073"/>
-						<reference key="destination" ref="1069839745"/>
-					</object>
-					<int key="connectionID">1014</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">mainApplicationWindow</string>
 						<reference key="source" ref="115915073"/>
 						<reference key="destination" ref="972006081"/>
@@ -3711,6 +3725,22 @@
 						<reference key="destination" ref="712245869"/>
 					</object>
 					<int key="connectionID">1024</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">hostView</string>
+						<reference key="source" ref="115915073"/>
+						<reference key="destination" ref="1069839745"/>
+					</object>
+					<int key="connectionID">1029</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">snapBackToCenterPlotRange:</string>
+						<reference key="source" ref="115915073"/>
+						<reference key="destination" ref="155901510"/>
+					</object>
+					<int key="connectionID">1031</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -4804,6 +4834,7 @@
 							<reference ref="296158049"/>
 							<reference ref="272027316"/>
 							<reference ref="852822229"/>
+							<reference ref="155901510"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -5262,11 +5293,6 @@
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">959</int>
-						<reference key="object" ref="1069839745"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
 						<int key="objectID">1021</int>
 						<reference key="object" ref="712245869"/>
 						<reference key="parent" ref="720053764"/>
@@ -5275,6 +5301,16 @@
 						<int key="objectID">1022</int>
 						<reference key="object" ref="997156043"/>
 						<reference key="parent" ref="720053764"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">959</int>
+						<reference key="object" ref="1069839745"/>
+						<reference key="parent" ref="0"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1030</int>
+						<reference key="object" ref="155901510"/>
+						<reference key="parent" ref="539877047"/>
 					</object>
 				</object>
 			</object>
@@ -5286,6 +5322,7 @@
 					<string>1008.IBPluginDependency</string>
 					<string>1021.IBPluginDependency</string>
 					<string>1022.IBPluginDependency</string>
+					<string>1030.IBPluginDependency</string>
 					<string>112.IBPluginDependency</string>
 					<string>112.ImportedFromIB2</string>
 					<string>124.IBPluginDependency</string>
@@ -5616,6 +5653,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
@@ -5718,7 +5756,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{550, 836}, {489, 20}}</string>
+					<string>{{509, 836}, {489, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{74, 862}</string>
@@ -5743,9 +5781,9 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{456, 248}, {1022, 732}}</string>
+					<string>{{135, 13}, {1022, 732}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{456, 248}, {1022, 732}}</string>
+					<string>{{135, 13}, {1022, 732}}</string>
 					<integer value="1"/>
 					<string>{{33, 99}, {480, 360}}</string>
 					<string>{3.40282e+38, 3.40282e+38}</string>
@@ -5834,7 +5872,7 @@
 					<string>{{689, 244}, {274, 495}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{659, 980}, {616, 0}}</string>
+					<string>{{338, 745}, {616, 0}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>Add Sequenes</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -5896,7 +5934,7 @@
 					<integer value="1"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
-					<string>{{705, 593}, {196, 243}}</string>
+					<string>{{664, 593}, {196, 243}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{145, 474}, {199, 203}}</string>
@@ -5961,7 +5999,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">1024</int>
+			<int key="maxID">1031</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5982,10 +6020,12 @@
 							<string>exportToPDF:</string>
 							<string>exportToPNG:</string>
 							<string>logInputArrayContenets:</string>
+							<string>snapBackToCenterPlotRange:</string>
 							<string>xmlStuff:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>

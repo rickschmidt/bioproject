@@ -44,6 +44,11 @@
 	return self;
 	
 }
+-(void)dealloc
+{
+	[graph release];
+	[super release];
+}
 -(void)awakeFromNib
 {
 	[self goGraph];
@@ -71,9 +76,9 @@
     graph.paddingBottom = 1.0;
 	
 	// Setup scatter plot space
-    CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
-	plotSpace.xRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0) length:CPDecimalFromFloat(100.0)];
-	plotSpace.yRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(0.0) length:CPDecimalFromFloat(5.0)];
+    plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
+	plotSpace.xRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-1.0) length:CPDecimalFromFloat(100.0)];
+	plotSpace.yRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-1.0) length:CPDecimalFromFloat(5.0)];
 	plotSpace.allowsUserInteraction = YES;
     plotSpace.delegate = self;
     
@@ -149,8 +154,8 @@
     CPBarPlot *barPlot = [CPBarPlot tubularBarPlotWithColor:[CPColor darkGrayColor] horizontalBars:NO];
     barPlot.baseValue = CPDecimalFromString(@"0");
     barPlot.dataSource = self;
-	barPlot.barWidth=10.0f;
-    barPlot.barOffset = 10.0f;
+	barPlot.barWidth=20.0f;
+//    barPlot.barOffset = 1.0f;
     barPlot.identifier = @"Bar Plot 1";
 	barPlot.plotRange = [CPPlotRange plotRangeWithLocation:CPDecimalFromDouble(0.0) length:CPDecimalFromDouble(10.0f)];
     CPTextStyle *whiteTextStyle = [CPTextStyle textStyle];
@@ -299,6 +304,8 @@
 	[inputArrayMenu addObject:[inputTextField stringValue]];
 }
 
+#pragma mark -
+#pragma mark View Swapping
 - (IBAction) displayInputView:(id)sender
 {
 	if (![[[mainApplicationWindow contentView] subviews] containsObject:inputMenuView])
@@ -392,4 +399,11 @@
 	}		
 }
 
+#pragma mark -
+#pragma mark Snap Plot Range
+-(IBAction)snapBackToCenterPlotRange:(id)sender
+{
+	plotSpace.xRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-10.0) length:CPDecimalFromFloat(100.0)];
+	plotSpace.yRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-1.0) length:CPDecimalFromFloat(5.0)];
+}
 @end

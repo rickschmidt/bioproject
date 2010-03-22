@@ -44,7 +44,7 @@
 	// Setup scatter plot space
     CPXYPlotSpace *plotSpace = (CPXYPlotSpace *)graph.defaultPlotSpace;
     plotSpace.allowsUserInteraction = YES;
-    plotSpace.delegate = self;
+    plotSpace.delegate =self;
     
     // Grid line styles
     CPLineStyle *majorGridLineStyle = [CPLineStyle lineStyle];
@@ -172,5 +172,10 @@
 //		
 //}
 
+- (CPPlotRange *) plotSpace:(CPPlotSpace *)space
+	  willChangePlotRangeTo:(CPPlotRange *)newRange
+			  forCoordinate:(CPCoordinate)coordinate	{
 	
+	NSLog(@"plot space moving");
+}
 @end

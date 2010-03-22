@@ -50,6 +50,7 @@
 	NSRect							oldWindowFrame;
 	CATransition					*transition;
 	NSDictionary					*currentAnimation;
+	CPXYPlotSpace *plotSpace;
 	
 	//end from CorePlotView
 }
@@ -87,4 +88,5 @@
 
 -(IBAction)exportToPDF:(id)sender;
 -(IBAction)exportToPNG:(id)sender;
+-(IBAction)snapBackToCenterPlotRange:(id)sender;	
 @end

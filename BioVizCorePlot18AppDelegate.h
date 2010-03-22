@@ -7,7 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CorePlot/CorePlot.h>
 #import "AppController.h"
+
 
 @interface BioVizCorePlot18AppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;

@@ -6,6 +6,8 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>BioVizCorePlot18</string>
+	<key>CFBundleIconFile</key>
+	<string>blasticoncompressed</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.BioVizCorePlot18</string>
 	<key>CFBundleInfoDictionaryVersion</key>

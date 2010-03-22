@@ -9,16 +9,16 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 753}}";
-			sepNavSelRange = "{436, 0}";
-			sepNavVisRange = "{0, 443}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 571}}";
+			sepNavSelRange = "{216, 0}";
+			sepNavVisRange = "{0, 474}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 798}}";
-			sepNavSelRange = "{604, 0}";
-			sepNavVisRange = "{0, 604}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 594}}";
+			sepNavSelRange = "{583, 176}";
+			sepNavVisRange = "{0, 782}";
 		};
 	};
 	256AC3F00F4B6AF500CF3369 /* BioVizCorePlot18_Prefix.pch */ = {
@@ -46,10 +46,10 @@
 			BDA28C3B1148B4090082753E /* RSParser.m:63 */,
 			BDA28C3D1148B40A0082753E /* RSParser.m:64 */,
 			BDA28C3F1148B40B0082753E /* RSParser.m:67 */,
-			BD353B40114940E700A05A2B /* AppController.m:262 */,
-			BD353B42114940EB00A05A2B /* AppController.m:269 */,
-			BD353B641149428200A05A2B /* AppController.m:249 */,
-			BD4052EF114E7C46003E4741 /* AppController.m:355 */,
+			BD353B40114940E700A05A2B /* AppController.m:267 */,
+			BD353B42114940EB00A05A2B /* AppController.m:274 */,
+			BD353B641149428200A05A2B /* AppController.m:254 */,
+			BD4052EF114E7C46003E4741 /* AppController.m:362 */,
 		);
 		codeSenseManager = BDB20BC91144A70F00A0DDC6 /* Code sense */;
 		executables = (
@@ -199,6 +199,36 @@
 			BD587710115673BC00BCAD16 /* PBXTextBookmark */ = BD587710115673BC00BCAD16 /* PBXTextBookmark */;
 			BD58771411568AFB00BCAD16 /* PBXTextBookmark */ = BD58771411568AFB00BCAD16 /* PBXTextBookmark */;
 			BD58771811568B6600BCAD16 /* PBXTextBookmark */ = BD58771811568B6600BCAD16 /* PBXTextBookmark */;
+			BD5877231156B40800BCAD16 /* PBXTextBookmark */ = BD5877231156B40800BCAD16 /* PBXTextBookmark */;
+			BD5877271156B45100BCAD16 /* PBXTextBookmark */ = BD5877271156B45100BCAD16 /* PBXTextBookmark */;
+			BD58772B1156B48900BCAD16 /* PBXTextBookmark */ = BD58772B1156B48900BCAD16 /* PBXTextBookmark */;
+			BD58772F1156B4AB00BCAD16 /* PBXTextBookmark */ = BD58772F1156B4AB00BCAD16 /* PBXTextBookmark */;
+			BD5877331156B5B800BCAD16 /* PBXTextBookmark */ = BD5877331156B5B800BCAD16 /* PBXTextBookmark */;
+			BD5877371156B61200BCAD16 /* PBXTextBookmark */ = BD5877371156B61200BCAD16 /* PBXTextBookmark */;
+			BD58773B1156B63800BCAD16 /* PBXTextBookmark */ = BD58773B1156B63800BCAD16 /* PBXTextBookmark */;
+			BD58774D1156B9BB00BCAD16 /* PBXTextBookmark */ = BD58774D1156B9BB00BCAD16 /* PBXTextBookmark */;
+			BD58774E1156B9BB00BCAD16 /* PBXTextBookmark */ = BD58774E1156B9BB00BCAD16 /* PBXTextBookmark */;
+			BD58774F1156B9BB00BCAD16 /* PBXTextBookmark */ = BD58774F1156B9BB00BCAD16 /* PBXTextBookmark */;
+			BD5877501156B9BB00BCAD16 /* PBXTextBookmark */ = BD5877501156B9BB00BCAD16 /* PBXTextBookmark */;
+			BD5877511156B9BB00BCAD16 /* PBXTextBookmark */ = BD5877511156B9BB00BCAD16 /* PBXTextBookmark */;
+			BD5877521156B9BB00BCAD16 /* PBXTextBookmark */ = BD5877521156B9BB00BCAD16 /* PBXTextBookmark */;
+			BD5877581156BA0C00BCAD16 /* PBXTextBookmark */ = BD5877581156BA0C00BCAD16 /* PBXTextBookmark */;
+			BD5877601156BA6700BCAD16 /* PBXTextBookmark */ = BD5877601156BA6700BCAD16 /* PBXTextBookmark */;
+			BD5877621156BB1300BCAD16 /* PBXTextBookmark */ = BD5877621156BB1300BCAD16 /* PBXTextBookmark */;
+			BD5877631156BB1300BCAD16 /* PBXTextBookmark */ = BD5877631156BB1300BCAD16 /* PBXTextBookmark */;
+			BD5877781156BBF800BCAD16 /* PBXTextBookmark */ = BD5877781156BBF800BCAD16 /* PBXTextBookmark */;
+			BD5877791156BBF800BCAD16 /* PBXTextBookmark */ = BD5877791156BBF800BCAD16 /* PBXTextBookmark */;
+			BD58777A1156BBF800BCAD16 /* PBXTextBookmark */ = BD58777A1156BBF800BCAD16 /* PBXTextBookmark */;
+			BD5877801156BD4600BCAD16 /* PBXTextBookmark */ = BD5877801156BD4600BCAD16 /* PBXTextBookmark */;
+			BD5877881156C0B100BCAD16 /* PBXTextBookmark */ = BD5877881156C0B100BCAD16 /* PBXTextBookmark */;
+			BD5877891156C0B100BCAD16 /* PBXTextBookmark */ = BD5877891156C0B100BCAD16 /* PBXTextBookmark */;
+			BD58778A1156C0B100BCAD16 /* PBXTextBookmark */ = BD58778A1156C0B100BCAD16 /* PBXTextBookmark */;
+			BD58778B1156C0B100BCAD16 /* PBXTextBookmark */ = BD58778B1156C0B100BCAD16 /* PBXTextBookmark */;
+			BD58778C1156C0B100BCAD16 /* PBXTextBookmark */ = BD58778C1156C0B100BCAD16 /* PBXTextBookmark */;
+			BD5877981156C46000BCAD16 /* PBXTextBookmark */ = BD5877981156C46000BCAD16 /* PBXTextBookmark */;
+			BD5877A61156F2AE00BCAD16 /* PBXTextBookmark */ = BD5877A61156F2AE00BCAD16 /* PBXTextBookmark */;
+			BD5877A71156F2AE00BCAD16 /* PBXTextBookmark */ = BD5877A71156F2AE00BCAD16 /* PBXTextBookmark */;
+			BD5877A81156F2AE00BCAD16 /* PBXTextBookmark */ = BD5877A81156F2AE00BCAD16 /* PBXTextBookmark */;
 			BDA28B6611489AB60082753E = BDA28B6611489AB60082753E /* PBXBookmark */;
 		};
 		sourceControlManager = BDB20BC81144A70F00A0DDC6 /* Source Control */;
@@ -220,7 +250,7 @@
 	};
 	BD20CA1F1145651800A162D6 /* Blast.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 798}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 594}}";
 			sepNavSelRange = "{212, 0}";
 			sepNavVisRange = "{0, 553}";
 		};
@@ -234,17 +264,17 @@
 	};
 	BD20CA361145660600A162D6 /* AppController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 1183}}";
-			sepNavSelRange = "{2382, 0}";
-			sepNavVisRange = "{203, 1402}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 1209}}";
+			sepNavSelRange = "{1412, 0}";
+			sepNavVisRange = "{1203, 1257}";
 			sepNavWindowFrame = "{{877, 147}, {1330, 778}}";
 		};
 	};
 	BD20CA371145660600A162D6 /* AppController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1370, 5434}}";
-			sepNavSelRange = "{3261, 0}";
-			sepNavVisRange = "{1823, 1755}";
+			sepNavIntBoundsRect = "{{0, 0}, {11436, 5473}}";
+			sepNavSelRange = "{2437, 0}";
+			sepNavVisRange = "{1106, 1922}";
 			sepNavWindowFrame = "{{590, 244}, {1330, 778}}";
 		};
 	};
@@ -299,7 +329,7 @@
 		vrLen = 746;
 		vrLoc = 0;
 	};
-	BD353B40114940E700A05A2B /* AppController.m:262 */ = {
+	BD353B40114940E700A05A2B /* AppController.m:267 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -311,13 +341,13 @@
 		functionName = "-numberForPlot:field:recordIndex:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 262;
+		lineNumber = 267;
 		location = BioVizCorePlot18;
 		modificationTime = 290356298.401888;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	BD353B42114940EB00A05A2B /* AppController.m:269 */ = {
+	BD353B42114940EB00A05A2B /* AppController.m:274 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -329,13 +359,13 @@
 		functionName = "-numberForPlot:field:recordIndex:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 269;
+		lineNumber = 274;
 		location = BioVizCorePlot18;
 		modificationTime = 290356298.426597;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
-	BD353B641149428200A05A2B /* AppController.m:249 */ = {
+	BD353B641149428200A05A2B /* AppController.m:254 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -347,7 +377,7 @@
 		functionName = "-numberOfRecordsForPlot:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 249;
+		lineNumber = 254;
 		location = BioVizCorePlot18;
 		modificationTime = 290356298.448805;
 		originalNumberOfMultipleMatches = 1;
@@ -375,7 +405,7 @@
 		fRef = BDB20BE61144A78100A0DDC6 /* CorePlotView.h */;
 		name = "CorePlotView.h: 26";
 		rLen = 0;
-		rLoc = 618;
+		rLoc = 658;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 0;
@@ -385,7 +415,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.m */;
 		name = "BioVizCorePlot18AppDelegate.m: 30";
 		rLen = 0;
-		rLoc = 604;
+		rLoc = 782;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 0;
@@ -409,7 +439,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 365";
 		rLen = 33;
-		rLoc = 14154;
+		rLoc = 14239;
 		rType = 0;
 		vrLen = 2047;
 		vrLoc = 12886;
@@ -419,7 +449,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 89";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2459;
 		rType = 0;
 		vrLen = 1586;
 		vrLoc = 762;
@@ -549,7 +579,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 160";
 		rLen = 39;
-		rLoc = 5712;
+		rLoc = 5755;
 		rType = 0;
 		vrLen = 1789;
 		vrLoc = 4432;
@@ -564,7 +594,7 @@
 		vrLen = 437;
 		vrLoc = 0;
 	};
-	BD4052EF114E7C46003E4741 /* AppController.m:355 */ = {
+	BD4052EF114E7C46003E4741 /* AppController.m:362 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -576,7 +606,7 @@
 		functionName = "-displayCorePlot:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 355;
+		lineNumber = 362;
 		location = BioVizCorePlot18;
 		modificationTime = 290356298.50169;
 		originalNumberOfMultipleMatches = 1;
@@ -601,7 +631,7 @@
 		fRef = 256AC3D80F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.h */;
 		name = "BioVizCorePlot18AppDelegate.h: 19";
 		rLen = 0;
-		rLoc = 436;
+		rLoc = 467;
 		rType = 0;
 		vrLen = 443;
 		vrLoc = 0;
@@ -641,7 +671,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 160";
 		rLen = 39;
-		rLoc = 5712;
+		rLoc = 5755;
 		rType = 0;
 		vrLen = 1741;
 		vrLoc = 722;
@@ -651,7 +681,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 1555;
 		rType = 0;
 		vrLen = 1676;
 		vrLoc = 756;
@@ -661,7 +691,7 @@
 		fRef = BD20CA361145660600A162D6 /* AppController.h */;
 		name = "AppController.h: 89";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2459;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 203;
@@ -671,7 +701,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 1499;
+		rLoc = 1554;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
@@ -681,7 +711,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 62";
 		rLen = 0;
-		rLoc = 1499;
+		rLoc = 1554;
 		rType = 0;
 		vrLen = 1679;
 		vrLoc = 910;
@@ -691,7 +721,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 64";
 		rLen = 0;
-		rLoc = 1691;
+		rLoc = 1746;
 		rType = 0;
 		vrLen = 1681;
 		vrLoc = 910;
@@ -701,7 +731,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 81";
 		rLen = 0;
-		rLoc = 2549;
+		rLoc = 2591;
 		rType = 0;
 		vrLen = 1873;
 		vrLoc = 1178;
@@ -711,7 +741,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 80";
 		rLen = 0;
-		rLoc = 2500;
+		rLoc = 2542;
 		rType = 0;
 		vrLen = 1874;
 		vrLoc = 1178;
@@ -721,7 +751,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 99";
 		rLen = 0;
-		rLoc = 3036;
+		rLoc = 3078;
 		rType = 0;
 		vrLen = 1957;
 		vrLoc = 2061;
@@ -731,7 +761,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 81";
 		rLen = 0;
-		rLoc = 2400;
+		rLoc = 2442;
 		rType = 0;
 		vrLen = 1884;
 		vrLoc = 1823;
@@ -741,7 +771,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 107";
 		rLen = 0;
-		rLoc = 3036;
+		rLoc = 3078;
 		rType = 0;
 		vrLen = 1886;
 		vrLoc = 1823;
@@ -751,7 +781,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 84";
 		rLen = 0;
-		rLoc = 2591;
+		rLoc = 2633;
 		rType = 0;
 		vrLen = 1823;
 		vrLoc = 1717;
@@ -761,7 +791,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 110";
 		rLen = 0;
-		rLoc = 3538;
+		rLoc = 3580;
 		rType = 0;
 		vrLen = 1778;
 		vrLoc = 2066;
@@ -771,7 +801,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 76";
 		rLen = 0;
-		rLoc = 2207;
+		rLoc = 2249;
 		rType = 0;
 		vrLen = 1696;
 		vrLoc = 867;
@@ -781,7 +811,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 76";
 		rLen = 0;
-		rLoc = 2205;
+		rLoc = 2247;
 		rType = 0;
 		vrLen = 1694;
 		vrLoc = 867;
@@ -791,7 +821,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 158";
 		rLen = 0;
-		rLoc = 5591;
+		rLoc = 5634;
 		rType = 0;
 		vrLen = 1996;
 		vrLoc = 3518;
@@ -801,7 +831,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 86";
 		rLen = 0;
-		rLoc = 2585;
+		rLoc = 2627;
 		rType = 0;
 		vrLen = 1864;
 		vrLoc = 1886;
@@ -811,7 +841,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 89";
 		rLen = 0;
-		rLoc = 2698;
+		rLoc = 2740;
 		rType = 0;
 		vrLen = 1909;
 		vrLoc = 2464;
@@ -821,7 +851,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 158";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5748;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 4369;
@@ -841,7 +871,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 158";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5748;
 		rType = 0;
 		vrLen = 2088;
 		vrLoc = 3687;
@@ -851,7 +881,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 89";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2737;
 		rType = 0;
 		vrLen = 1613;
 		vrLoc = 2209;
@@ -861,7 +891,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 121";
 		rLen = 0;
-		rLoc = 3871;
+		rLoc = 3913;
 		rType = 0;
 		vrLen = 1802;
 		vrLoc = 2399;
@@ -871,7 +901,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 89";
 		rLen = 0;
-		rLoc = 2698;
+		rLoc = 2740;
 		rType = 0;
 		vrLen = 1620;
 		vrLoc = 2249;
@@ -881,7 +911,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 76";
 		rLen = 0;
-		rLoc = 2203;
+		rLoc = 2245;
 		rType = 0;
 		vrLen = 1711;
 		vrLoc = 991;
@@ -891,7 +921,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 121";
 		rLen = 0;
-		rLoc = 3871;
+		rLoc = 3913;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 3035;
@@ -901,7 +931,7 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 102";
 		rLen = 0;
-		rLoc = 3124;
+		rLoc = 3166;
 		rType = 0;
 		vrLen = 1851;
 		vrLoc = 2401;
@@ -911,10 +941,310 @@
 		fRef = BD20CA371145660600A162D6 /* AppController.m */;
 		name = "AppController.m: 104";
 		rLen = 0;
-		rLoc = 3261;
+		rLoc = 3303;
 		rType = 0;
 		vrLen = 1755;
 		vrLoc = 1823;
+	};
+	BD5877231156B40800BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 76";
+		rLen = 0;
+		rLoc = 2214;
+		rType = 0;
+		vrLen = 1841;
+		vrLoc = 1015;
+	};
+	BD5877271156B45100BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 152";
+		rLen = 0;
+		rLoc = 5235;
+		rType = 0;
+		vrLen = 1909;
+		vrLoc = 3995;
+	};
+	BD58772B1156B48900BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 153";
+		rLen = 0;
+		rLoc = 5268;
+		rType = 0;
+		vrLen = 1810;
+		vrLoc = 4149;
+	};
+	BD58772F1156B4AB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 153";
+		rLen = 0;
+		rLoc = 5268;
+		rType = 0;
+		vrLen = 1632;
+		vrLoc = 4359;
+	};
+	BD5877331156B5B800BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 155";
+		rLen = 0;
+		rLoc = 5314;
+		rType = 0;
+		vrLen = 1595;
+		vrLoc = 4422;
+	};
+	BD5877371156B61200BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 153";
+		rLen = 0;
+		rLoc = 5243;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 4449;
+	};
+	BD58773B1156B63800BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 155";
+		rLen = 0;
+		rLoc = 5314;
+		rType = 0;
+		vrLen = 1652;
+		vrLoc = 4471;
+	};
+	BD58774D1156B9BB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.h */;
+		name = "BioVizCorePlot18AppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	BD58774E1156B9BB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE61144A78100A0DDC6 /* CorePlotView.h */;
+		name = "CorePlotView.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
+	};
+	BD58774F1156B9BB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 47";
+		rLen = 0;
+		rLoc = 1437;
+		rType = 0;
+		vrLen = 2072;
+		vrLoc = 742;
+	};
+	BD5877501156B9BB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.m */;
+		name = "BioVizCorePlot18AppDelegate.m: 27";
+		rLen = 176;
+		rLoc = 583;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 0;
+	};
+	BD5877511156B9BB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 395";
+		rLen = 0;
+		rLoc = 15203;
+		rType = 0;
+		vrLen = 1304;
+		vrLoc = 13780;
+	};
+	BD5877521156B9BB00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 400";
+		rLen = 0;
+		rLoc = 15203;
+		rType = 0;
+		vrLen = 1311;
+		vrLoc = 13947;
+	};
+	BD5877581156BA0C00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 396";
+		rLen = 0;
+		rLoc = 15203;
+		rType = 0;
+		vrLen = 1333;
+		vrLoc = 13900;
+	};
+	BD5877601156BA6700BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 397";
+		rLen = 0;
+		rLoc = 15203;
+		rType = 0;
+		vrLen = 1319;
+		vrLoc = 13895;
+	};
+	BD5877621156BB1300BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 395";
+		rLen = 47;
+		rLoc = 15203;
+		rType = 0;
+		vrLen = 1460;
+		vrLoc = 13898;
+	};
+	BD5877631156BB1300BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 90";
+		rLen = 0;
+		rLoc = 2459;
+		rType = 0;
+		vrLen = 1152;
+		vrLoc = 1286;
+	};
+	BD5877781156BBF800BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA361145660600A162D6 /* AppController.h */;
+		name = "AppController.h: 53";
+		rLen = 0;
+		rLoc = 1412;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 1203;
+	};
+	BD5877791156BBF800BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 74";
+		rLen = 9;
+		rLoc = 1974;
+		rType = 0;
+		vrLen = 1808;
+		vrLoc = 991;
+	};
+	BD58777A1156BBF800BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 74";
+		rLen = 0;
+		rLoc = 1974;
+		rType = 0;
+		vrLen = 1458;
+		vrLoc = 13885;
+	};
+	BD5877801156BD4600BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 398";
+		rLen = 0;
+		rLoc = 15441;
+		rType = 0;
+		vrLen = 1459;
+		vrLoc = 13885;
+	};
+	BD5877881156C0B100BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* BioVizCorePlot18AppDelegate.h */;
+		name = "BioVizCorePlot18AppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 216;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 0;
+	};
+	BD5877891156C0B100BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */;
+		name = "CorePlotView.m: 47";
+		rLen = 0;
+		rLoc = 1437;
+		rType = 0;
+		vrLen = 1408;
+		vrLoc = 0;
+	};
+	BD58778A1156C0B100BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA1F1145651800A162D6 /* Blast.h */;
+		name = "Blast.h: 12";
+		rLen = 0;
+		rLoc = 212;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 0;
+	};
+	BD58778B1156C0B100BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 31";
+		rLen = 0;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 342;
+	};
+	BD58778C1156C0B100BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 50";
+		rLen = 0;
+		rLoc = 1047;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 343;
+	};
+	BD5877981156C46000BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 154";
+		rLen = 0;
+		rLoc = 5113;
+		rType = 0;
+		vrLen = 1928;
+		vrLoc = 3962;
+	};
+	BD5877A61156F2AE00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BD20CA371145660600A162D6 /* AppController.m */;
+		name = "AppController.m: 87";
+		rLen = 0;
+		rLoc = 2437;
+		rType = 0;
+		vrLen = 1910;
+		vrLoc = 1106;
+	};
+	BD5877A71156F2AE00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE61144A78100A0DDC6 /* CorePlotView.h */;
+		name = "CorePlotView.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
+	};
+	BD5877A81156F2AE00BCAD16 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BDB20BE61144A78100A0DDC6 /* CorePlotView.h */;
+		name = "CorePlotView.h: 14";
+		rLen = 0;
+		rLoc = 304;
+		rType = 0;
+		vrLen = 968;
+		vrLoc = 0;
 	};
 	BDA28B2811488E9E0082753E /* RSXMLToOutline.h */ = {
 		uiCtxt = {
@@ -1195,16 +1525,16 @@
 	};
 	BDB20BE61144A78100A0DDC6 /* CorePlotView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 775}}";
-			sepNavSelRange = "{618, 0}";
-			sepNavVisRange = "{0, 928}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 571}}";
+			sepNavSelRange = "{304, 0}";
+			sepNavVisRange = "{0, 968}";
 		};
 	};
 	BDB20BE71144A78100A0DDC6 /* CorePlotView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1594, 2301}}";
-			sepNavSelRange = "{302, 0}";
-			sepNavVisRange = "{3956, 2936}";
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 2444}}";
+			sepNavSelRange = "{1437, 0}";
+			sepNavVisRange = "{0, 1408}";
 		};
 	};
 	BDC9B56C114AECAA007DC451 /* RSInputMenuView.h */ = {
