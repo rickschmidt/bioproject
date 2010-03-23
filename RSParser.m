@@ -54,6 +54,26 @@
 	NSArray *arrayOfXMLFiles=xmlArray;
 	return arrayOfXMLFiles;
 }
+-(NSArray *)initWithDirectoryOfXMLPaths
+{
+	//Scans Through the Application Support Dir for XML files, adds all of the PATHS to an array.
+	
+	
+	NSError *err;
+	NSFileManager *fileManager=[[NSFileManager alloc]init];
+	NSString *folder=@"~/Library/Application Support/BioProject";
+	folder=[folder stringByExpandingTildeInPath];
+	NSArray *inputFiles=[fileManager contentsOfDirectoryAtPath:folder error:&err] ;
+	NSMutableArray *arrayOfPaths=[[NSMutableArray alloc]init];
+	for( NSString *inPath in inputFiles){
+		[arrayOfPaths addObject: [folder stringByAppendingPathComponent:inPath]];
+
+		
+	}
+	NSArray *arrayOfXMLPaths=arrayOfPaths;
+	NSLog(@"//rsparser/initwithDiroFXMLPaths/ %@",[arrayOfXMLPaths objectAtIndex:1]);
+	return arrayOfXMLPaths;
+}
 
 -(NSArray *)getArrayForNode:(NSString *)nodeDesired
 {
@@ -105,21 +125,64 @@
 			
 			str1=[str1	stringByAppendingFormat:@"%d]/Hit_def[",x];
 			str1=[str1 stringByAppendingFormat:@"%d]",1];
+			NSArray *xPathArray=[localXMLDoc nodesForXPath:str1 error:&err];
 			//NSLog(@"str1 %@",str1);
-			if (![specificNodes objectForKey:[localXMLDoc nodesForXPath:str1  error:&err]]) {
-				[specificNodes setObject:k forKey:[localXMLDoc nodesForXPath:str1 error:&err]];
+			if (![specificNodes objectForKey:xPathArray]) {
+				[specificNodes setObject:k forKey:xPathArray];
 				
 			}
-			else if ([specificNodes objectForKey:[localXMLDoc nodesForXPath:str1  error:&err]])   {
-				[specificNodes setObject:[NSNumber numberWithInt:[[specificNodes objectForKey:[localXMLDoc nodesForXPath:str1 error:&err]] intValue]+1] forKey:[localXMLDoc nodesForXPath:str1  error:&err]];
+			else if ([specificNodes objectForKey:xPathArray])   {
+				[specificNodes setObject:[NSNumber numberWithInt:[[specificNodes objectForKey:xPathArray] intValue]+1] forKey:xPathArray];
 			}
 			
 			//NSLog(@"key %@ value %@",[specificNodes allKeys],[specificNodes allValues]);
 			str1=@".//Hit[";
+			[xPathArray release];
 		}
+		
 	}
 	return specificNodes;
 }
 
+-(NSMutableDictionary *)getSpecificNodeForManyWithParser:(NSArray *)withArrayOfXMLPaths
+{
+	NSMutableDictionary *specificNodes=[[NSMutableDictionary alloc]init];
+	for (NSString *localXMLPath	in withArrayOfXMLPaths){
+		NSData *xmlData=[[NSData alloc] initWithContentsOfFile:localXMLPath];
+		NSXMLParser *parser=[[NSXMLParser alloc]initWithData:xmlData];
+		[parser setDelegate:self];
+		NSLog(@"//rsparser/getspecNodForManyWPar/ %@ ",[parser delegate]);
+		[parser parse];
+	}
+	return specificNodes;
+}
+
+
+-(void)parser:(NSXMLParser *)parser foundElementDeclarationWithName:(NSString *)elementName model:(NSString *)model
+{
+	if (elementName=@"Hit_def") {
+		NSLog(@"found hit_def");
+	}
+}
+
+- (void)parserDidStartDocument:(NSXMLParser *)parser
+{
+	NSLog(@"//rsparser/parserdidStartdoc/made it here");
+}
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qualifiedName attributes:(NSDictionary *)attributeDict
+{
+	if (elementName=@"Hit_id") {
+		NSMutableDictionary *specificNodes=[[NSMutableDictionary alloc]init];
+		//[attributeDict objectForKey:@"Hit_def"]
+		if (![specificNodes objectForKey:[attributeDict objectForKey:@"Hit_def"]]) {
+			[specificNodes setObject:1 forKey:[attributeDict objectForKey:"Hit_def"]];
+			
+		}
+		else if ([specificNodes objectForKey:[attributeDict objectForKey:"Hit_def"]])   {
+			[specificNodes setObject:[NSNumber numberWithInt:[[specificNodes objectForKey:[attributeDict objectForKey:"Hit_def"]] intValue]+1] forKey:[attributeDict objectForKey:"Hit_def"]];
+		}
+		
+	}
+}
 
 @end

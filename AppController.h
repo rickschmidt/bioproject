@@ -84,10 +84,11 @@
 -(NSArray *)getNodesArray;
 -(IBAction) displayNewView:(id)sender;
 -(void) setAnimationsTypes;
--(void)addFristGraph;
+
 //end from coreplotview
 
 -(IBAction)exportToPDF:(id)sender;
 -(IBAction)exportToPNG:(id)sender;
 -(IBAction)snapBackToCenterPlotRange:(id)sender;	
+-(IBAction)openPanel:(id)sender;
 @end

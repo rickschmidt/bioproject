@@ -42,6 +42,21 @@
 	specificNodes=[xmlStuff getSpecificNode];
 		//NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
 	
+	
+	//NSArray *test;//=[[NSArray alloc]init];
+	NSArray *test=[xmlStuff initWithDirectoryOfXML];
+	theDictionary=[xmlStuff getSpecificNodeForMany:test];
+	NSArray *keys=[theDictionary allKeys];
+	NSArray *values=[theDictionary allValues];
+	for (NSUInteger i=0;i<[theDictionary count];i++){
+		NSLog(@"//appcontroller/awake/ the %@ and the %@ ",[values objectAtIndex:i], [keys objectAtIndex:i]);
+	}
+	[xmlStuff release];
+	[theDictionary release];
+	//NSArray *test2=[xmlStuff initWithDirectoryOfXMLPaths];
+//	NSMutableDictionary *theDict2;
+//	theDict2=[xmlStuff getSpecificNodeForManyWithParser:test2];
+//	
 	return self;
 	
 }
@@ -52,17 +67,9 @@
 }
 -(void)awakeFromNib
 {
-	RSParser *xmlStuff;
-	xmlStuff=[[RSParser alloc]init];
-	//NSArray *test;//=[[NSArray alloc]init];
-	NSArray *test=[xmlStuff initWithDirectoryOfXML];
-	theDictionary=[xmlStuff getSpecificNodeForMany:test];
-	NSArray *keys=[theDictionary allKeys];
-	NSArray *values=[theDictionary allValues];
-	for (NSUInteger i=0;i<[theDictionary count];i++){
-		NSLog(@"//appcontroller/awake/ the %@ and the %@ ",[values objectAtIndex:i], [keys objectAtIndex:i]);
-	}
+	
 	[self goGraph];
+	
 }
 -(void)goGraph
 {
@@ -418,5 +425,20 @@
 {
 	plotSpace.xRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-10.0) length:CPDecimalFromFloat(100.0)];
 	plotSpace.yRange=[CPPlotRange plotRangeWithLocation:CPDecimalFromFloat(-1.0) length:CPDecimalFromFloat(5.0)];
+}
+
+
+-(IBAction)openPanel:(id)sender
+{
+	NSOpenPanel *openPanel=[NSOpenPanel openPanel];
+	[openPanel runModalForDirectory:nil file:nil types:nil];
+	NSArray *openArray=[openPanel URLs];
+	 if([openArray count]>0){
+		 for (NSURL *urlPath in openArray){
+			urlPath= [[urlPath absoluteString] substringFromIndex:16];
+			 [inputArray addObject:urlPath];
+			 NSLog(@"absolutestring %@",urlPath);
+		 }
+	 }
 }
 @end

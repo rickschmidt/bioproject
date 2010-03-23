@@ -63,7 +63,9 @@
 	[blastArgs addObject:@"-i"];                                                                                                                               \
 	[blastArgs addObject:inPath];    
 	[blastArgs addObject:@"-F"];     
-	[blastArgs addObject:@"m D"];     
+	[blastArgs addObject:@"m D"];
+	[blastArgs addObject:@"-b"];
+	[blastArgs addObject:@"50"];
 	                                                                                                                          \
 	[blastArgs addObject:@"-d"];                                                                                                                               \
 	[blastArgs addObject:@"nt"]; 

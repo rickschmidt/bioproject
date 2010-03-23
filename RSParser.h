@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
 
-@interface RSParser : NSObject {
+@interface RSParser : NSObject <NSXMLParserDelegate>{
 	
 	NSXMLDocument *xmlDoc;
 	NSArray *nodes;
@@ -17,7 +17,9 @@
 }
 -(void)initXML;
 -(NSArray *)initWithDirectoryOfXML;
+-(NSArray *)initWithDirectoryOfXMLPaths;
 -(NSArray *)getArrayForNode:(NSString *)nodeDesired;
 -(NSMutableDictionary *)getSpecificNode;
 -(NSMutableDictionary *)getSpecificNodeForMany:(NSArray *)withArrayOfXMLFiles;
+-(NSMutableDictionary *)getSpecificNodeForManyWithParser:(NSArray *)withArrayOfXMLPaths;
 @end
