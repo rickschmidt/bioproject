@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>BD5878F011583DD100BCAD16</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>Blast.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>BD5878F111583DD100BCAD16</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>Blast.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>BD5879C81158496E00BCAD16</string>
+						<key>history</key>
+						<array>
+							<string>BD5878F211583DD100BCAD16</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1330, 737}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>1935 297 1330 778 1920 180 1440 900 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -264,23 +305,16 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>BDB20BCA1144A71900A0DDC6</string>
 								<string>080E96DDFE201D6D7F000001</string>
-								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>29B97323FDCFA39411CA2CEA</string>
-								<string>1058C7A0FEA54F0111CA2CBB</string>
-								<string>1058C7A2FEA54F0111CA2CBB</string>
-								<string>1C37FBAC04509CD000000102</string>
-								<string>BD5877C11156F3E900BCAD16</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
-								<string>1CC0EA4004350EF90044410B</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>10</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -304,7 +338,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>353 181 1361 819 0 0 1920 1058 </string>
+						<string>341 113 1361 819 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -322,7 +356,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Blast.m</string>
+								<string>AppController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,22 +364,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Blast.m</string>
+										<string>AppController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD58788B1158312A00BCAD16</string>
+										<string>BD5879C71158496E00BCAD16</string>
 										<key>history</key>
 										<array>
 											<string>BD20CDDA114728A900A162D6</string>
 											<string>BDA28B6611489AB60082753E</string>
 											<string>BD353DFB1149958F00A05A2B</string>
-											<string>BD27B77A114F39740069066F</string>
 											<string>BD27B83911540F8E0069066F</string>
 											<string>BD398B1B11556ADC000295E3</string>
 											<string>BD398B2F11556D73000295E3</string>
-											<string>BD398B3011556D73000295E3</string>
-											<string>BD398B3111556D73000295E3</string>
 											<string>BD398B3211556D73000295E3</string>
 											<string>BD398B3311556D73000295E3</string>
 											<string>BD398B3411556D73000295E3</string>
@@ -357,12 +388,15 @@
 											<string>BD5877C21156F3E900BCAD16</string>
 											<string>BD5878251158279900BCAD16</string>
 											<string>BD5878271158279900BCAD16</string>
-											<string>BD5878321158292C00BCAD16</string>
 											<string>BD5878331158292C00BCAD16</string>
-											<string>BD58783D11582A3A00BCAD16</string>
 											<string>BD58784A11582AEA00BCAD16</string>
-											<string>BD58787811582F7E00BCAD16</string>
-											<string>BD58787911582F7E00BCAD16</string>
+											<string>BD58789F115839B400BCAD16</string>
+											<string>BD5878A0115839B400BCAD16</string>
+											<string>BD5878DA11583CAF00BCAD16</string>
+											<string>BD5878ED11583DD100BCAD16</string>
+											<string>BD58798A1158451500BCAD16</string>
+											<string>BD5879A41158463800BCAD16</string>
+											<string>BD58799E115845EE00BCAD16</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -376,7 +410,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1153, 651}}</string>
 								<key>RubberWindowFrame</key>
-								<string>353 181 1361 819 0 0 1920 1058 </string>
+								<string>341 113 1361 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -396,7 +430,7 @@
 								<key>Frame</key>
 								<string>{{0, 656}, {1153, 122}}</string>
 								<key>RubberWindowFrame</key>
-								<string>353 181 1361 819 0 0 1920 1058 </string>
+								<string>341 113 1361 819 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -560,17 +594,18 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD58788C1158312A00BCAD16</string>
+		<string>BD5879C91158496E00BCAD16</string>
 		<string>BD58784311582AC400BCAD16</string>
 		<string>BD587668115663C600BCAD16</string>
 		<string>BD587669115663C600BCAD16</string>
+		<string>BD5878F011583DD100BCAD16</string>
+		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>BDB20BC61144A70F00A0DDC6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
-	<string>353 181 1361 819 0 0 1920 1058 </string>
+	<string>341 113 1361 819 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -591,7 +626,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BioVizCorePlot18AppDelegate.m</string>
+								<string>AppController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -662,7 +697,7 @@
 			<key>WindowToolGUID</key>
 			<string>BDB20BC61144A70F00A0DDC6</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -745,10 +780,10 @@
 									<key>Frame</key>
 									<string>{{519, 0}, {624, 412}}</string>
 									<key>RubberWindowFrame</key>
-									<string>155 110 1143 814 0 0 1920 1058 </string>
+									<string>132 244 1143 814 0 0 1920 1058 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>155 110 1143 814 0 0 1920 1058 </string>
+								<string>132 244 1143 814 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -782,7 +817,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>155 110 1143 814 0 0 1920 1058 </string>
+			<string>132 244 1143 814 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>

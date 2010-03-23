@@ -16,6 +16,8 @@
 	
 }
 -(void)initXML;
+-(NSArray *)initWithDirectoryOfXML;
 -(NSArray *)getArrayForNode:(NSString *)nodeDesired;
 -(NSMutableDictionary *)getSpecificNode;
+-(NSMutableDictionary *)getSpecificNodeForMany:(NSArray *)withArrayOfXMLFiles;
 @end

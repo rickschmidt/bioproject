@@ -36,6 +36,7 @@
 	RSParser *xmlStuff;
 	xmlStuff=[[RSParser alloc]init];
 	[xmlStuff initXML];
+
 	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
 	inputArray=[[NSMutableArray alloc]init];
 	specificNodes=[xmlStuff getSpecificNode];
@@ -51,6 +52,16 @@
 }
 -(void)awakeFromNib
 {
+	RSParser *xmlStuff;
+	xmlStuff=[[RSParser alloc]init];
+	//NSArray *test;//=[[NSArray alloc]init];
+	NSArray *test=[xmlStuff initWithDirectoryOfXML];
+	NSMutableDictionary *theDictionary=[xmlStuff getSpecificNodeForMany:test];
+	NSArray *keys=[theDictionary allKeys];
+	NSArray *values=[theDictionary allValues];
+	for (NSUInteger i=0;i<[theDictionary count];i++){
+		NSLog(@"//appcontroller/awake/ the %@ and the %@ ",[values objectAtIndex:i], [keys objectAtIndex:i]);
+	}
 	[self goGraph];
 }
 -(void)goGraph
