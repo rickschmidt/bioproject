@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>BD5879C81158496E00BCAD16</string>
+						<string>BD5879E11158518E00BCAD16</string>
 						<key>history</key>
 						<array>
 							<string>BD5878F211583DD100BCAD16</string>
@@ -368,7 +368,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>BD5879C71158496E00BCAD16</string>
+										<string>BD5879E01158518E00BCAD16</string>
 										<key>history</key>
 										<array>
 											<string>BD20CDDA114728A900A162D6</string>
@@ -594,14 +594,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>BD5879C91158496E00BCAD16</string>
+		<string>BD5879E21158518E00BCAD16</string>
 		<string>BD58784311582AC400BCAD16</string>
 		<string>BD587668115663C600BCAD16</string>
 		<string>BD587669115663C600BCAD16</string>
 		<string>BD5878F011583DD100BCAD16</string>
 		<string>/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18.xcodeproj</string>
-		<string>BDB20BC61144A70F00A0DDC6</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>BDB20BC61144A70F00A0DDC6</string>
 		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
@@ -621,6 +621,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -643,8 +645,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -728,8 +728,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {519, 412}}</string>
-											<string>{{519, 0}, {624, 412}}</string>
+											<string>{{0, 0}, {482, 243}}</string>
+											<string>{{482, 0}, {865, 243}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -744,8 +744,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {1143, 412}}</string>
-											<string>{{0, 412}, {1143, 361}}</string>
+											<string>{{0, 0}, {1347, 243}}</string>
+											<string>{{0, 243}, {1347, 586}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -765,7 +765,7 @@
 								<key>DebugSTDIOWindowFrame</key>
 								<string>{{200, 200}, {500, 300}}</string>
 								<key>Frame</key>
-								<string>{{0, 0}, {1143, 773}}</string>
+								<string>{{0, 0}, {1347, 829}}</string>
 								<key>PBXDebugSessionStackFrameViewKey</key>
 								<dict>
 									<key>DebugVariablesTableConfiguration</key>
@@ -775,24 +775,24 @@
 										<string>Value</string>
 										<real>85</real>
 										<string>Summary</string>
-										<real>394</real>
+										<real>635</real>
 									</array>
 									<key>Frame</key>
-									<string>{{519, 0}, {624, 412}}</string>
+									<string>{{482, 0}, {865, 243}}</string>
 									<key>RubberWindowFrame</key>
-									<string>132 244 1143 814 0 0 1920 1058 </string>
+									<string>208 188 1347 870 0 0 1920 1058 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>132 244 1143 814 0 0 1920 1058 </string>
+								<string>208 188 1347 870 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
 							<key>Proportion</key>
-							<string>773pt</string>
+							<string>829pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>773pt</string>
+					<string>829pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -817,7 +817,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>132 244 1143 814 0 0 1920 1058 </string>
+			<string>208 188 1347 870 0 0 1920 1058 </string>
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
@@ -943,18 +943,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {701, 206}}</string>
+								<string>{{0, 0}, {904, 632}}</string>
 								<key>RubberWindowFrame</key>
-								<string>2289 386 701 247 1920 180 1440 900 </string>
+								<string>2198 339 904 673 1920 180 1440 900 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>206pt</string>
+							<string>632pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>206pt</string>
+					<string>632pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -974,7 +974,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>2289 386 701 247 1920 180 1440 900 </string>
+			<string>2198 339 904 673 1920 180 1440 900 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

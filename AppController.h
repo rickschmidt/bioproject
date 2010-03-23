@@ -32,6 +32,7 @@
 	IBOutlet NSView *viewFromCorePlot;
 	IBOutlet NSView *deleteView;
 	IBOutlet NSWindow *graphWindow;
+	NSMutableDictionary *theDictionary;
 	
 	//From CorePlotView
 	

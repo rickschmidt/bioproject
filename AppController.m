@@ -56,7 +56,7 @@
 	xmlStuff=[[RSParser alloc]init];
 	//NSArray *test;//=[[NSArray alloc]init];
 	NSArray *test=[xmlStuff initWithDirectoryOfXML];
-	NSMutableDictionary *theDictionary=[xmlStuff getSpecificNodeForMany:test];
+	theDictionary=[xmlStuff getSpecificNodeForMany:test];
 	NSArray *keys=[theDictionary allKeys];
 	NSArray *values=[theDictionary allValues];
 	for (NSUInteger i=0;i<[theDictionary count];i++){
@@ -129,6 +129,7 @@
 	x.title = @"X Axis";
 //	x.titleTextStyle = axisTitleTextStyle;
 	x.titleOffset = 25.0f;
+	x.labelingPolicy=CPAxisLabelingPolicyAutomatic;
 	
 	
 	// Label y with an automatic label policy. 
@@ -261,7 +262,7 @@
 	int num;
 	if ( [plot isKindOfClass:[CPBarPlot class]] ) {
 //		num=[nodes count]/50;
-		num=[specificNodes count];
+		num=[theDictionary count];
 	
 		return num;
     }
@@ -276,7 +277,7 @@
     if ( [plot isKindOfClass:[CPBarPlot class]] ) {
         
 		NSArray *theValues;
-		theValues=[specificNodes allValues];
+		theValues=[theDictionary allValues];
 //		int i=0;//=[theValues count];
 		//for(int x=0;x<i;x++){
 			
@@ -305,7 +306,7 @@
 {
 	if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 2"] )
 		return (id)[NSNull null]; // Don't show any label
-	else if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 1"]  ) 
+	else if ( [(NSString *)barPlot.identifier isEqualToString:@"Bar Plot 2"]  ) 
         return (id)[NSNull null];
     else
 		return nil; // Use default label style
