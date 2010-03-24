@@ -31,7 +31,10 @@
 	NSLog(@"plot space moving");
 }
 
-
+- (void)windowDidResize:(NSNotification *)notification{
+	
+	NSLog(@"AppDelegate//resized");
+}
 //-(void)array
 
 @end

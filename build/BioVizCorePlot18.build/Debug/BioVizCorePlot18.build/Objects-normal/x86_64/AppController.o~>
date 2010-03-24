@@ -1,46 +1,11 @@
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:67: warning: method possibly missing a [super dealloc] call
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:24: error: no declaration of property 'arrayController' found in the interface
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:71: warning: method possibly missing a [super dealloc] call
 /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController blastWithBlastcl3:]':
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:192: warning: unused variable 'i'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:196: warning: unused variable 'i'
 /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController openPanel:]':
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:438: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSURL *'
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:439: error: 'urlPat' undeclared (first use in this function)
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:439: error: (Each undeclared identifier is reported only once
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:439: error: for each function it appears in.)
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:451: error: accessing unknown 'arrayController' getter method
 /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: At top level:
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:444: warning: incomplete implementation of class 'AppController'
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:444: warning: method definition for '-setAnimationsTypes' not found
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:444: warning: method definition for '-displayNewView:' not found
-/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:444: warning: method definition for '-getNodesArray' not found
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_2
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6
-{standard input}:unknown:Undefined local symbol LC10
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_7
-{standard input}:unknown:Undefined local symbol LC11
-{standard input}:unknown:Undefined local symbol LC12
-{standard input}:unknown:Undefined local symbol LC13
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_8
-{standard input}:unknown:Undefined local symbol LC14
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_9
-{standard input}:unknown:Undefined local symbol LC15
-{standard input}:unknown:Undefined local symbol LC16
-{standard input}:unknown:Undefined local symbol LC17
-{standard input}:unknown:Undefined local symbol LC18
-{standard input}:unknown:Undefined local symbol LC21
-{standard input}:unknown:Undefined local symbol LC24
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_10
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_11
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_12
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_13
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_14
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_15
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_16
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_17
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_18
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_19
-{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_20
-{standard input}:unknown:Undefined local symbol LC58
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:457: warning: incomplete implementation of class 'AppController'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:457: warning: method definition for '-setAnimationsTypes' not found
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:457: warning: method definition for '-displayNewView:' not found
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:457: warning: method definition for '-getNodesArray' not found

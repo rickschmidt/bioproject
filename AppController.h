@@ -25,7 +25,7 @@
 	NSString *inputString;
 	NSMutableDictionary *specificNodes;
 	IBOutlet NSWindow *mainApplicationWindow;
-	//NSArrayController *arrayController;
+	IBOutlet NSArrayController *arrayController;
 	NSMutableArray *inputArrayMenu;
 	NSString *inputText;
 	//NSRect oldWindowFrame;
@@ -47,6 +47,8 @@
 	//IBOutlet NSWindow *mainApplicationWindow;
 	IBOutlet NSColorPanel *colorPanel;
 	
+	NSRect inputFrame;
+	NSRect graphFrame;
 	
 	NSRect							oldWindowFrame;
 	CATransition					*transition;
@@ -60,11 +62,13 @@
 @property(readwrite,copy)NSString *inputString;
 @property(readwrite,copy)NSString *inputText;
 //@property(readwrite,copy)BOOL *inputArrayHasMoreThanOne;
+@property(readwrite)NSArrayController *arrayController;
 
 //From CorePlotView
 @property CGFloat xShift;
 @property CGFloat yShift;
 @property CGFloat labelRotation;
+
 //end from coreplotview
 
 

@@ -21,6 +21,7 @@
 @synthesize xShift;
 @synthesize yShift;
 @synthesize labelRotation;
+@synthesize arrayController;
 
 
 +(void)initialize
@@ -31,7 +32,8 @@
 -(id)init
 {
 	self=[super init];
-	
+	inputFrame=NSMakeRect(200.0f, 500.0f, 450.0f, 450.0f);
+	graphFrame=NSMakeRect(200.0f, 500.0f, 900.0f, 900.0f);
 	NSLog(@"HEREHERE %@ //AppController/init",[[mainApplicationWindow contentView]subviews]);
 	RSParser *xmlStuff;
 	xmlStuff=[[RSParser alloc]init];
@@ -43,7 +45,7 @@
 		//NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
 	
 	
-	//NSArray *test;//=[[NSArray alloc]init];
+	//NSArray *test=[[NSArray alloc]init];
 	NSArray *test=[xmlStuff initWithDirectoryOfXML];
 	theDictionary=[xmlStuff getSpecificNodeForMany:test];
 	NSArray *keys=[theDictionary allKeys];
@@ -51,8 +53,10 @@
 	for (NSUInteger i=0;i<[theDictionary count];i++){
 		NSLog(@"//appcontroller/awake/ the %@ and the %@ ",[values objectAtIndex:i], [keys objectAtIndex:i]);
 	}
-	[xmlStuff release];
-	[theDictionary release];
+	//[xmlStuff release];
+	//[theDictionary release];
+	
+	
 	//NSArray *test2=[xmlStuff initWithDirectoryOfXMLPaths];
 //	NSMutableDictionary *theDict2;
 //	theDict2=[xmlStuff getSpecificNodeForManyWithParser:test2];
@@ -68,7 +72,7 @@
 -(void)awakeFromNib
 {
 	
-	[self goGraph];
+	//[self goGraph];
 	
 }
 -(void)goGraph
@@ -330,11 +334,13 @@
 {
 	if (![[[mainApplicationWindow contentView] subviews] containsObject:inputMenuView])
 	{
+		
+		[graph release];
 		//[mainApplicationWindow setContentView:inputMenuView];
 		oldWindowFrame = [mainApplicationWindow frame];
 //		
 //		
-//		
+		
 		NSRect currentSize = [[mainApplicationWindow contentView] frame];
 		[inputMenuView setFrame:currentSize];
 		NSView *currentView = [[[mainApplicationWindow contentView] subviews] objectAtIndex:0];
@@ -346,6 +352,7 @@
 		//[currentView setAnimation:currentAnimation];
 		[[[mainApplicationWindow contentView] animator ]replaceSubview:currentView with:inputMenuView];
 		//[[mainApplicationWindow contentView] replaceSubview:[mainApplicationWindow contentView] with: inputMenuView];
+		[mainApplicationWindow setFrame:inputFrame display:YES animate:YES];
 		
 	}
 	
@@ -377,6 +384,8 @@
 		//[currentView setAnimation:currentAnimation];
 		[[[mainApplicationWindow contentView]  animator]replaceSubview:currentView with:hostView];
 		//[[mainApplicationWindow contentView] replaceSubview:[mainApplicationWindow contentView] with: hostView];
+		[mainApplicationWindow setFrame:graphFrame display:YES animate:YES];
+		[self goGraph];
 		
 	}
 	
@@ -433,12 +442,16 @@
 	NSOpenPanel *openPanel=[NSOpenPanel openPanel];
 	[openPanel runModalForDirectory:nil file:nil types:nil];
 	NSArray *openArray=[openPanel URLs];
+	arrayController=[[NSArrayController alloc]init];
 	 if([openArray count]>0){
 		 for (NSURL *urlPath in openArray){
-			urlPath= [[urlPath absoluteString] substringFromIndex:16];
-			 [inputArray addObject:urlPath];
-			 NSLog(@"absolutestring %@",urlPath);
+			NSString *urlPath1= [[urlPath absoluteString] substringFromIndex:16];
+			 NSMutableArray *array=[self mutableArrayValueForKey:@"inputArray"];
+			 [array addObject:urlPath1];
+			 //[arrayController.arrangedObjects addObject:urlPath1 ];
+			 NSLog(@"absolutestring %@",urlPath1);
 		 }
 	 }
+	
 }
 @end
