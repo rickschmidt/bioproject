@@ -1,0 +1,1 @@
+Known bug-RSParser initWithDirectroyOfXML fails if .DS_Stroe or any other file that isn't XML for that matter exists in the App Support folder
