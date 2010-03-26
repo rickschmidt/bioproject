@@ -29,6 +29,7 @@
 		BDB20BDC1144A75300A0DDC6 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB20BD41144A71900A0DDC6 /* CorePlot.framework */; };
 		BDB20BDE1144A76300A0DDC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */; };
 		BDB20BE81144A78100A0DDC6 /* CorePlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB20BE71144A78100A0DDC6 /* CorePlotView.m */; };
+		BDC87A91115AA43E001DBB83 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = BDC87A90115AA43E001DBB83 /* TODO.txt */; };
 		BDC9B56E114AECAA007DC451 /* RSInputMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC9B56D114AECAA007DC451 /* RSInputMenuView.m */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		BDB20BDD1144A76300A0DDC6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
 		BDB20BE61144A78100A0DDC6 /* CorePlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePlotView.h; sourceTree = "<group>"; };
 		BDB20BE71144A78100A0DDC6 /* CorePlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePlotView.m; sourceTree = "<group>"; };
+		BDC87A90115AA43E001DBB83 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 		BDC9B56C114AECAA007DC451 /* RSInputMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSInputMenuView.h; sourceTree = "<group>"; };
 		BDC9B56D114AECAA007DC451 /* RSInputMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSInputMenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +187,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				BDC87A90115AA43E001DBB83 /* TODO.txt */,
 			);
 			name = BioVizCorePlot18;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				BDA28B4811489A0D0082753E /* blasticoncompressed.icns in Resources */,
 				BDA28B7B11489B5D0082753E /* blasticon.icns in Resources */,
 				BD405341114EE074003E4741 /* bar_graph.jpg in Resources */,
+				BDC87A91115AA43E001DBB83 /* TODO.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -26,7 +26,7 @@
 	
 	
 	NSError *err;
-	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/out0.xml";
+	NSString *inPath=@"/Users/rickschmidt/Library/Application Support/BioProject/BLAST_results_0.xml";
 	NSData *data=[NSData dataWithContentsOfFile:inPath];
 	//	NSString *xmlString=[NSString stringWithContentsOfFile:inPath encoding:NSASCIIStringEncoding error:err];
 	xmlDoc=[[NSXMLDocument alloc] initWithData:data options:0 error:&err];

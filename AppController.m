@@ -39,7 +39,7 @@
 	xmlStuff=[[RSParser alloc]init];
 	[xmlStuff initXML];
 
-	nodes=[xmlStuff getArrayForNode:@".//Hit_id"];
+	nodes=[xmlStuff getArrayForNode:@".//Hit_def"];
 	inputArray=[[NSMutableArray alloc]init];
 	specificNodes=[xmlStuff getSpecificNode];
 		//NSLog(@"node object at index 2 %@",[nodes objectAtIndex:2]);
@@ -446,10 +446,14 @@
 	 if([openArray count]>0){
 		 for (NSURL *urlPath in openArray){
 			NSString *urlPath1= [[urlPath absoluteString] substringFromIndex:16];
-			 NSMutableArray *array=[self mutableArrayValueForKey:@"inputArray"];
+			 NSMutableArray *array=[inputArray mutableArrayValueForKey:@"inputText"];
 			 [array addObject:urlPath1];
 			 //[arrayController.arrangedObjects addObject:urlPath1 ];
 			 NSLog(@"absolutestring %@",urlPath1);
+			 for(NSString *url in inputArray){
+				 
+				 NSLog(@"input ARRAY OJBECT %@",url);
+			 }
 		 }
 	 }
 	
