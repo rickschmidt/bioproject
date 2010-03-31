@@ -20,6 +20,9 @@
 		BD405341114EE074003E4741 /* bar_graph.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD405340114EE074003E4741 /* bar_graph.jpg */; };
 		BD5877B01156F35600BCAD16 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5877AF1156F35600BCAD16 /* CorePlot.framework */; };
 		BD5877B91156F3A900BCAD16 /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5877B81156F3A900BCAD16 /* CorePlot.framework */; };
+		BD87FB1B1162548F0000E892 /* RSBlastConcurrent.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87FB1A1162548F0000E892 /* RSBlastConcurrent.m */; };
+		BD87FB22116255170000E892 /* RSBlastMany.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87FB21116255170000E892 /* RSBlastMany.m */; };
+		BD87FB27116257E40000E892 /* RSBlastOneWithConcurrecny.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87FB26116257E40000E892 /* RSBlastOneWithConcurrecny.m */; };
 		BDA28A6D114853570082753E /* Bioinforicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28A6C114853570082753E /* Bioinforicon.icns */; };
 		BDA28AD611487A870082753E /* blast.icns in Resources */ = {isa = PBXBuildFile; fileRef = BDA28AD511487A870082753E /* blast.icns */; };
 		BDA28B2A11488E9E0082753E /* RSXMLToOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA28B2911488E9E0082753E /* RSXMLToOutline.m */; };
@@ -94,6 +97,12 @@
 		BD405340114EE074003E4741 /* bar_graph.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar_graph.jpg; sourceTree = "<group>"; };
 		BD5877AF1156F35600BCAD16 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "/Users/rickschmidt/git/coreplot/core-plot/framework/build/Debug/CorePlot.framework"; sourceTree = "<absolute>"; };
 		BD5877B81156F3A900BCAD16 /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = "/Users/rickschmidt/git/coreplot/core-plot/framework/build/Release/CorePlot.framework"; sourceTree = "<absolute>"; };
+		BD87FB191162548F0000E892 /* RSBlastConcurrent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBlastConcurrent.h; sourceTree = "<group>"; };
+		BD87FB1A1162548F0000E892 /* RSBlastConcurrent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBlastConcurrent.m; sourceTree = "<group>"; };
+		BD87FB20116255170000E892 /* RSBlastMany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBlastMany.h; sourceTree = "<group>"; };
+		BD87FB21116255170000E892 /* RSBlastMany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBlastMany.m; sourceTree = "<group>"; };
+		BD87FB25116257E40000E892 /* RSBlastOneWithConcurrecny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBlastOneWithConcurrecny.h; sourceTree = "<group>"; };
+		BD87FB26116257E40000E892 /* RSBlastOneWithConcurrecny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBlastOneWithConcurrecny.m; sourceTree = "<group>"; };
 		BDA28A6C114853570082753E /* Bioinforicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Bioinforicon.icns; sourceTree = "<group>"; };
 		BDA28AD511487A870082753E /* blast.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = blast.icns; sourceTree = "<group>"; };
 		BDA28B2811488E9E0082753E /* RSXMLToOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSXMLToOutline.h; sourceTree = "<group>"; };
@@ -129,6 +138,12 @@
 			children = (
 				BD4052F8114E7CD5003E4741 /* untitled.h */,
 				BD4052F9114E7CD5003E4741 /* untitled.m */,
+				BD87FB191162548F0000E892 /* RSBlastConcurrent.h */,
+				BD87FB1A1162548F0000E892 /* RSBlastConcurrent.m */,
+				BD87FB20116255170000E892 /* RSBlastMany.h */,
+				BD87FB21116255170000E892 /* RSBlastMany.m */,
+				BD87FB25116257E40000E892 /* RSBlastOneWithConcurrecny.h */,
+				BD87FB26116257E40000E892 /* RSBlastOneWithConcurrecny.m */,
 				BDA28B2811488E9E0082753E /* RSXMLToOutline.h */,
 				BDA28B2911488E9E0082753E /* RSXMLToOutline.m */,
 				BDB20BE61144A78100A0DDC6 /* CorePlotView.h */,
@@ -327,6 +342,9 @@
 				BDA28B2A11488E9E0082753E /* RSXMLToOutline.m in Sources */,
 				BDC9B56E114AECAA007DC451 /* RSInputMenuView.m in Sources */,
 				BD4052FA114E7CD5003E4741 /* untitled.m in Sources */,
+				BD87FB1B1162548F0000E892 /* RSBlastConcurrent.m in Sources */,
+				BD87FB22116255170000E892 /* RSBlastMany.m in Sources */,
+				BD87FB27116257E40000E892 /* RSBlastOneWithConcurrecny.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

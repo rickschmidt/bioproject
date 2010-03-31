@@ -1,7 +1,7 @@
 TBioVizCorePlot18
 v7
 r0
-t291000717.219276
+t291697154.600927
 cCheck dependencies
 cProcessInfoPlistFile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Info.plist BioVizCorePlot18-Info.plist
 cCopyStringsFile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -22,9 +22,10 @@ cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-norm
 cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSXMLToOutline.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSXMLToOutline.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSInputMenuView.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSInputMenuView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/untitled.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/untitled.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot18 normal x86_64
+cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastConcurrent.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastMany.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastOneWithConcurrecny.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 cPBXCp build/Debug/BioVizCorePlot18.app/Contents/Frameworks/CorePlot.framework /Users/rickschmidt/git/coreplot/core-plot/framework/build/Debug/CorePlot.framework
-cTouch /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004A769DAB00000000000000EE
@@ -174,33 +175,34 @@ t1268689093
 s27736
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.h
-c000000004BA8168300000000000009C4
-t1269307011
-s2500
+c000000004BB251300000000000000A11
+t1269977392
+s2577
 i<Cocoa/Cocoa.h>
 i<CorePlot/CorePlot.h>
 i"Blast.h"
 i"RSParser.h"
 i"RSInputMenuView.h"
+i"RSBlastMany.h"
 i<QuartzCore/CAAnimation.h>
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m
-c000000004BA81A0B0000000000003EB0
-t1269307915
-s16048
+c000000004BB251300000000000003F59
+t1269977392
+s16217
 i"AppController.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.h
-c000000004BA6808800000000000001DA
-t1269203080
+c000000004BA81B5200000000000001DA
+t1269308242
 s474
 i<Cocoa/Cocoa.h>
 i<CorePlot/CorePlot.h>
 i"AppController.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m
-c000000004BA68239000000000000030E
-t1269203513
+c000000004BB1006C000000000000030E
+t1269891180
 s782
 i"BioVizCorePlot18AppDelegate.h"
 
@@ -216,22 +218,22 @@ t1257106694
 s174098
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.h
-c000000004BA7EFF4000000000000024F
-t1269297140
-s591
+c000000004BB111BD000000000000028B
+t1269895613
+s651
 i<Cocoa/Cocoa.h>
 i"AppController.h"
 i"RSParser.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m
-c000000004BA7F9A80000000000001866
-t1269299624
-s6246
+c000000004BB11E59000000000000199D
+t1269898841
+s6557
 i"Blast.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.h
-c000000004BA6816800000000000003C8
-t1269203304
+c000000004BA81B5200000000000003C8
+t1269308242
 s968
 i<Cocoa/Cocoa.h>
 i<CorePlot/CorePlot.h>
@@ -240,8 +242,8 @@ i<QuartzCore/CAAnimation.h>
 i"BioVizCorePlot18AppDelegate.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m
-c000000004BA681EB0000000000001BB0
-t1269203435
+c000000004BA81B520000000000001BB0
+t1269308242
 s7088
 i"CorePlotView.h"
 
@@ -251,9 +253,47 @@ t1268019082
 s45
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib
-c000000004BA7F2AF0000000000049ECA
-t1269297839
-s302794
+c000000004BB2543C000000000004A3B0
+t1269978172
+s304048
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.h
+c000000004BB21D79000000000000011F
+t1269964153
+s287
+i<Cocoa/Cocoa.h>
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m
+c000000004BB21D7900000000000000FA
+t1269964153
+s250
+i"RSBlastConcurrent.h"
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.h
+c000000004BB254F20000000000000143
+t1269978354
+s323
+i<Cocoa/Cocoa.h>
+i"RSBlastOneWithConcurrecny.h"
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m
+c000000004BB2BA8100000000000005C2
+t1270004353
+s1474
+i"RSBlastMany.h"
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.h
+c000000004BB2B9A300000000000001F7
+t1270004131
+s503
+i<Cocoa/Cocoa.h>
+i"RSParser.h"
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m
+c000000004BB2AF3E00000000000012B8
+t1270001470
+s4792
+i"RSBlastOneWithConcurrecny.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSGraphWindow.h
 c000000004B9EF19D0000000000000114
@@ -297,14 +337,14 @@ s464
 i"RSInputMenuView.h"
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.h
-c000000004BA80D3200000000000001E1
-t1269304626
+c000000004BB1006C00000000000001E1
+t1269891180
 s481
 i<Cocoa/Cocoa.h>
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m
-c000000004BA80CBC0000000000000F6A
-t1269304508
+c000000004BB1006C0000000000000F6A
+t1269891180
 s3946
 i"RSParser.h"
 
@@ -325,6 +365,11 @@ c000000004B981DF40000000000057684
 t1268260340
 s358020
 
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/TODO.txt
+c000000004BB0FE49000000000000008E
+t1269890633
+s142
+
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/XMLParser.h
 c000000004B95C4C40000000000000146
 t1268106436
@@ -343,8 +388,8 @@ t1268689093
 s27736
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/bar_graph.jpg
-c000000004B9EA8C50000000000006C58
-t1268689093
+c000000004BA81B520000000000006C58
+t1269308242
 s27736
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/bar_graphjpg
@@ -386,25 +431,37 @@ t1268277860
 s807988
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o
-t1269307916
-s98692
+t1270004132
+s99892
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18.LinkFileList
-c000000004B9EF26300000000000005B9
-t1268707939
-s1465
+c000000004BB2511500000000000007B3
+t1269977365
+s1971
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o
-t1269307012
+t1270004132
 s28552
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/Blast.o
-t1269307012
-s30620
+t1269977430
+s33244
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/CorePlotView.o
-t1269307012
+t1270004132
 s56108
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastConcurrent.o
+t1269964154
+s5860
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastMany.o
+t2
+s0
+
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastOneWithConcurrecny.o
+t1270004132
+s23984
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSGraphWindow.o
 t1268707741
@@ -419,7 +476,7 @@ t1269265732
 s16420
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSParser.o
-t1269304627
+t1269891181
 s20992
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSXMLToOutline.o
@@ -443,7 +500,7 @@ t1269265732
 s16044
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app
-t1269307916
+t1270004133
 s102
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Frameworks/CorePlot.framework
@@ -451,15 +508,15 @@ t1268278100
 s238
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Info.plist
-t1269118225
+t1269893024
 s980
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot18
-t1269307916
-s81840
+t1270004133
+s91248
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/PkgInfo
-t1269118225
+t1269893024
 s8
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/1268689092_bar_chart.png
@@ -475,8 +532,8 @@ t1268278085
 s92
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/English.lproj/MainMenu.nib
-t1269297844
-s63472
+t1269978228
+s63987
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/RSInputMenu.nib
 t1269027103
@@ -486,12 +543,16 @@ N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug
 t1268260678
 s358020
 
+N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/TODO.txt
+t1269890639
+s142
+
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/bar_graph
 t1268689790
 s27736
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/bar_graph.jpg
-t1269117639
+t1269308242
 s27736
 
 N/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/bar_graphjpg
@@ -985,13 +1046,13 @@ t1268019857
 s54269712
 
 NBioVizCorePlot18-Info.plist
-c000000004BA5351000000000000003FD
-t1269118224
+c000000004BB1006C00000000000003FD
+t1269891180
 s1021
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies291000717#291000717#0(0"0(0#1#0"4300882208#0"0#
+lSLF07#2@18"Check dependencies291697154#291697154#0(0"0(0#1#0"4300882208#0"0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o /Users/rickschmidt/git/BioVizCorePlot18/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s289712864.821869
@@ -1009,8 +1070,8 @@ o/Users/rickschmidt/git/BioVizCorePlot18/AppController.h:11:30: error: CorePlot/
 lSLF07#2@63"Compile /Users/rickschmidt/git/BioVizCorePlot18/AppController.m289712864#289712865#0(198"In file included from /Users/rickschmidt/git/BioVizCorePlot18/AppController.m:9:/Users/rickschmidt/git/BioVizCorePlot18/AppController.h:11:30: error: CorePlot/CorePlot.h: No such file or directory1(4@46"CorePlot/CorePlot.h: No such file or directory289712864#81#117#2(7@77"In file included from /Users/rickschmidt/git/BioVizCorePlot18/AppController.m289712864#18446744073709551615#0#0(6@55"/Users/rickschmidt/git/BioVizCorePlot18/AppController.m289712001#9#0#9#0#0"0(13@105"CorePlot/CorePlot.h: No such file or directory in /Users/rickschmidt/git/BioVizCorePlot18/AppController.h289712864#18446744073709551615#0#0(6@55"/Users/rickschmidt/git/BioVizCorePlot18/AppController.h289712694#11#0#11#0#0"0(6@55"/Users/rickschmidt/git/BioVizCorePlot18/AppController.h289712694#11#0#11#0#28"*: No such file or directory0(0#0#55"/Users/rickschmidt/git/BioVizCorePlot18/AppController.m4300882208#1729"    cd /Users/rickschmidt/git/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/BioVizCorePlot18/build/Debug -F/Users/rickschmidt/git/BioVizCorePlot18/../../framework/build/Debug -I/Users/rickschmidt/git/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-dejzmwcuurtcbmeoeymuxngytjkj/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/BioVizCorePlot18/AppController.m -o /Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o1#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s291000715.553895
-e291000716.504015
+s291696932.258894
+e291696932.770351
 r1
 xCompileC
 xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o
@@ -1020,15 +1081,12 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:52: warning: method possibly missing a [super dealloc] call
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController blastWithBlastcl3:]':
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:185: warning: unused variable 'i'
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: At top level:
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: incomplete implementation of class 'AppController'
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-addFristGraph' not found
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-setAnimationsTypes' not found
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-displayNewView:' not found
-o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-getNodesArray' not found
-lSLF07#2@91"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#291000716#0(1241"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:52: warning: method possibly missing a [super dealloc] call/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController blastWithBlastcl3:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:185: warning: unused variable 'i'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: At top level:/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: incomplete implementation of class 'AppController'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-addFristGraph' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-setAnimationsTypes' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-displayNewView:' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:422: warning: method definition for '-getNodesArray' not found8(22@46"Method possibly missing a [super dealloc] call291000716#0#144#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#52#0#52#0#46"method possibly missing a [super dealloc] call0(22@19"Unused variable 'i'291000716#280#118#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#185#0#185#0#19"unused variable '*'0(23@13"At top level:291000716#398#99#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#0#0#0#0#0"0(22@50"Incomplete implementation of class 'AppController'291000716#497#149#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#422#0#422#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-addFristGraph' not found291000716#646#147#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#422#0#422#0#35"method definition for '*' not found0(22@53"Method definition for '-setAnimationsTypes' not found291000716#793#152#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#422#0#422#0#35"method definition for '*' not found0(22@50"Method definition for '-displayNewView:' not found291000716#945#149#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#422#0#422#0#35"method definition for '*' not found0(22@48"Method definition for '-getNodesArray' not found291000716#1094#147#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291000715#422#0#422#0#35"method definition for '*' not found0(0#0#83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m4300882208#2441"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o0#
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: incomplete implementation of class 'AppController'
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-addFristGraph' not found
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-setAnimationsTypes' not found
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-displayNewView:' not found
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-getNodesArray' not found
+lSLF07#2@91"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291696932#291696932#0(888"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:52: warning: method possibly missing a [super dealloc] call/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: incomplete implementation of class 'AppController'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-addFristGraph' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-setAnimationsTypes' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-displayNewView:' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-getNodesArray' not found6(22@46"Method possibly missing a [super dealloc] call291696932#0#144#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291670192#52#0#52#0#46"method possibly missing a [super dealloc] call0(22@50"Incomplete implementation of class 'AppController'291696932#144#149#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291670192#430#0#430#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-addFristGraph' not found291696932#293#147#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291670192#430#0#430#0#35"method definition for '*' not found0(22@53"Method definition for '-setAnimationsTypes' not found291696932#440#152#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291670192#430#0#430#0#35"method definition for '*' not found0(22@50"Method definition for '-displayNewView:' not found291696932#592#149#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291670192#430#0#430#0#35"method definition for '*' not found0(22@48"Method definition for '-getNodesArray' not found291696932#741#147#0(6@83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m291670192#430#0#430#0#35"method definition for '*' not found0(0#0#83"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m4300882208#2441"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/AppController.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o /Users/rickschmidt/git/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s289712864.413821
@@ -1044,8 +1102,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/rickschmidt/git/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m289712864#289712864#0(0"0(0#0#69"/Users/rickschmidt/git/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m4300882208#1757"    cd /Users/rickschmidt/git/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/BioVizCorePlot18/build/Debug -F/Users/rickschmidt/git/BioVizCorePlot18/../../framework/build/Debug -I/Users/rickschmidt/git/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-dejzmwcuurtcbmeoeymuxngytjkj/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m -o /Users/rickschmidt/git/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s290999812.007578
-e290999812.483386
+s291696931.848432
+e291696932.258599
 r1
 xCompileC
 xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o
@@ -1056,11 +1114,11 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m: In function '-[BioVizCorePlot18AppDelegate plotSpace:willChangePlotRangeTo:forCoordinate:]':
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m:32: warning: control reaches end of non-void function
-lSLF07#2@105"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m290999812#290999812#0(344"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m: In function '-[BioVizCorePlot18AppDelegate plotSpace:willChangePlotRangeTo:forCoordinate:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m:32: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function290999812#192#152#0(6@97"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m290896313#32#0#32#0#40"control reaches end of non-void function0(0#0#97"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m4300882208#2469"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o0#
+lSLF07#2@105"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m291696931#291696932#0(344"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m: In function '-[BioVizCorePlot18AppDelegate plotSpace:willChangePlotRangeTo:forCoordinate:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m:32: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function291696932#192#152#0(6@97"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m291583980#32#0#32#0#40"control reaches end of non-void function0(0#0#97"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m4300882208#2469"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18AppDelegate.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18AppDelegate.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/Blast.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s290999812.483590
-e290999812.879756
+s291670229.964575
+e291670230.268372
 r1
 xCompileC
 xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/Blast.o
@@ -1069,11 +1127,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m290999812#290999812#0(0"0(0#0#75"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m4300882208#2425"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/Blast.o0#
+lSLF07#2@83"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m291670229#291670230#0(0"0(0#0#75"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m4300882208#2425"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Blast.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/Blast.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/CorePlotView.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s290999812.069575
-e290999812.484989
+s291696931.850226
+e291696932.362348
 r1
 xCompileC
 xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/CorePlotView.o
@@ -1093,7 +1151,57 @@ o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotVie
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: incomplete implementation of class 'CorePlotView'
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-numberOfRecordsForPlot:' not found
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: class 'CorePlotView' does not fully implement the 'CPPlotDataSource' protocol
-lSLF07#2@90"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290999812#290999812#0(1614"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m: In function '-[CorePlotView plotSpace:willChangePlotRangeTo:forCoordinate:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: control reaches end of non-void function/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m: At top level:/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: incomplete implementation of class 'CorePlotView'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-addFristGraph' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-setAnimationsTypes' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-displayNewView:' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-getNodesArray' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: incomplete implementation of class 'CorePlotView'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-numberOfRecordsForPlot:' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: class 'CorePlotView' does not fully implement the 'CPPlotDataSource' protocol10(22@40"Control reaches end of non-void function290999812#162#138#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#180#0#180#0#40"control reaches end of non-void function0(23@13"At top level:290999812#300#98#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#0#0#0#0#0"0(22@49"Incomplete implementation of class 'CorePlotView'290999812#398#147#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-addFristGraph' not found290999812#545#146#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#35"method definition for '*' not found0(22@53"Method definition for '-setAnimationsTypes' not found290999812#691#151#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#35"method definition for '*' not found0(22@50"Method definition for '-displayNewView:' not found290999812#842#148#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#35"method definition for '*' not found0(22@48"Method definition for '-getNodesArray' not found290999812#990#146#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#35"method definition for '*' not found0(22@49"Incomplete implementation of class 'CorePlotView'290999812#1136#147#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-numberOfRecordsForPlot:' not found290999812#1283#156#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#35"method definition for '*' not found0(22@77"Class 'CorePlotView' does not fully implement the 'CPPlotDataSource' protocol290999812#1439#175#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m290896235#181#0#181#0#51"class '*' does not fully implement the '*' protocol0(0#0#82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m4300882208#2439"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/CorePlotView.o0#
+lSLF07#2@90"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291696931#291696932#0(1614"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m: In function '-[CorePlotView plotSpace:willChangePlotRangeTo:forCoordinate:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:180: warning: control reaches end of non-void function/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m: At top level:/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: incomplete implementation of class 'CorePlotView'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-addFristGraph' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-setAnimationsTypes' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-displayNewView:' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-getNodesArray' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: incomplete implementation of class 'CorePlotView'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: method definition for '-numberOfRecordsForPlot:' not found/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m:181: warning: class 'CorePlotView' does not fully implement the 'CPPlotDataSource' protocol10(22@40"Control reaches end of non-void function291696932#162#138#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#180#0#180#0#40"control reaches end of non-void function0(23@13"At top level:291696932#300#98#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#0#0#0#0#0"0(22@49"Incomplete implementation of class 'CorePlotView'291696932#398#147#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#38"incomplete implementation of class '*'0(22@48"Method definition for '-addFristGraph' not found291696932#545#146#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#35"method definition for '*' not found0(22@53"Method definition for '-setAnimationsTypes' not found291696932#691#151#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#35"method definition for '*' not found0(22@50"Method definition for '-displayNewView:' not found291696932#842#148#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#35"method definition for '*' not found0(22@48"Method definition for '-getNodesArray' not found291696932#990#146#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#35"method definition for '*' not found0(22@49"Incomplete implementation of class 'CorePlotView'291696932#1136#147#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-numberOfRecordsForPlot:' not found291696932#1283#156#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#35"method definition for '*' not found0(22@77"Class 'CorePlotView' does not fully implement the 'CPPlotDataSource' protocol291696932#1439#175#0(6@82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m291001042#181#0#181#0#51"class '*' does not fully implement the '*' protocol0(0#0#82"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m4300882208#2439"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/CorePlotView.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/CorePlotView.o0#
+
+CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastConcurrent.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291656953.864974
+e291656954.391264
+r1
+xCompileC
+xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastConcurrent.o
+x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m291656953#291656954#0(0"0(0#0#87"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m4300882208#2449"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastConcurrent.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastConcurrent.o0#
+
+CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastMany.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291697154.063463
+e291697154.600751
+r0
+xCompileC
+xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastMany.o
+x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m: In function '-[RSBlastMany blastMany:]':
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: error: 'blast' undeclared (first use in this function)
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: error: (Each undeclared identifier is reported only once
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: error: for each function it appears in.)
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: 'RSBlastMany' may not respond to '-initWithTarget:selector:object:'
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: (Messages without a matching method signature
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: will be assumed to return 'id' and accept
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: '...' as arguments.)
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:23: warning: unused variable 'arrayOfOperations'
+lSLF07#2@89"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m291697154#291697154#0(1223"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m: In function '-[RSBlastMany blastMany:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: error: 'blast' undeclared (first use in this function)/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: error: (Each undeclared identifier is reported only once/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: error: for each function it appears in.)/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: 'RSBlastMany' may not respond to '-initWithTarget:selector:object:'/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: (Messages without a matching method signature/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: will be assumed to return 'id' and accept/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:34: warning: '...' as arguments.)/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m:23: warning: unused variable 'arrayOfOperations'4(4@47"'blast' undeclared (first use in this function)291697154#124#141#0(6@81"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m291697153#34#0#34#0#43"'*' undeclared (first use in this function)0(22@67"'RSBlastMany' may not respond to '-initWithTarget:selector:object:'291697154#535#163#0(6@81"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m291697153#34#0#34#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)291697154#698#141#0(6@81"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m291697153#34#0#34#0#0"0(22@35"Unused variable 'arrayOfOperations'291697154#1092#131#0(6@81"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m291697153#23#0#23#0#19"unused variable '*'0(0#0#81"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m4300882208#2437"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastMany.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastMany.o1#
+
+CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastOneWithConcurrecny.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s291696932.571800
+e291696932.882241
+r1
+xCompileC
+xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastOneWithConcurrecny.o
+x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m: In function '-[RSBlastOneWithConcurrecny blast]':
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m:113: warning: control reaches end of non-void function
+lSLF07#2@103"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m291696932#291696932#0(298"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m: In function '-[RSBlastOneWithConcurrecny blast]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m:113: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function291696932#147#151#0(6@95"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m291694270#113#0#113#0#40"control reaches end of non-void function0(0#0#95"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m4300882208#2465"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSBlastOneWithConcurrecny.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSBlastOneWithConcurrecny.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSGraphWindow.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSGraphWindow.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s290400541.405686
@@ -1135,8 +1243,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSInputMenuView.m290958532#290958532#0(0"0(0#0#85"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSInputMenuView.m4300882208#2445"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSInputMenuView.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSInputMenuView.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSParser.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s290997426.977323
-e290997427.265824
+s291480604.828764
+e291480612.364776
 r1
 xCompileC
 xbuild/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSParser.o
@@ -1145,7 +1253,13 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m290997426#290997427#0(0"0(0#0#78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m4300882208#2431"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSParser.o0#
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m: In function '-[RSParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:178: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:178: warning: passing argument 1 of 'setObject:forKey:' makes pointer from integer without a cast
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:181: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:182: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type
+o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:182: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type
+lSLF07#2@86"Compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m291480604#291480612#0(994"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m: In function '-[RSParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:178: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:178: warning: passing argument 1 of 'setObject:forKey:' makes pointer from integer without a cast/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:181: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:182: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m:182: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type5(22@68"Passing argument 1 of 'objectForKey:' from incompatible pointer type291480610#169#162#0(6@78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m291480603#178#0#178#0#56"passing argument * of '*' from incompatible pointer type0(22@83"Passing argument 1 of 'setObject:forKey:' makes pointer from integer without a cast291480610#331#177#0(6@78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m291480603#178#0#178#0#0"0(22@68"Passing argument 1 of 'objectForKey:' from incompatible pointer type291480610#508#162#0(6@78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m291480603#181#0#181#0#56"passing argument * of '*' from incompatible pointer type0(22@68"Passing argument 1 of 'objectForKey:' from incompatible pointer type291480610#670#162#0(6@78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m291480603#182#0#182#0#56"passing argument * of '*' from incompatible pointer type0(22@68"Passing argument 1 of 'objectForKey:' from incompatible pointer type291480610#832#162#0(6@78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m291480603#182#0#182#0#56"passing argument * of '*' from incompatible pointer type0(0#0#78"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m4300882208#2431"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DNS_BUILD_32_LIKE_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-generated-files.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-own-target-headers.hmap -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-all-target-headers.hmap -iquote /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/BioVizCorePlot18-project-headers.hmap -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/include -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources/x86_64 -I/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/DerivedSources -include /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSParser.m -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSParser.o0#
 
 CCompileC build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/RSXMLToOutline.o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSXMLToOutline.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s290958532.081206
@@ -1219,14 +1333,14 @@ CCompileXIB /Users/rickschmidt/git/BioVizCorePlot18/English.lproj/MainMenu.xib
 r0
 
 CCompileXIB /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib
-s290990643.424876
-e290990644.290847
+s291671027.877386
+e291671028.792571
 r1
 xCompileXIB
 x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib
 o/* com.apple.ibtool.document.warnings */
 o/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib:545: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib290990643#290990644#0(257"/* com.apple.ibtool.document.warnings *//Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib:545: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.1(22@106"Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.290990644#18446744073709551615#0#0(6@94"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib290990639#545#0#545#0#0"0(0#0#94"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib4300882208#423"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/English.lproj/MainMenu.nib /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib291671027#291671028#0(257"/* com.apple.ibtool.document.warnings *//Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib:545: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.1(22@106"Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.291671028#18446744073709551615#0#0(6@94"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib291670972#545#0#545#0#0"0(0#0#94"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib4300882208#423"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources/English.lproj/MainMenu.nib /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/English.lproj/MainMenu.xib0#
 
 CCompileXIB /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/RSInputMenu.xib
 s290719903.040511
@@ -1268,6 +1382,15 @@ xCpResource
 xbuild/Debug/BioVizCorePlot18.app/Contents/Resources/Bioinforicon.icns
 xBioinforicon.icns
 lSLF07#2@22"Copy Bioinforicon.icns289970885#289970886#0(0"0(0#0#85"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Bioinforicon.icns4300882208#429"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/Bioinforicon.icns /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources0#
+
+CCpResource build/Debug/BioVizCorePlot18.app/Contents/Resources/TODO.txt TODO.txt
+s291583439.365451
+e291583439.565345
+r1
+xCpResource
+xbuild/Debug/BioVizCorePlot18.app/Contents/Resources/TODO.txt
+xTODO.txt
+lSLF07#2@13"Copy TODO.txt291583439#291583439#0(0"0(0#0#76"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/TODO.txt4300882208#420"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/TODO.txt /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Resources0#
 
 CCpResource build/Debug/BioVizCorePlot18.app/Contents/Resources/bar_graph bar_graph
 s290382590.419568
@@ -1330,14 +1453,14 @@ CLd /Users/rickschmidt/git/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Con
 r0
 
 CLd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot18 normal x86_64
-s291000716.504126
-e291000716.675337
+s291696932.882336
+e291696933.014561
 r1
 xLd
 x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot18
 xnormal
 xx86_64
-lSLF07#2@137"Link /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot18291000716#291000716#0(0"0(0#0#0"4300882208#1330"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -filelist /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18.LinkFileList -mmacosx-version-min=10.5 -lgcov /Users/rickschmidt/git/coreplot/core-plot/framework/build/Debug/CorePlot.framework/CorePlot -framework Cocoa -framework QuartzCore -framework CorePlot -framework CorePlot -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot180#
+lSLF07#2@137"Link /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot18291696932#291696933#0(0"0(0#0#0"4300882208#1330"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug -F../../framework/build/Debug -F/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/../../framework/build/Debug -F../../framework/build/Release -F../../framework/build/Release/CorePlot.framework.dSYM -F../../framework/build/Release/CorePlot.framework.dSYM/Contents -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources -F../../framework/build/Release/CorePlot.framework.dSYM/Contents/Resources/DWARF -filelist /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/BioVizCorePlot18.build/Debug/BioVizCorePlot18.build/Objects-normal/x86_64/BioVizCorePlot18.LinkFileList -mmacosx-version-min=10.5 -lgcov /Users/rickschmidt/git/coreplot/core-plot/framework/build/Debug/CorePlot.framework/CorePlot -framework Cocoa -framework QuartzCore -framework CorePlot -framework CorePlot -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/MacOS/BioVizCorePlot180#
 
 CPBXCp build/Debug/BioVizCorePlot18.app/Contents/Frameworks/CorePlot.framework /Users/rickschmidt/git/coreplot/core-plot/framework/build/Debug/CorePlot.framework
 s289970900.938449
@@ -1362,13 +1485,13 @@ CProcessInfoPlistFile /Users/rickschmidt/git/BioVizCorePlot18/build/Debug/BioViz
 r0
 
 CProcessInfoPlistFile /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Info.plist BioVizCorePlot18-Info.plist
-s290811025.123137
-e290811025.143878
+s291585824.820058
+e291585824.972732
 r1
 xProcessInfoPlistFile
 x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Info.plist
 xBioVizCorePlot18-Info.plist
-lSLF07#2@35"Process BioVizCorePlot18-Info.plist290811025#290811025#0(0"0(0#0#95"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18-Info.plist4300882208#424"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    builtin-infoPlistUtility BioVizCorePlot18-Info.plist -genpkginfo /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Info.plist0#
+lSLF07#2@35"Process BioVizCorePlot18-Info.plist291585824#291585824#0(0"0(0#0#95"/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/BioVizCorePlot18-Info.plist31244173390774320#424"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    builtin-infoPlistUtility BioVizCorePlot18-Info.plist -genpkginfo /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app/Contents/Info.plist0#
 
 CProcessPCH /var/folders/yd/ydpfDCUMFViulRbe1UOT4k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BioVizCorePlot18_Prefix-afdlpqcbsqeteibevhgomaccwkwz/BioVizCorePlot18_Prefix.pch.gch BioVizCorePlot18_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s290958526.300556
@@ -1491,10 +1614,10 @@ CTouch /Users/rickschmidt/git/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app
 r0
 
 CTouch /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app
-s291000716.677117
-e291000716.692043
+s291696933.014762
+e291696933.027290
 r1
 xTouch
 x/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app
-lSLF07#2@106"Touch /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app291000716#291000716#0(0"0(0#0#0"4300882208#198"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    /usr/bin/touch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app0#
+lSLF07#2@106"Touch /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app291696933#291696933#0(0"0(0#0#0"4300882208#198"    cd /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18    /usr/bin/touch -c /Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/build/Debug/BioVizCorePlot18.app0#
 

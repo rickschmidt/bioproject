@@ -16,13 +16,15 @@
 	IBOutlet NSProgressIndicator *progress;
 	id finishedBlasting;
 	NSXMLDocument *xmlDoc;
+	NSTask	*task;
+	NSOperationQueue *aQueue;
 	
 }
 
 -(NSString *)pathForBlastOutput;
 -(void)blast:(int)k:(NSString *)blastInput;
 -(void)blastMany:(NSArray *)seqArray;
-
+-(void)taskLaunch;
 
 -(bool)taskRunning;
 //- (id)delegate; 

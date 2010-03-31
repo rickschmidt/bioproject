@@ -182,12 +182,20 @@
 -(IBAction)blastWithBlastcl3:(id)sender{
 	Blast *blastControl;
 	blastControl=[[Blast alloc]init];
-	NSInteger i=5;
+	//NSInteger i=5;
 	NSArray *inputSeqs;
 	inputSeqs=[self csvSplit];
 	//[blastControl blast:i];
 	[blastControl blastMany:inputArray];
 	NSLog(@"Done");
+}
+
+-(IBAction)blastConcurrentlyWithBlastcl3:(id)sender{
+	RSBlastMany *blastControl;
+	blastControl=[[RSBlastMany alloc]init];
+	[blastControl blastMany:inputArray];
+	
+	
 }
 -(IBAction )xmlStuff:(id)sender
 {

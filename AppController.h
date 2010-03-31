@@ -12,6 +12,7 @@
 #import "RSParser.h"
 #import "RSInputMenuView.h"
 //#import "CorePlotView.h"
+#import "RSBlastMany.h"
 #import <QuartzCore/CAAnimation.h>
 
 @interface AppController : NSObject <CPPlotDataSource, CPPlotSpaceDelegate> {
@@ -86,6 +87,7 @@
 -(void) setAnimationsTypes;
 -(void)addFristGraph;
 //end from coreplotview
+-(IBAction)blastConcurrentlyWithBlastcl3:(id)sender;
 
 -(IBAction)exportToPDF:(id)sender;
 -(IBAction)exportToPNG:(id)sender;

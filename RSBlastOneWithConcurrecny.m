@@ -1,20 +1,33 @@
- //
-//  blast.m
-//  countCharacters
 //
-//  Created by Rick Schmidt on 7/17/09.
-//  Copyright 2009 __MyCompanyName__. All rights reserved.
+//  RSBlastOneWithConcurrecny.m
+//  BioVizCorePlot18
+//
+//  Created by Rick Schmidt on 3/30/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "Blast.h"
+#import "RSBlastOneWithConcurrecny.h"
 
 
+@implementation RSBlastOneWithConcurrecny
 
-@implementation Blast
 
--(id)init
+@synthesize taskShouldLaunch;
+
+-(void)initWithArray:(NSArray *)array
 {
-	//NSOperationQueue *aQueue =[[NSOperationQueue alloc]init];
+	seqArray=array;
+}
+
+-(id)initWithParameters:(int)number andString:(NSString *)str
+{
+	self=[super init];
+	k=number;
+	blastInput=str;
+	[self blast];
+	
+	
+	
 	return self;
 }
 -(NSString *)pathForBlastOutput
@@ -32,34 +45,32 @@
 	NSString *fileName=@"BLAST_results_";
 	return [folder stringByAppendingPathComponent:fileName];
 }
--(void)blast:(int)k:(NSString *)blastInput
-{
 
+
+-(id)blast
+{
+	
 	//NSString *inputPath=[AppController textFieldInputSequence stringValue];                                                                                                  \
 	
-	RSParser *xmlParse;
-	xmlParse=[[RSParser alloc]init];
-	[xmlParse initXML];
 	
+	NSTask *task;
 	task=[[NSTask alloc]init];                                                                                                                                 \
 	[task setLaunchPath:[[NSBundle mainBundle] pathForResource:@"blastcl3" ofType:nil]];                                                                         \
-	//NSString *outPath=[[NSBundle mainBundle] pathForResource:@"outNow" ofType:@"txt"];
+	
 	NSCalendarDate *now;
 	now=[NSCalendarDate calendarDate];
-	//NSString *fileName=now;
 	
-	//NSLog(@"filename is %@", fileName);
+	
+	
 	NSString *numberString=[NSString stringWithFormat:@"%d",k];
-	//NSString *outPath1=@"/Users/rickschmidt/BioViz/BlastResults/out";
+	
 	
 	
 	NSString *outPath2=[[self pathForBlastOutput] stringByAppendingString:numberString];;
 	NSString *outPath=[outPath2 stringByAppendingString:@".xml"];
 	
-	//NSString *inPath=@"/Users/rickschmidt/Desktop/seqShort.txt"; 
-//	NSString *inPath=@"/Users/rickschmidt/BioViz/BlastResults/seqShort.txt";
 	NSString *inPath=blastInput;
-	//NSString *inti=[NSString stringWithFormat:@"%d",i];
+	
 	NSLog(@"the outpath is %@", outPath);	
  	NSMutableArray *blastArgs=[NSMutableArray array];                                                                                                          \
 	[blastArgs addObject:@"-p"];                                                                                                                               \
@@ -68,7 +79,7 @@
 	[blastArgs addObject:inPath];    
 	[blastArgs addObject:@"-F"];     
 	[blastArgs addObject:@"m D"];     
-	                                                                                                                          \
+	
 	[blastArgs addObject:@"-d"];                                                                                                                               \
 	[blastArgs addObject:@"nt"]; 
 	[blastArgs addObject:@"-m"];
@@ -77,8 +88,7 @@
 	[blastArgs addObject:outPath];   
 	NSLog(@"outpath %@", outPath);
 	
-	//arguments = [NSArray arrayWithObjects: @"-p",@"blastn", @"-i",@"%d", @"-p",@"blastn", @"-d",@"nr",@"-o",@"/Users/rickschmidt/out2.txt", inputPath];      \
-	//./blastcl3 -p blastn -i /Users/rickschmidt/seqFile2.txt -p blastn -d nr -o /Users/rickschmidt/out2.out                                                   
+	
 	[task setArguments: blastArgs];                                                                                                                            \
 	
 	NSPipe *pipe;                                                                                                                                              \
@@ -87,67 +97,29 @@
 	\
 	NSFileHandle *file;                                                                                                                                        \
 	file = [pipe fileHandleForReading];  
-
-	aQueue = [NSOperationQueue new];
-
-	NSInvocationOperation *op=[[NSInvocationOperation alloc]initWithTarget:self selector:@selector(taskLaunch) object:nil];
-	[aQueue addOperation:op];
+	
+	//aQueue = [NSOperationQueue new];
+	
+	[task launch];
 	
 	
-//	[task launch];
-	//[self taskLaunch];                                                                                                                                             \
 	
-	//while ([task isRunning]) {
-//		[self taskRunning];
-//	}
 	NSData *data;                                                                                                                                              \
 	data = [file readDataToEndOfFile];                                                                                                                         \
-	\
+	
 	NSString *string;                                                                                                                                          \
 	string = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];                                                                             \
 	NSLog (@"got\n%@", string);    
-	}
-
--(void)blastMany:(NSArray *)seqArray
-{
-
-	//NSOperationQueue *aQueue =[[NSOperationQueue alloc]init];
-	//NSInvocationOperation *op=[[NSInvocationOperation alloc]initWithTarget:self selector:blast object:<#(id)arg#>
-	
-	int j=[seqArray count];
-	for(int i=0; i<j;i++){
-		NSArray *array1=[seqArray valueForKey:@"inputText"];
-		NSString *str=[array1 objectAtIndex:i];
-		NSLog(@"BLAST//blastMany/object at index i %@",str);
-		
-		//NSOperation *op=[NSOperation init];
-		
-		[self blast:i:str];
-	}
-
 }
 
-						   
+#pragma mark -
+#pragma mark Delegate Methods
 
--(bool)taskRunning
-{
-	bool blastFinished=0;
-	NSLog(@"here!");
-	return blastFinished;
+-(void)shouldTaskLaunchNo{
+
+	//shouldTaskLaunch=NO;
 }
--(NSString *)blastOutPath:(NSString *)fileName
-{
-	NSString *outPath=[[NSBundle mainBundle] pathForResource:fileName ofType:@"xml"];
-	NSLog(@"outPath @%", outPath);
-	return outPath;
+-(void)shouldTaskLaunchYes{
+	//shouldTaskLaunch=YES;
 }
-
--(void)taskLaunch
-{
-	
-	[task launch];
-}
-
-							   
-
 @end

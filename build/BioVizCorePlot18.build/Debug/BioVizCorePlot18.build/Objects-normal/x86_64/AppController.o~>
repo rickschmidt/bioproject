@@ -1,0 +1,38 @@
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:52: warning: method possibly missing a [super dealloc] call
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: In function '-[AppController blastConcurrentlyWithBlastcl3:]':
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:194: error: 'RSBlastMany' undeclared (first use in this function)
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:194: error: (Each undeclared identifier is reported only once
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:194: error: for each function it appears in.)
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:194: error: 'blastControl' undeclared (first use in this function)
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m: At top level:
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: incomplete implementation of class 'AppController'
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-addFristGraph' not found
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-setAnimationsTypes' not found
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-displayNewView:' not found
+/Users/rickschmidt/git/coreplot/core-plot/examples/BioVizCorePlot18/AppController.m:430: warning: method definition for '-getNodesArray' not found
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_2
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6
+{standard input}:unknown:Undefined local symbol LC10
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_7
+{standard input}:unknown:Undefined local symbol LC11
+{standard input}:unknown:Undefined local symbol LC12
+{standard input}:unknown:Undefined local symbol LC13
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_8
+{standard input}:unknown:Undefined local symbol LC14
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_9
+{standard input}:unknown:Undefined local symbol LC15
+{standard input}:unknown:Undefined local symbol LC16
+{standard input}:unknown:Undefined local symbol LC17
+{standard input}:unknown:Undefined local symbol LC18
+{standard input}:unknown:Undefined local symbol LC21
+{standard input}:unknown:Undefined local symbol LC24
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_10
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_11
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_12
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_13
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_14
